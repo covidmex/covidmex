@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block title %}Explorar{% endblock %}
+{% block contenthead %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">{% block pagetitle %} Explorar información COVID 19 {% endblock %}</h1>
+        <h6 class="m-0 text-dark">Última actualización: {% block updated %}25 de Marzo de 2020{% endblock %}</h6>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcovidmex.live&layout=button&size=small&appId=263654680372835&width=89&height=20" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=covid19,covid19mx&text=Conoce #COVIDMEX el sitio de datos abiertos de COVID 19 en México">Tweet</a>
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+{% endblock contenthead %}
+
+{% block content %}
+<section class="content">
+  <div class="container-fluid">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">Total de casos reportados en México</h5>
+
+        <div class="card-tools">
+         
+          <div class="btn-group">
+            <button type="button" class="btn btn-tool dropdown-toggle" data-toggle="dropdown">
+              <i class="fas fa-wrench"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" role="menu">
+              <a href="#" class="dropdown-item">Exportar a CSV</a>
+              <a class="dropdown-divider"></a>
+              <a href="#" class="dropdown-item">Exportar Base de datos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+              
+          <table id="covid-datatable" class="display" style="width:100%">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Extn.</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+              </tr>
+          </thead>
+          <tfoot>
+              <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Extn.</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+              </tr>
+          </tfoot>
+          </table>
+          </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.card-footer -->
+    </div>
+    <!-- /.card -->
+  </div>
+</div>
+</div>
+</div>
+
+</section>
+{% endblock %}
+{% block js %}
+  {{ super() }}
+<script src="dist/js/pages/explore.js"></script>
+
+{% endblock %}

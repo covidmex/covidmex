@@ -29,7 +29,22 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        user = {'username': 'Miguel'}
-        return render_template('index.html', title='Home', user=user)
+        return render_template('index.html', title='Home')
+
+    @app.route('/explore')
+    def explore():
+        return render_template('explore.html', title='Home')
+
+    @app.route('/about')
+    def about():
+        return render_template('about.html', title='Home')
+
+    @app.errorhandler(404)
+    def page_not_found(error):
+       return render_template('404.html', title = '404'), 400
+
+    @app.errorhandler(500)
+    def other_error(error):
+       return render_template('404.html', title = '404'), 500
 
     return app

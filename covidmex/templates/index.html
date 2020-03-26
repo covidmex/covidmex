@@ -1,11 +1,25 @@
 {% extends "layout.html" %}
-{% block title %}Principales{% endblock %}
-{% block head %}
+{% block title %}Principales Indicadores{% endblock %}
+{% block contenthead %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+<div class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1 class="m-0 text-dark">{% block pagetitle %} Indicadores COVID 19 en México {% endblock %}</h1>
+        <h6 class="m-0 text-dark">Última actualización: {% block updated %}25 de Marzo de 2020{% endblock %}</h6>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcovidmex.live&layout=button&size=small&appId=263654680372835&width=89&height=20" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
-  {{ super() }}
-  <style type="text/css">
-  </style>
-{% endblock %}
+         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=covid19,covid19mx&text=Conoce #COVIDMEX el sitio de datos abiertos de COVID 19 en México">Tweet</a>  
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+{% endblock contenthead %}
+
 {% block content %}
 <section class="content">
   <div class="container-fluid">
@@ -17,11 +31,9 @@
           <div class="inner">
             <h3>23</h3>
 
-            <p>Nuevos casos últimas 24 horas</p>
+            <p>Últimas 24 horas</p>
           </div>
-          <div class="icon">
-            <i class="ion ion-bag"></i>
-          </div>
+
           <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
@@ -34,9 +46,7 @@
 
             <p>Total casos confirmados</p>
           </div>
-          <div class="icon">
-            <i class="ion ion-stats-bars"></i>
-          </div>
+
           <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
@@ -49,9 +59,7 @@
 
             <p>Casos sospechosos</p>
           </div>
-          <div class="icon">
-            <i class="ion ion-person-add"></i>
-          </div>
+
           <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
@@ -64,9 +72,7 @@
 
             <p>Defunciones</p>
           </div>
-          <div class="icon">
-            <i class="ion ion-pie-graph"></i>
-          </div>
+
           <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
@@ -88,14 +94,9 @@
             <div class="d-flex">
               <p class="d-flex flex-column">
                 <span class="text-bold text-lg">820</span>
-                <span>Visitors Over Time</span>
+                <span>Casos desde el inicio</span>
               </p>
-              <p class="ml-auto d-flex flex-column text-right">
-                <span class="text-success">
-                  <i class="fas fa-arrow-up"></i> 12.5%
-                </span>
-                <span class="text-muted">Since last week</span>
-              </p>
+
             </div>
             <!-- /.d-flex -->
 
@@ -105,11 +106,7 @@
 
             <div class="d-flex flex-row justify-content-end">
               <span class="mr-2">
-                <i class="fas fa-square text-primary"></i> This Week
-              </span>
-
-              <span>
-                <i class="fas fa-square text-gray"></i> Last Week
+                <i class="fas fa-square text-primary"></i> Casos confirmados
               </span>
             </div>
           </div>
@@ -119,21 +116,12 @@
         <div class="card">
           <div class="card-header border-0">
             <div class="d-flex justify-content-between">
-              <h3 class="card-title">Top Casos por estado</h3>
+              <h3 class="card-title">Top casos por estado</h3>
             </div>
           </div>
           <div class="card-body">
             <div class="d-flex">
-              <p class="d-flex flex-column">
-                <span class="text-bold text-lg">$18,230.00</span>
-                <span>Sales Over Time</span>
-              </p>
-              <p class="ml-auto d-flex flex-column text-right">
-                <span class="text-success">
-                  <i class="fas fa-arrow-up"></i> 33.1%
-                </span>
-                <span class="text-muted">Since last month</span>
-              </p>
+
             </div>
             <!-- /.d-flex -->
 
@@ -143,12 +131,10 @@
 
             <div class="d-flex flex-row justify-content-end">
               <span class="mr-2">
-                <i class="fas fa-square text-primary"></i> This year
+                <i class="fas fa-square text-primary"></i> Casos confirmados
               </span>
 
-              <span>
-                <i class="fas fa-square text-gray"></i> Last year
-              </span>
+
             </div>
           </div>
         </div>
@@ -166,9 +152,6 @@
             <h3 class="card-title">Total de casos</h3>
 
             <div class="card-tools">
-              <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-              </button>
-              <button type="button" class="btn btn-tool" data-card-widget="remove"><i class="fas fa-times"></i></button>
             </div>
           </div>
           <div class="card-body">
@@ -182,8 +165,7 @@
             <h3 class="card-title">Twitter Secretaria de Salud</h3>
 
             <div class="card-tools">
-              <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-              </button>
+
             </div>
             <!-- /.card-tools -->
           </div>
@@ -199,4 +181,9 @@
     <!-- /.row (main row) -->
   </div><!-- /.container-fluid -->
 </section>
+{% endblock %}
+{% block js %}
+  {{ super() }}
+<script src="dist/js/pages/dashboard.js"></script>
+
 {% endblock %}
