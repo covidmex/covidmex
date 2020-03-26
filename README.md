@@ -9,11 +9,11 @@ Docker - https://docs.docker.com/install/
 
 ## Despliegue
 
-1. Clonar el repositorio
+### 1. Clonar el repositorio
 
-2. Ejecutar el script de despliegue de entrno de de desarrollo
-  $ chmod a+x deploy_dev.sh
-  $ ./deploy_dev.sh
+### 2. Ejecutar el script de despliegue de entrno de de desarrollo
+$ chmod a+x deploy_dev.sh
+$ ./deploy_dev.sh
   
-3. Inicializar la base de datos
-  $  docker exec -it covidmex python manage.py initdb
+###  3. Inicializar la base de datos
+$  docker exec -it covidmex python manage.py initdb
