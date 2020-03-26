@@ -9,7 +9,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css') }}">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'">
   <!-- Tempusdominus Bbootstrap 4 -->
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
   <!-- iCheck -->
@@ -308,7 +308,7 @@
             <!-- /.card -->
             <div class="card card">
               <div class="card-header">
-                <h3 class="card-title">Twiiter Secretaria de Salud</h3>
+                <h3 class="card-title">Twitter Secretaria de Salud</h3>
 
                 <div class="card-tools">
                   <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
@@ -318,7 +318,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                The body of the card
+                <a class="twitter-timeline" href="https://twitter.com/SSalud_mx" data-tweet-limit="1" data-width="600" ></a>
               </div>
               <!-- /.card-body -->
             </div>
@@ -381,6 +381,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
 <script src="dist/js/pages/dashboard3.js"></script>
+<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <script>
   $(function () {
 //-------------
@@ -390,17 +392,14 @@
     var donutChartCanvas = $('#donutChart').get(0).getContext('2d')
     var donutData        = {
       labels: [
-          'Chrome', 
-          'IE',
-          'FireFox', 
-          'Safari', 
-          'Opera', 
-          'Navigator', 
+          'Defunciones', 
+          'Confirmados',
+          'Recuperados', 
       ],
       datasets: [
         {
-          data: [700,500,400,600,300,100],
-          backgroundColor : ['#f56954', '#00a65a', '#f39c12', '#00c0ef', '#3c8dbc', '#d2d6de'],
+          data: [5,405,4],
+          backgroundColor : ['#f56954', '#00a65a', '#f39c12'],
         }
       ]
     }
@@ -419,6 +418,6 @@
   }); //END
 
 
-</script
+</script>
 </body>
 </html>
