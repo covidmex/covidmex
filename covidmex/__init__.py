@@ -10,7 +10,7 @@ def create_app(test_config=None):
         instance_relative_config=True,
         static_url_path='', 
         static_folder='static',
-        template_folder='templates'
+        template_folder='templates',
     )
     if test_config is None:
         # load the instance config, if it exists, when not testing
