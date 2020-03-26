@@ -58,5 +58,4 @@ def configure_app(app, config=None):
 
 def configure_extensions(app):
     # flask-sqlalchemy
-    # db.init_app(app
-    pass
+    db.init_app(app)

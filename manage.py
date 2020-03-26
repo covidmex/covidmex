@@ -10,7 +10,7 @@ from sqlalchemy_utils import database_exists, create_database, drop_database
 
 from covidmex import create_app
 from covidmex.extensions import db
-# from covidmex.models import User, Role, Account
+from covidmex.models import Sex, State, TypeContagion, LoadData, Country, ConfirmedCase
 from covidmex.config import DefaultConfig
 
 
