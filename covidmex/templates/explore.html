@@ -24,6 +24,37 @@
 <section class="content">
   <div class="container-fluid">
   <div class="col-md-12">
+     <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="info-box">
+            <span class="info-box-icon bg-info bg-warning elevation-1"><i class="far fa-copy"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Exportar todos los casos</span>
+              <span class="info-box-number">
+                <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> Formato CSV</button>
+              </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="info-box mb-3">
+            <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-cloud-download-alt"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Descargar base de datos</span>
+              <span class="info-box-number"><button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i> MySQL</button></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+      </div>
     <div class="card">
       <div class="card-header">
         <h5 class="card-title">Total de casos reportados en México</h5>
@@ -44,28 +75,31 @@
       </div>
       <!-- /.card-header -->
       <div class="card-body">
-              
           <table id="covid-datatable" class="display" style="width:100%">
-          <thead>
-              <tr>
-                  <th>Name</th>
-                  <th>Position</th>
-                  <th>Office</th>
-                  <th>Extn.</th>
-                  <th>Start date</th>
-                  <th>Salary</th>
-              </tr>
-          </thead>
-          <tfoot>
-              <tr>
-                  <th>Name</th>
-                  <th>Position</th>
-                  <th>Office</th>
-                  <th>Extn.</th>
-                  <th>Start date</th>
-                  <th>Salary</th>
-              </tr>
-          </tfoot>
+            <thead>
+                <tr>
+                    <th>Estado</th>
+                    <th>Sexo</th>
+                    <th>Edad</th>
+                    <th>Fecha Sintomas</th>
+                    <th>Estatus</th>
+                    <th>Tipo Contagio</th>
+                    <th>Procedencia</th>
+                    <th>Llegada</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Estado</th>
+                    <th>Sexo</th>
+                    <th>Edad</th>
+                    <th>Fecha Sintomas</th>
+                    <th>Estatus</th>
+                    <th>Tipo Contagio</th>
+                    <th>Procedencia</th>
+                    <th>Llegada</th>
+                </tr>
+            </tfoot>
           </table>
           </div>
         <!-- /.row -->
@@ -73,7 +107,12 @@
       <!-- /.card-footer -->
     </div>
     <!-- /.card -->
+      <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+    </div>
   </div>
+
 </div>
 </div>
 </div>
@@ -82,6 +121,48 @@
 {% endblock %}
 {% block js %}
   {{ super() }}
-<script src="dist/js/pages/explore.js"></script>
+<script>
+  
+  $(function () {
+
+    $('#covid-datatable thead tr').clone(true).appendTo( '#covid-datatable thead');
+    // Setup - add a text input to each footer cell
+    
+    $('#covid-datatable thead tr:eq(1) th').each( function (i) {
+        var title = $(this).text();
+        $(this).html( '<input type="text" class="form-control" placeholder="Filtrar '+title+'" />' );
+ 
+        $( 'input', this ).on( 'keyup change', function () {
+            if ( table.column(i).search() !== this.value ) {
+                table
+                    .column(i)
+                    .search( this.value )
+                    .draw();
+            }
+        });
+    });
+ 
+    var table = $('#covid-datatable').DataTable( {
+        orderCellsTop: true,
+        fixedHeader: true,
+        language: {
+          "url": "//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json"
+        },
+        ajax: "objects.txt",
+        columns: [
+            { "data": "estado" },
+            { "data": "sexo" },
+            { "data": "edad" },
+            { "data": "sintomas" },
+            { "data": "estatus" },
+            { "data": "tipo" },
+            { "data": "procedencia" },
+            { "data": "llegada" }
+        ]
+    });
+}); // END
+  
+
+</script>
 
 {% endblock %}

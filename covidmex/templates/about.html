@@ -20,33 +20,34 @@
 {% block content %}
 <section class="content">
   <div class="container-fluid">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <h5 class="card-title">¿Por qué creamos el sitio?</h5>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="card-title">¿Por qué creamos el sitio?</h5>
 
-        <div class="card-tools">
+          <div class="card-tools">
+           
          
-       
+          </div>
         </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+          <div class="">
+                  <h5>Somos un equipo contribuyendo a la crisis generada por el COVID 19 en México poniendo al alcance de la sociedad los datos abiertos de la Pandemia. </h5><br />
+
+                  <h5>Nos damos a la tarea de descargar, limpiar y normalizar los reportes oficiales de la Secretaria de Salud  para disponibilizarlos de un formato abierto flexible que permita su uso para distinitos fines. </h5><br />
+
+                  <h5>Desde la <a href="/explore">sección de exploración</a> puedes consultar los todos datos de forma dinámica. También puedes descargar los datos en distinitos formatos para usarlos como te convenga.<h5><br />
+
+                  <h5>La información es extraida desde el comunicado Técnico Diario de la Dirección General de Epidemiología de la Secretaría de Salud.</<h5>
+                </div>
+            
+        </div>
+      </div>  
+        <!-- /.card-footer -->
       </div>
-      <!-- /.card-header -->
-      <div class="card-body">
-        <div class="">
-                <h4>Somos un equipo contribuyendo a la crisis generada por el COVID 19 en México poniendo al alcance de la sociedad los datos de la pandemia. </h4><br />
-
-                <h5>Nos damos a la tarea de descargar, limpiar y normalizar los reportes oficiales de la Secretaria de Salud  para disponibilizarlos de una manera flexible que permita su uso para distinitos fines.</h5>
-
-                <b>Creemos que los datos deben estar disponibles de forma libre para todo el mundo, sin restricciones. Desde la <a href="/explore">sección de exploración</a> puedes consultar los datos oficiales realizando filtros por fecha y estado para conocer la situación. También puedes descargar los datos en distinitos formatos para usarlos de la manera que te convenga.</b><br /><br />
-
-                <h5>La información es extraida desde el comunicado Técnico Diario de la Dirección General de Epidemiología de la Secretaría de Salud.</<h5>
-              </div>
-          
-        <!-- /.row -->
-      </div>
-      <!-- /.card-footer -->
-    </div>
-
+    <div class="col-md-6">
     <div class="card">
       <div class="card-header">
         <h5 class="card-title">Quiero contribuir</h5>
@@ -62,29 +63,61 @@
                 <h5>Puedes contribuir a la iniciativa de distintas formas:</h5>
                 <ul>
                 <li>
-                  <p>Puedes contribuir con código desarrollando nuevas características o mejoras. El sitio está desarrollado en Python usando Flask. La base de datos es MySQL. Aceptamos pull requets, <a href="https://github.com/covidmex/covidmex">consulta el repositorio en GitHub<a>.</p>
+                  <h5>Puedes contribuir desarrollando nuevas características o mejoras. El sitio está desarrollado en Python usando Flask. <a href="https://github.com/covidmex/covidmex">consulta el repositorio en GitHub<a>.</h5><br />
                 </li>
                 <li>
-                  <p>Puedes aportar infraestructura para hospedar el sitio.</p>
+                  <h5>Puedes aportar infraestructura para hospedar el sitio.</h5><br />
                 </li>
                 <li>
-                <p>Puedes contribuir mejorando la configuración/despliegue y operación del sitio.</p>
+                  <h5>Puedes contribuir mejorando la configuración/despliegue y operación del sitio.</h5><br />
+                </li>
+
+                 <li>
+                  <h5>¿Tienes más ideas o aportaciones? Contáctanos</h5><br />
                 </li>
                 </ul>
               </div>
 
-          <h5>Ayudanos a llegar a más gente, comparte en tus redes sociales.</<h5>
+          <h5>Ayudanos a llegar a más gente, comparte en tus redes sociales.</h5>
 
               <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcovidmex.live&layout=button&size=small&appId=263654680372835&width=89&height=20" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
               <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=covid19,covid19mx&text=Conoce #COVIDMEX el sitio de datos abiertos de COVID 19 en México">
               Tweet</a>
-
-          
-        <!-- /.row -->
       </div>
       <!-- /.card-footer -->
     </div>
+  </div>
+  <div class="col-md-6">
+                <!-- USERS LIST -->
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Equipo</h3>
+                  </div>
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <ul class="users-list clearfix">
+                      <li>
+                        <img src="dist/img/guillermo.jpg" alt="User Image">
+                        <a class="users-list-name" href="https://twitter.com/galvarado89">Guillermo Alvarado</a>
+                      </li>
+                      <li>
+                        <img src="dist/img/araya.jpeg" alt="User Image">
+                        <a class="users-list-name" href="https://twitter.com/fjaraya">Francisco Araya</a>
+                      </li>
+                      <li>
+                        <img src="dist/img/montedonico.jpeg" alt="User Image">
+                        <a class="users-list-name" href="https://twitter.com/cmontedonico">César Montedónico</a>
+                      </li>
+                    </ul>
+                    <!-- /.users-list -->
+                  </div>
+                  <!-- /.card-body -->
+                  <!-- /.card-footer -->
+                </div>
+                <!--/.card -->
+              </div>
+  </div>
     <!-- /.card -->
   </div>
 </div>
