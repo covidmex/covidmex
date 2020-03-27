@@ -49,12 +49,14 @@ class Country(db.Model):
     def __repr__(self):
         return '<Country %r>' % self.name
 
-class ConfirmedCase(db.Model):
-    __tablename__ = 'confirmed_cases'
+class Case(db.Model):
+    __tablename__ = 'cases'
     id = db.Column(db.Integer, primary_key = True)
     synthomp_date = db.Column(db.DateTime, nullable=False, default=datetime.now())
+    confirmed = db.Column(db.Boolean, unique=False, default=False)
     date= db.Column(db.DateTime, nullable=False, default=datetime.now())
     pcr = db.Column(db.Integer, default = 0)
+    locality = db.Column(db.String(255), unique=False, nullable=True)
     type_contagion_id = db.Column(db.Integer, db.ForeignKey('type_contagions.id'))
     type_contagion = db.relationship("TypeContagion")
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'))
@@ -67,4 +69,4 @@ class ConfirmedCase(db.Model):
     country = db.relationship("Country")
 
     def __repr__(self):
-        return '<ConfirmedCase %r>' % self.email
+        return '<Case %r>' % self.email
