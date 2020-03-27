@@ -22,6 +22,16 @@ class CountryProcedence(db.Model):
     def __repr__(self):
         return '<Country %r>' % self.name
 
+
+class TypeContagion(db.Model):
+    __tablename__ = 'type_contagion'
+    id = db.Column(db.Integer, primary_key = True)
+    name = db.Column(db.String(255), unique=False, nullable=False)
+    description = db.Column(db.String(255), unique=False, nullable=True)
+
+    def __repr__(self):
+        return '<Country %r>' % self.name
+
 class Case(db.Model):
     __tablename__ = 'cases'
     id = db.Column(db.Integer, primary_key = True)
@@ -30,12 +40,14 @@ class Case(db.Model):
     appearance_date= db.Column(db.DateTime, nullable=False, default=datetime.now())
     status = db.Column(db.String(255), unique=False, nullable=False)
     locality = db.Column(db.String(255), unique=False, nullable=True)
-    contagion_type = db.Column(db.String(255), unique=False, nullable=False)
     sex = db.Column(db.String(255), unique=False, nullable=False)
     state_id = db.Column(db.Integer, db.ForeignKey('states.id'))
     state = db.relationship("State")
     country_procedence_id = db.Column(db.Integer, db.ForeignKey('country_procedence.id'))
     country_procedence = db.relationship("CountryProcedence")
+    type_contagion_id = db.Column(db.Integer, db.ForeignKey('type_contagion.id'))
+    type_contagion = db.relationship("TypeContagion")
+
 
     def __repr__(self):
         return '<Case %r - >' % self.appearance_date, self.status
