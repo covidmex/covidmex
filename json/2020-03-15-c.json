@@ -1,0 +1,532 @@
+{"datos":[
+    {
+        "Caso": "1",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "35",
+        "sintomas": "22/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "22/02/2020"
+    },
+    {
+        "Caso": "2",
+        "estado": "SINALOA",
+        "sexo": "M",
+        "edad": "41",
+        "sintomas": "22/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "21/02/2020"
+    },
+    {
+        "Caso": "3",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "59",
+        "sintomas": "23/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "22/02/2020"
+    },
+    {
+        "Caso": "4",
+        "estado": "COAHUILA",
+        "sexo": "F",
+        "edad": "20",
+        "sintomas": "27/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "25/02/2020"
+    },
+    {
+        "Caso": "5",
+        "estado": "CHIAPAS",
+        "sexo": "F",
+        "edad": "18",
+        "sintomas": "25/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "25/02/2020"
+    },
+    {
+        "Caso": "6",
+        "estado": "MÉXICO",
+        "sexo": "M",
+        "edad": "71",
+        "sintomas": "21/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "21/02/2020"
+    },
+    {
+        "Caso": "7",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "46",
+        "sintomas": "29/02/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "29/02/2020"
+    },
+    {
+        "Caso": "8",
+        "estado": "QUERETARO",
+        "sexo": "M",
+        "edad": "43",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "06/03/2020"
+    },
+    {
+        "Caso": "9",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "41",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "06/03/2020"
+    },
+    {
+        "Caso": "10",
+        "estado": "PUEBLA",
+        "sexo": "M",
+        "edad": "47",
+        "sintomas": "08/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "04/03/2020"
+    },
+    {
+        "Caso": "11",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "F",
+        "edad": "30",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "06/03/2020"
+    },
+    {
+        "Caso": "12",
+        "estado": "MÉXICO",
+        "sexo": "F",
+        "edad": "64",
+        "sintomas": "02/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "29/02/2020"
+    },
+    {
+        "Caso": "13",
+        "estado": "NUEVO LEÓN",
+        "sexo": "M",
+        "edad": "57",
+        "sintomas": "04/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Alemania",
+        "llegada": "03/03/2020"
+    },
+    {
+        "Caso": "14",
+        "estado": "MÉXICO",
+        "sexo": "F",
+        "edad": "55",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "15",
+        "estado": "DURANGO",
+        "sexo": "M",
+        "edad": "58",
+        "sintomas": "06/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "28/02/2020"
+    },
+    {
+        "Caso": "16",
+        "estado": "QUERETARO",
+        "sexo": "F",
+        "edad": "65",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Contacto",
+        "llegada": "NA"
+    },
+    {
+        "Caso": "17",
+        "estado": "QUERETARO",
+        "sexo": "M",
+        "edad": "42",
+        "sintomas": "05/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "05/03/2020"
+    },
+    {
+        "Caso": "18",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "48",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "19",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "38",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "20",
+        "estado": "QUERETARO",
+        "sexo": "F",
+        "edad": "43",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Contacto",
+        "llegada": "NA"
+    },
+    {
+        "Caso": "21",
+        "estado": "PUEBLA",
+        "sexo": "M",
+        "edad": "31",
+        "sintomas": "05/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "22",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "37",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "11/03/2020"
+    },
+    {
+        "Caso": "23",
+        "estado": "YUCATÁN",
+        "sexo": "F",
+        "edad": "57",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "06/03/2020"
+    },
+    {
+        "Caso": "24",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "52",
+        "sintomas": "08/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "25",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "64",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Contacto, Cuba",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "26",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "68",
+        "sintomas": "04/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "27",
+        "estado": "QUINTANA ROO",
+        "sexo": "F",
+        "edad": "71",
+        "sintomas": "01/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Italia",
+        "llegada": "01/03/2020"
+    },
+    {
+        "Caso": "28",
+        "estado": "SAN LUIS POTOSÍ",
+        "sexo": "F",
+        "edad": "53",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "29",
+        "estado": "NUEVO LEÓN",
+        "sexo": "M",
+        "edad": "73",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "30",
+        "estado": "NUEVO LEÓN",
+        "sexo": "M",
+        "edad": "30",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "07/03/2020"
+    },
+    {
+        "Caso": "31",
+        "estado": "PUEBLA",
+        "sexo": "M",
+        "edad": "31",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "32",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "F",
+        "edad": "33",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Francia",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "33",
+        "estado": "JALISCO",
+        "sexo": "F",
+        "edad": "54",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "04/03/2020"
+    },
+    {
+        "Caso": "34",
+        "estado": "JALISCO",
+        "sexo": "F",
+        "edad": "64",
+        "sintomas": "01/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Alemania",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "35",
+        "estado": "MÉXICO",
+        "sexo": "M",
+        "edad": "61",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "03/03/2020"
+    },
+    {
+        "Caso": "36",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "45",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "37",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "F",
+        "edad": "62",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "38",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "72",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "07/03/2020"
+    },
+    {
+        "Caso": "39",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "41",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "40",
+        "estado": "PUEBLA",
+        "sexo": "M",
+        "edad": "30",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "41",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "M",
+        "edad": "38",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Contacto",
+        "llegada": "NA"
+    },
+    {
+        "Caso": "42",
+        "estado": "OAXACA",
+        "sexo": "F",
+        "edad": "30",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "43",
+        "estado": "SINALOA",
+        "sexo": "M",
+        "edad": "25",
+        "sintomas": "09/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "13/03/2020"
+    },
+    {
+        "Caso": "44",
+        "estado": "SAN LUIS POTOSÍ",
+        "sexo": "F",
+        "edad": "23",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "45",
+        "estado": "QUERETARO",
+        "sexo": "F",
+        "edad": "54",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "46",
+        "estado": "OAXACA",
+        "sexo": "M",
+        "edad": "61",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "47",
+        "estado": "QUERETARO",
+        "sexo": "F",
+        "edad": "55",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "10/03/2020"
+    },
+    {
+        "Caso": "48",
+        "estado": "NUEVO LEÓN",
+        "sexo": "M",
+        "edad": "27",
+        "sintomas": "11/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "13/03/2020"
+    },
+    {
+        "Caso": "49",
+        "estado": "NUEVO LEÓN",
+        "sexo": "M",
+        "edad": "46",
+        "sintomas": "06/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "03/03/2020"
+    },
+    {
+        "Caso": "50",
+        "estado": "PUEBLA",
+        "sexo": "F",
+        "edad": "27",
+        "sintomas": "05/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "09/03/2020"
+    },
+    {
+        "Caso": "51",
+        "estado": "CIUDAD DE MÉXICO",
+        "sexo": "F",
+        "edad": "70",
+        "sintomas": "07/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Estados Unidos",
+        "llegada": "08/03/2020"
+    },
+    {
+        "Caso": "52",
+        "estado": "AGUASCALIENTES",
+        "sexo": "M",
+        "edad": "25",
+        "sintomas": "14/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "España",
+        "llegada": "12/03/2020"
+    },
+    {
+        "Caso": "53",
+        "estado": "PUEBLA",
+        "sexo": "F",
+        "edad": "31",
+        "sintomas": "10/03/2020",
+        "rt-pcr": "confirmado",
+        "procedencia": "Contacto",
+        "llegada": "NA"
+    }
+]}
