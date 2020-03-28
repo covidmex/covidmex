@@ -13,7 +13,6 @@ from covidmex.extensions import db
 from covidmex.models import State, CountryProcedence, Case, TypeContagion
 from covidmex.config import DefaultConfig
 
-
 app = create_app()
 configuration = DefaultConfig
 
@@ -37,7 +36,6 @@ def run():
     else:
         app.run(host='0.0.0.0', port=5000, debug=True)
 
-
 @manager.command
 def initdb():
     """Destroys and creates the database + tables."""
@@ -52,7 +50,6 @@ def initdb():
     print('Creating tables.')
     db.create_all()
     print('Shiny! Ready to go')
-
 
 if __name__ == "__main__":
     manager.run()
