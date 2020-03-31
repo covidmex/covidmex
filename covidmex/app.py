@@ -8,6 +8,7 @@ from .config import DefaultConfig
 from .extensions import db
 from .utils import INSTANCE_FOLDER_PATH
 from views_blueprint import views_blueprint
+from import_controller import import_api
 
 
 # For import *
@@ -55,6 +56,7 @@ def configure_app(app, config=None):
         app.config.from_object(config)
 
     app.register_blueprint(views_blueprint)
+    app.register_blueprint(import_api, url_prefix="/api/v1")
 
 def configure_extensions(app):
     # flask-sqlalchemy
