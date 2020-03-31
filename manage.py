@@ -2,11 +2,11 @@
 
 import os
 from datetime import datetime
+import urllib
 
 from flask_script import Manager
 from flask_migrate import Migrate, MigrateCommand
 from sqlalchemy_utils import database_exists, create_database, drop_database
-
 
 from covidmex import create_app
 from covidmex.extensions import db
@@ -50,6 +50,18 @@ def initdb():
     print('Creating tables.')
     db.create_all()
     print('Shiny! Ready to go')
+
+@manager.command
+def list_routes():
+    """GET all routes registered in the app"""
+    output = []
+    for rule in app.url_map.iter_rules():
+        methods = ','.join(rule.methods)
+        line = urllib.unquote("{:50s} {:20s} {}".format(rule.endpoint, methods, rule))
+        output.append(line)
+
+    for line in sorted(output):
+        print line
 
 if __name__ == "__main__":
     manager.run()

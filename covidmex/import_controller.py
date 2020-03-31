@@ -95,9 +95,8 @@ def addCase(d, state, contagionType, country):
     sexo = d['sexo'].upper()
   else:
     sexo = 'O'
-
   newCase = Case({
-    'case_number' : d['Caso'],
+    'case_number' : d['caso'],
     'symptom_date' : symptom, 
     'arrival_to_mexico' : llegada, 
     'status' : d['rt-pcr'],

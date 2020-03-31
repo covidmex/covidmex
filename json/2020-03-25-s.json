@@ -1,10 +1,4 @@
-[
-    {
-        "caso": "por RT-PCR en tiempo real",
-        "estado": "Procedencia",
-        "localidad": "Fecha del llegada a México",
-        "sexo": ""
-    },
+{"datos":[
     {
         "caso": "1",
         "estado": "PUEBLA",
@@ -18221,4 +18215,4 @@
         "procedencia": "Italia",
         "llegada": "08/03/2020"
     }
-]
+]}
