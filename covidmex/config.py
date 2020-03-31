@@ -24,6 +24,6 @@ class DefaultConfig(BaseConfig):
     MYSQL_HOST = os.getenv('MYSQL_HOST')
     MYSQL_DB = os.getenv('MYSQL_DB')
     MYSQL_ECHO = False
-    SQLALCHEMY_DATABASE_URI = "mysql://{0}:{1}@{2}/{3}".format(MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST, MYSQL_DB)
+    SQLALCHEMY_DATABASE_URI = "mysql://{0}:{1}@{2}/{3}?auth_plugin=mysql_native_password".format(MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST, MYSQL_DB)
     SQLALCHEMY_POOL_SIZE = 20
     SQLALCHEMY_TRACK_MODIFICATIONS = False

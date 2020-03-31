@@ -1,0 +1,70 @@
+version: '3'
+
+services:
+
+  ################################################################
+  # reverse-proxy service definition
+  reverse-proxy:
+    restart: always
+
+    # The official v2 Traefik docker image
+    image: traefik:v2.2
+    # Enables the web UI and tells Traefik to listen to docker
+    command: --api.insecure=true --providers.docker
+    ports:
+      # The HTTP port
+      - "80:80"
+      # The Web UI (enabled by --api.insecure=true)
+      - "8080:8080"
+    volumes:
+      # So that Traefik can listen to the Docker events
+      - /var/run/docker.sock:/var/run/docker.sock
+
+    networks:
+      - backend
+
+  ################################################################
+  # covidmex service definition
+  covidmex:
+    restart: always
+    image: covidmex:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.covidmex
+
+    environment:
+      MYSQL_DB: 'covidmex_db'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'my-secret-pw'
+      MYSQL_HOST: 'covidmex-mysql'
+      COVIDMEX_ENVIRONMENT: development
+
+    #ports:
+    #  - '80:80'
+
+    depends_on:
+      - covidmex-mysql
+
+    networks:
+      - backend
+
+    labels:
+      - traefik.http.routers.covidmex.rule=Host(`covidmex.live`)
+
+  ################################################################
+  # covidmex-mysql service definition
+  covidmex-mysql:
+    restart: always
+    image: mysql:8.0
+    command: mysqld --default-authentication-plugin=mysql_native_password
+
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
