@@ -18,6 +18,9 @@ class BaseConfig(object):
 
 class DefaultConfig(BaseConfig):
     DEBUG = True
+    # FLask admin
+    COVIDMEX_ADMIN_PASSWORD = os.getenv('COVIDMEX_ADMIN_PASSWORD','')
+    COVIDMEX_ADMIN_USER = os.getenv('COVIDMEX_ADMIN_USER','')
     # SQLAlchemy + PostgreSQL
     MYSQL_USER = os.getenv('MYSQL_USER','')
     MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD','')

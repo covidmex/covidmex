@@ -23,7 +23,7 @@ class CountryProcedence(db.Model):
     def __init__(self, name = None, short_name=None):
         self.name = name
         self.short_name = name
-    
+
     def __repr__(self):
         return '<CountryProcedence %r>' % self.name
 
@@ -56,7 +56,7 @@ class Case(db.Model):
         self.type_contagion = data['type_contagion']
         self.state_id = data['state_id']
         self.country_procedence_id = data['country_procedence_id']
-        
+
     def __repr__(self):
         return '<Case %r - >' % self.appearance_date, self.status
 

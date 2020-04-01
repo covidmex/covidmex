@@ -21,7 +21,6 @@ services:
       - --certificatesresolvers.le.acme.httpchallenge=true
       - --certificatesresolvers.le.acme.httpchallenge.entrypoint=web
     ports:
-      # The HTTP port
       - "80:80"
       - "443:443"
     volumes:
@@ -62,6 +61,8 @@ services:
       MYSQL_PASSWORD: 'my-secret-pw'
       MYSQL_HOST: 'covidmex-mysql'
       COVIDMEX_ENVIRONMENT: development
+      COVIDMEX_ADMIN_PASSWORD: d9f8ej3s
+      COVIDMEX_ADMIN_USER: admin
 
     #ports:
     #  - '80:80'
