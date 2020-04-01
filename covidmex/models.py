@@ -51,7 +51,7 @@ class Case(db.Model):
         self.case_number = data['case_number']
         self.symptom_date = data['symptom_date']
         self.arrival_to_mexico = data['arrival_to_mexico']
-        self.created_at = datetime.now()
+        self.created_at =  datetime.now().date()
         self.status = data['status']
         self.age = data['age']
         self.sex = data['sex']
@@ -61,6 +61,26 @@ class Case(db.Model):
 
     def __repr__(self):
         return '<Case %s >' % self.created_at.strftime("%d/%m/%Y")
+
+    def to_dict(self):
+        data = list()
+        for key in self.__dict__.keys():
+            if not key.startswith("_"):
+                value = getattr(self, key)
+                # If the value is a datetime object, get the string
+                if  isinstance(value, datetime):
+                    value = value.strftime("%d/%m/%Y")
+                # If the value is a relationship from state, get the string
+                if  key == 'state_id':
+                    value = self.state.name
+                    key = 'state'
+                # If the value is a relationship from Country, get the string
+                if  key == 'country_procedence_id':
+                    value = self.country_procedence.name
+                    key = 'country_procedence'
+
+                data.append((key, value))
+        return dict(data)
 
     @classmethod
     def update_time(self):

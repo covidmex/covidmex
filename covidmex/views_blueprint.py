@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import json
 
 from flask import Flask, jsonify
 from flask import render_template
@@ -30,32 +31,9 @@ def explore():
 def cases():
     update_time = Case.update_time()
     all_cases = db.session.query(Case).filter(Case.created_at == update_time).all()
-    data = {
-      "data": [
-        {
-          "id": "1",
-          "estado": "CIUDAD DE MÉXICO",
-          "sexo": "M",
-          "edad": "35",
-          "sintomas": "22/02/2020",
-          "estatus": "confirmado",
-    "tipo": "extranjero",
-          "procedencia": "Italia",
-          "llegada": "22/02/2020"
-        },
-        {
-            "id": "2",
-            "estado": "SINALOA",
-            "sexo": "M",
-            "edad": "41",
-            "sintomas": "22/02/2020",
-            "estatus": "confirmado",
-    "tipo": "extranjero",
-            "procedencia": "Italia",
-            "llegada": "21/02/2020"
-        }
-    ]}
-    return  jsonify(data)
+    data = {'data' : [(case.to_dict()) for case in all_cases]}
+
+    return  data
 
 
 @views_blueprint.route('/about')

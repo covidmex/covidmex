@@ -9,7 +9,7 @@
     <div class="row mb-2">
       <div class="col-sm-6">
         <h1 class="m-0 text-dark">{% block pagetitle %} Explorar información COVID 19 {% endblock %}</h1>
-        <h6 class="m-0 text-dark"><b>Última actualización: {% block updated %} {{ moment(update_time).format('LLLL') }} {% endblock %}</b></h6>
+        <h6 class="m-0 text-dark"><b>Última actualización: {% block updated %} {{ moment(update_time).format('LLL') }} {% endblock %}</b></h6>
 
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcovidmex.live&layout=button&size=small&appId=263654680372835&width=89&height=20" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
@@ -79,6 +79,7 @@
           <table id="covid-datatable" class="display" style="width:100%">
             <thead>
                 <tr>
+                    <th># Caso</th>
                     <th>Estado</th>
                     <th>Sexo</th>
                     <th>Edad</th>
@@ -91,6 +92,7 @@
             </thead>
             <tfoot>
                 <tr>
+                    <th># Caso</th>
                     <th>Estado</th>
                     <th>Sexo</th>
                     <th>Edad</th>
@@ -158,14 +160,15 @@
            "cache":true
         },
         columns: [
-            { "data": "estado" },
-            { "data": "sexo" },
-            { "data": "edad" },
-            { "data": "sintomas" },
-            { "data": "estatus" },
-            { "data": "tipo" },
-            { "data": "procedencia" },
-            { "data": "llegada" }
+            { "data": "case_number" },
+            { "data": "state" },
+            { "data": "sex" },
+            { "data": "age" },
+            { "data": "symptom_date" },
+            { "data": "status" },
+            { "data": "type_contagion" },
+            { "data": "country_procedence" },
+            { "data": "arrival_to_mexico" }
         ]
     });
 }); // END
