@@ -1,5 +1,7 @@
 covidmex/production_config.py
+.acme.json/
 acme.json
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
