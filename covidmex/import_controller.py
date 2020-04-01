@@ -1,7 +1,7 @@
 from flask import Flask, Blueprint, jsonify, request
 from datetime import date
 import json, datetime
-from covidmex.models import State, Case, CountryProcedence
+from covidmex.models import State, Case, CountryProcedence, Totals
 from .extensions import db
 
 import_api = Blueprint('import_api', __name__)
@@ -27,7 +27,8 @@ def datos(day=None):
         a.append(d)
 
   #import data to tables
-  resp = adding(a)
+  resp = adding(a, day)
+  db.session.commit()
 
   return jsonify({
             "success": True,
@@ -36,15 +37,50 @@ def datos(day=None):
             }
         ), 200
 
-def adding(data):
+def adding(data, day):
   #Interation to insert
+  totals = 0
+  imported = 0
+  suspected = 0
+  male = 0
+  female = 0
   for d in data:
     #identify state
     state_id = identifyState(d)
     contagion_type = identifyTypeContagion(d)
     country_id = identifyCountryProcedence(d)
-    addCase(d, state_id, contagion_type, country_id)
-  return 'registros importados'
+    addCase(d, state_id, contagion_type, country_id, day)
+    totals += 1
+    if contagion_type == 'importado':
+      imported += 1
+    
+    if d['rt-pcr'].upper() == 'SOSPECHOSO':
+      suspected += 1
+    
+    if d['sexo'].upper() == 'M':
+      male += 1
+    elif d['sexo'].upper() == 'F':
+      female += 1
+
+  data = {
+    'totals': totals,
+    'suspected': suspected,
+    'confirmed': totals - suspected, 
+    'imported': imported,
+    'locally': totals - imported,
+    'male': male,
+    'female': female,
+    'created_at': day
+  }
+  addTotals(data)
+
+  return str(totals)
+
+
+def addTotals(data):
+  newTotals = Totals(data)
+  db.session.add(newTotals)
+
 
 def identifyState(d):
   state = db.session.query(State).filter(State.name == d['estado'])
@@ -53,16 +89,17 @@ def identifyState(d):
   else:
     newState = State(d['estado'],d['estado'])
     db.session.add(newState)
-    db.session.flush()
     db.session.commit()
     state_id = newState.id
   return state_id
+
 
 def identifyTypeContagion(d):
   if d['procedencia'].lower() == 'contacto':
     return 'contacto'
   else:
     return 'importado'
+
 
 def identifyCountryProcedence(d):
   country = db.session.query(CountryProcedence).filter(CountryProcedence.name == d['procedencia'])
@@ -71,12 +108,12 @@ def identifyCountryProcedence(d):
   else:
     newCountry = CountryProcedence(d['procedencia'],d['procedencia'])
     db.session.add(newCountry)
-    db.session.flush()
     db.session.commit()
     country_id = newCountry.id
   return country_id 
 
-def addCase(d, state, contagionType, country):
+
+def addCase(d, state, contagionType, country, day):
   
   try:
     symptom = datetime.datetime.strptime(d['sintomas'], '%d/%m/%Y')
@@ -96,6 +133,7 @@ def addCase(d, state, contagionType, country):
   else:
     sexo = 'O'
   newCase = Case({
+    'created_at': day,
     'case_number' : d['caso'],
     'symptom_date' : symptom, 
     'arrival_to_mexico' : llegada, 
@@ -108,5 +146,3 @@ def addCase(d, state, contagionType, country):
   })
     
   db.session.add(newCase)
-  db.session.flush()
-  db.session.commit()

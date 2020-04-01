@@ -27,6 +27,48 @@ class CountryProcedence(db.Model):
     def __repr__(self):
         return '<CountryProcedence %r>' % self.name
 
+class Totals(db.Model):
+    __tablename__ = 'totals'
+    id = db.Column(db.Integer, primary_key = True)
+    suspected = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    confirmed = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    recovery = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    death = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    death_rate = db.Column(db.Float, nullable=True, server_default=db.text("0"))
+    recovery_rate = db.Column(db.Float, nullable=True, server_default=db.text("0"))
+    male = db.Column(db.Float, nullable=True, server_default=db.text("0"))
+    female = db.Column(db.Float, nullable=True, server_default=db.text("0"))
+    new_cases = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    new_deaths = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    imported = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    locally = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    created_at = db.Column(db.DateTime, nullable=False, server_default=db.text("CURRENT_TIMESTAMP"))
+ 
+    def __repr__(self):
+        return '<Totals %r>' % self.id
+
+    def __init__(self, data):
+        self.suspected = data['suspected']
+        self.confirmed = data['confirmed']
+        self.created_at = data['created_at']
+        if 'recovery' in data:
+            self.recovery = data['recovery']
+            if data['confirmed'] > 0 and data['recovery'] > 0:
+                self.recovery_rate = int(data['recovery']) / int(data['confirmed']) 
+        if 'death' in data:
+            self.death = data['death']
+            if data['confirmed'] > 0 and data['death_rate'] > 0:
+                self.death_rate = int(data['death_rate']) / int(data['confirmed']) 
+        if 'new_cases' in data:
+            self.new_cases = data['new_cases']
+        if 'new_deaths' in data:
+            self.new_deaths = data['new_deaths']
+        self.imported = data['imported']
+        self.locally = data['locally']
+        self.male = data['male']
+        self.female = data['female']
+
+
 class Case(db.Model):
     __tablename__ = 'cases'
     id = db.Column(db.Integer, primary_key = True)
@@ -49,7 +91,7 @@ class Case(db.Model):
         self.case_number = data['case_number']
         self.symptom_date = data['symptom_date']
         self.arrival_to_mexico = data['arrival_to_mexico']
-        self.created_at = datetime.now()
+        self.created_at = data['created_at']
         self.status = data['status']
         self.age = data['age']
         self.sex = data['sex']
