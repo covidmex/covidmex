@@ -1,4 +1,6 @@
+from sqlalchemy import func, and_
 from datetime import datetime
+
 from .extensions import db
 
 class State(db.Model):
@@ -58,5 +60,10 @@ class Case(db.Model):
         self.country_procedence_id = data['country_procedence_id']
 
     def __repr__(self):
-        return '<Case %r - >' % self.appearance_date, self.status
+        return '<Case %s >' % self.created_at.strftime("%d/%m/%Y")
+
+    @classmethod
+    def update_time(self):
+        max_date = db.session.query(func.max(self.created_at)).first()[0]
+        return max_date
 

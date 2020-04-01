@@ -8,7 +8,7 @@ from flask_basicauth import BasicAuth
 from werkzeug.exceptions import HTTPException
 
 from config import DefaultConfig
-from extensions import db
+from extensions import db, moment
 from models import State, Case, CountryProcedence
 from utils import INSTANCE_FOLDER_PATH
 from views_blueprint import views_blueprint
@@ -69,6 +69,8 @@ def configure_extensions(app):
     from flask_admin.contrib.sqla import ModelView
     # flask-sqlalchemy
     db.init_app(app)
+    # moment
+    moment.init_app(app)
     # flask-admin
     app.config['FLASK_ADMIN_SWATCH'] = 'yeti'
 
