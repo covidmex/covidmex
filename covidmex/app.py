@@ -60,7 +60,7 @@ def configure_app(app, config=None):
     app.config.from_object(DefaultConfig)
     if config:
         app.config.from_object(config)
-    locale.setlocale(locale.LC_TIME, 'es_ES')
+    #locale.setlocale(locale.LC_TIME, 'es_ES')
 
 
 

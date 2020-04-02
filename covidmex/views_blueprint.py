@@ -60,7 +60,7 @@ def index():
         "total_confirmed": total_confirmed,
         "total_suspected": total_suspected,
         "delta_confirmed": delta_confirmed,
-        "update_time" : update_time.strftime("%d de %B de %Y")
+        "update_time" : update_time.strftime("%d de %m de %Y")
     }
     return render_template(
         'index.html',
@@ -72,7 +72,7 @@ def index():
 def explore():
     update_time = Totals.update_time()
     _vars = {
-        "update_time" : update_time.strftime("%d de %B de %Y")
+        "update_time" : update_time.strftime("%d de %m de %Y")
     }
     return render_template(
         'explore.html',
@@ -92,7 +92,7 @@ def cases():
 def about():
     update_time = Totals.update_time()
     _vars = {
-        "update_time" : update_time.strftime("%d de %B de %Y")
+        "update_time" : update_time.strftime("%d de %m de %Y")
     }
     return render_template(
         'about.html',
