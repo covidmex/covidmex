@@ -70,6 +70,11 @@ class Totals(db.Model):
         self.male = data['male']
         self.female = data['female']
 
+    @classmethod
+    def update_time(self):
+        max_date = db.session.query(func.max(self.created_at)).first()[0]
+        return max_date
+
 
 class Case(db.Model):
     __tablename__ = 'cases'

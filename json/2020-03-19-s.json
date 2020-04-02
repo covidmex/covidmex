@@ -1,6 +1,6 @@
 {"datos":[
     {
-        "Caso": "1",
+        "caso": "1",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "F",
         "edad": "22",
@@ -10,7 +10,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "2",
+        "caso": "2",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "26",
@@ -20,7 +20,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "3",
+        "caso": "3",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "23",
@@ -30,7 +30,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "4",
+        "caso": "4",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "34",
@@ -40,7 +40,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "5",
+        "caso": "5",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "30",
@@ -50,7 +50,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "6",
+        "caso": "6",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "26",
@@ -60,7 +60,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "7",
+        "caso": "7",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "64",
@@ -70,7 +70,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "8",
+        "caso": "8",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "40",
@@ -80,7 +80,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "9",
+        "caso": "9",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "24",
@@ -90,7 +90,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "10",
+        "caso": "10",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "26",
@@ -100,7 +100,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "11",
+        "caso": "11",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "31",
@@ -110,7 +110,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "12",
+        "caso": "12",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "39",
@@ -120,7 +120,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "13",
+        "caso": "13",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -130,7 +130,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "14",
+        "caso": "14",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "24",
@@ -140,7 +140,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "15",
+        "caso": "15",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "44",
@@ -150,7 +150,7 @@
         "llegada": "22/02/2020"
     },
     {
-        "Caso": "16",
+        "caso": "16",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "30",
@@ -160,7 +160,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "17",
+        "caso": "17",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "61",
@@ -170,7 +170,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "18",
+        "caso": "18",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "42",
@@ -180,7 +180,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "19",
+        "caso": "19",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "9",
@@ -190,7 +190,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "20",
+        "caso": "20",
         "estado": "TAMAULIPAS",
         "sexo": "M",
         "edad": "48",
@@ -200,7 +200,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "21",
+        "caso": "21",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "38",
@@ -210,7 +210,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "22",
+        "caso": "22",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "43",
@@ -220,7 +220,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "23",
+        "caso": "23",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "35",
@@ -230,7 +230,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "24",
+        "caso": "24",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "49",
@@ -240,7 +240,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "25",
+        "caso": "25",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "34",
@@ -250,7 +250,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "26",
+        "caso": "26",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "M",
         "edad": "25",
@@ -260,7 +260,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "27",
+        "caso": "27",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "79",
@@ -270,7 +270,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "28",
+        "caso": "28",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "37",
@@ -280,7 +280,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "29",
+        "caso": "29",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "25",
@@ -290,7 +290,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "30",
+        "caso": "30",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "37",
@@ -300,7 +300,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "31",
+        "caso": "31",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "76",
@@ -310,7 +310,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "32",
+        "caso": "32",
         "estado": "GUERRERO",
         "sexo": "M",
         "edad": "29",
@@ -320,7 +320,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "33",
+        "caso": "33",
         "estado": "HIDALGO",
         "sexo": "F",
         "edad": "72",
@@ -330,7 +330,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "34",
+        "caso": "34",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "4",
@@ -340,7 +340,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "35",
+        "caso": "35",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "61",
@@ -350,7 +350,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "36",
+        "caso": "36",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "52",
@@ -360,7 +360,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "37",
+        "caso": "37",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "23",
@@ -370,7 +370,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "38",
+        "caso": "38",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "3",
@@ -380,7 +380,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "39",
+        "caso": "39",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "33",
@@ -390,7 +390,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "40",
+        "caso": "40",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "37",
@@ -400,7 +400,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "41",
+        "caso": "41",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "56",
@@ -410,7 +410,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "42",
+        "caso": "42",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "29",
@@ -420,7 +420,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "43",
+        "caso": "43",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "72",
@@ -430,7 +430,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "44",
+        "caso": "44",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "49",
@@ -440,7 +440,7 @@
         "llegada": "24/02/2020"
     },
     {
-        "Caso": "45",
+        "caso": "45",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "53",
@@ -450,7 +450,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "46",
+        "caso": "46",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "44",
@@ -460,7 +460,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "47",
+        "caso": "47",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "45",
@@ -470,7 +470,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "48",
+        "caso": "48",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "54",
@@ -480,7 +480,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "49",
+        "caso": "49",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "34",
@@ -490,7 +490,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "50",
+        "caso": "50",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "22",
@@ -500,7 +500,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "51",
+        "caso": "51",
         "estado": "HIDALGO",
         "sexo": "F",
         "edad": "23",
@@ -510,7 +510,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "52",
+        "caso": "52",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "67",
@@ -520,7 +520,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "53",
+        "caso": "53",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "29",
@@ -530,7 +530,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "54",
+        "caso": "54",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "69",
@@ -540,7 +540,7 @@
         "llegada": "04/03/2020"
     },
     {
-        "Caso": "55",
+        "caso": "55",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "26",
@@ -550,7 +550,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "56",
+        "caso": "56",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "63",
@@ -560,7 +560,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "57",
+        "caso": "57",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "22",
@@ -570,7 +570,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "58",
+        "caso": "58",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "9",
@@ -580,7 +580,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "59",
+        "caso": "59",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "16",
@@ -590,7 +590,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "60",
+        "caso": "60",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "38",
@@ -600,7 +600,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "61",
+        "caso": "61",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "5",
@@ -610,7 +610,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "62",
+        "caso": "62",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -620,7 +620,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "63",
+        "caso": "63",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "30",
@@ -630,7 +630,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "64",
+        "caso": "64",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "32",
@@ -640,7 +640,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "65",
+        "caso": "65",
         "estado": "JALISCO",
         "sexo": "F",
         "edad": "42",
@@ -650,7 +650,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "66",
+        "caso": "66",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -660,7 +660,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "67",
+        "caso": "67",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "35",
@@ -670,7 +670,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "68",
+        "caso": "68",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "27",
@@ -680,7 +680,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "69",
+        "caso": "69",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "20",
@@ -690,7 +690,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "70",
+        "caso": "70",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "19",
@@ -700,7 +700,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "71",
+        "caso": "71",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "22",
@@ -710,7 +710,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "72",
+        "caso": "72",
         "estado": "GUERRERO",
         "sexo": "M",
         "edad": "41",
@@ -720,7 +720,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "73",
+        "caso": "73",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "57",
@@ -730,7 +730,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "74",
+        "caso": "74",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "34",
@@ -740,7 +740,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "75",
+        "caso": "75",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "3",
@@ -750,7 +750,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "76",
+        "caso": "76",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "43",
@@ -760,7 +760,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "77",
+        "caso": "77",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "23",
@@ -770,7 +770,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "78",
+        "caso": "78",
         "estado": "MORELOS",
         "sexo": "M",
         "edad": "42",
@@ -780,7 +780,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "79",
+        "caso": "79",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "62",
@@ -790,7 +790,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "80",
+        "caso": "80",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "35",
@@ -800,7 +800,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "81",
+        "caso": "81",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "28",
@@ -810,7 +810,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "82",
+        "caso": "82",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "29",
@@ -820,7 +820,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "83",
+        "caso": "83",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "29",
@@ -830,7 +830,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "84",
+        "caso": "84",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "61",
@@ -840,7 +840,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "85",
+        "caso": "85",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "43",
@@ -850,7 +850,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "86",
+        "caso": "86",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "29",
@@ -860,7 +860,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "87",
+        "caso": "87",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "3",
@@ -870,7 +870,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "88",
+        "caso": "88",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "F",
         "edad": "33",
@@ -880,7 +880,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "89",
+        "caso": "89",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "42",
@@ -890,7 +890,7 @@
         "llegada": "13/02/2020"
     },
     {
-        "Caso": "90",
+        "caso": "90",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "24",
@@ -900,7 +900,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "91",
+        "caso": "91",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "66",
@@ -910,7 +910,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "92",
+        "caso": "92",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "47",
@@ -920,7 +920,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "93",
+        "caso": "93",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "27",
@@ -930,7 +930,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "94",
+        "caso": "94",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "34",
@@ -940,7 +940,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "95",
+        "caso": "95",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "49",
@@ -950,7 +950,7 @@
         "llegada": "04/03/2020"
     },
     {
-        "Caso": "96",
+        "caso": "96",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "30",
@@ -960,7 +960,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "97",
+        "caso": "97",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "35",
@@ -970,7 +970,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "98",
+        "caso": "98",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "M",
         "edad": "59",
@@ -980,7 +980,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "99",
+        "caso": "99",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "21",
@@ -990,7 +990,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "100",
+        "caso": "100",
         "estado": "TAMAULIPAS",
         "sexo": "F",
         "edad": "4",
@@ -1000,7 +1000,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "101",
+        "caso": "101",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "29",
@@ -1010,7 +1010,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "102",
+        "caso": "102",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "26",
@@ -1020,7 +1020,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "103",
+        "caso": "103",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "71",
@@ -1030,7 +1030,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "104",
+        "caso": "104",
         "estado": "COLIMA",
         "sexo": "F",
         "edad": "23",
@@ -1040,7 +1040,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "105",
+        "caso": "105",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "31",
@@ -1050,7 +1050,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "106",
+        "caso": "106",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "25",
@@ -1060,7 +1060,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "107",
+        "caso": "107",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "5",
@@ -1070,7 +1070,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "108",
+        "caso": "108",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "43",
@@ -1080,7 +1080,7 @@
         "llegada": "04/03/2020"
     },
     {
-        "Caso": "109",
+        "caso": "109",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "31",
@@ -1090,7 +1090,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "110",
+        "caso": "110",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "9",
@@ -1100,7 +1100,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "111",
+        "caso": "111",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "38",
@@ -1110,7 +1110,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "112",
+        "caso": "112",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "31",
@@ -1120,7 +1120,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "113",
+        "caso": "113",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "32",
@@ -1130,7 +1130,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "114",
+        "caso": "114",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "15",
@@ -1140,7 +1140,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "115",
+        "caso": "115",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "29",
@@ -1150,7 +1150,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "116",
+        "caso": "116",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "25",
@@ -1160,7 +1160,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "117",
+        "caso": "117",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "69",
@@ -1170,7 +1170,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "118",
+        "caso": "118",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "41",
@@ -1180,7 +1180,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "119",
+        "caso": "119",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "32",
@@ -1190,7 +1190,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "120",
+        "caso": "120",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "28",
@@ -1200,7 +1200,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "121",
+        "caso": "121",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "25",
@@ -1210,7 +1210,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "122",
+        "caso": "122",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "40",
@@ -1220,7 +1220,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "123",
+        "caso": "123",
         "estado": "MICHOACÁN",
         "sexo": "F",
         "edad": "37",
@@ -1230,7 +1230,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "124",
+        "caso": "124",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "63",
@@ -1240,7 +1240,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "125",
+        "caso": "125",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "32",
@@ -1250,7 +1250,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "126",
+        "caso": "126",
         "estado": "SONORA",
         "sexo": "M",
         "edad": "43",
@@ -1260,7 +1260,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "127",
+        "caso": "127",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "53",
@@ -1270,7 +1270,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "128",
+        "caso": "128",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "43",
@@ -1280,7 +1280,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "129",
+        "caso": "129",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "18",
@@ -1290,7 +1290,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "130",
+        "caso": "130",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "36",
@@ -1300,7 +1300,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "131",
+        "caso": "131",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "27",
@@ -1310,7 +1310,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "132",
+        "caso": "132",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "15",
@@ -1320,7 +1320,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "133",
+        "caso": "133",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "55",
@@ -1330,7 +1330,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "134",
+        "caso": "134",
         "estado": "ZACATECAS",
         "sexo": "M",
         "edad": "32",
@@ -1340,7 +1340,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "135",
+        "caso": "135",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "5",
@@ -1350,7 +1350,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "136",
+        "caso": "136",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "41",
@@ -1360,7 +1360,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "137",
+        "caso": "137",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "64",
@@ -1370,7 +1370,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "138",
+        "caso": "138",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "25",
@@ -1380,7 +1380,7 @@
         "llegada": "26/02/2020"
     },
     {
-        "Caso": "139",
+        "caso": "139",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "35",
@@ -1390,7 +1390,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "140",
+        "caso": "140",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "21",
@@ -1400,7 +1400,7 @@
         "llegada": "18/03/2020"
     },
     {
-        "Caso": "141",
+        "caso": "141",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "45",
@@ -1410,7 +1410,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "142",
+        "caso": "142",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "21",
@@ -1420,7 +1420,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "143",
+        "caso": "143",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "31",
@@ -1430,7 +1430,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "144",
+        "caso": "144",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "67",
@@ -1440,7 +1440,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "145",
+        "caso": "145",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "42",
@@ -1450,7 +1450,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "146",
+        "caso": "146",
         "estado": "CHIHUAHUA",
         "sexo": "F",
         "edad": "18",
@@ -1460,7 +1460,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "147",
+        "caso": "147",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "63",
@@ -1470,7 +1470,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "148",
+        "caso": "148",
         "estado": "DURANGO",
         "sexo": "M",
         "edad": "74",
@@ -1480,7 +1480,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "149",
+        "caso": "149",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "28",
@@ -1490,7 +1490,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "150",
+        "caso": "150",
         "estado": "SINALOA",
         "sexo": "F",
         "edad": "34",
@@ -1500,7 +1500,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "151",
+        "caso": "151",
         "estado": "MICHOACÁN",
         "sexo": "F",
         "edad": "1",
@@ -1510,7 +1510,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "152",
+        "caso": "152",
         "estado": "MORELOS",
         "sexo": "M",
         "edad": "37",
@@ -1520,7 +1520,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "153",
+        "caso": "153",
         "estado": "ZACATECAS",
         "sexo": "M",
         "edad": "76",
@@ -1530,7 +1530,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "154",
+        "caso": "154",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "30",
@@ -1540,7 +1540,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "155",
+        "caso": "155",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "19",
@@ -1550,7 +1550,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "156",
+        "caso": "156",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "44",
@@ -1560,7 +1560,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "157",
+        "caso": "157",
         "estado": "TLAXCALA",
         "sexo": "F",
         "edad": "24",
@@ -1570,7 +1570,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "158",
+        "caso": "158",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "27",
@@ -1580,7 +1580,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "159",
+        "caso": "159",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "0",
@@ -1590,7 +1590,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "160",
+        "caso": "160",
         "estado": "OAXACA",
         "sexo": "M",
         "edad": "35",
@@ -1600,7 +1600,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "161",
+        "caso": "161",
         "estado": "SINALOA",
         "sexo": "F",
         "edad": "35",
@@ -1610,7 +1610,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "162",
+        "caso": "162",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "25",
@@ -1620,7 +1620,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "163",
+        "caso": "163",
         "estado": "SINALOA",
         "sexo": "F",
         "edad": "62",
@@ -1630,7 +1630,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "164",
+        "caso": "164",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "14",
@@ -1640,7 +1640,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "165",
+        "caso": "165",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "36",
@@ -1650,7 +1650,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "166",
+        "caso": "166",
         "estado": "SONORA",
         "sexo": "M",
         "edad": "31",
@@ -1660,7 +1660,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "167",
+        "caso": "167",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "40",
@@ -1670,7 +1670,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "168",
+        "caso": "168",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "33",
@@ -1680,7 +1680,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "169",
+        "caso": "169",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "36",
@@ -1690,7 +1690,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "170",
+        "caso": "170",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "6",
@@ -1700,7 +1700,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "171",
+        "caso": "171",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "32",
@@ -1710,7 +1710,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "172",
+        "caso": "172",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "63",
@@ -1720,7 +1720,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "173",
+        "caso": "173",
         "estado": "SINALOA",
         "sexo": "F",
         "edad": "44",
@@ -1730,7 +1730,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "174",
+        "caso": "174",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "8",
@@ -1740,7 +1740,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "175",
+        "caso": "175",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "62",
@@ -1750,7 +1750,7 @@
         "llegada": "27/02/2020"
     },
     {
-        "Caso": "176",
+        "caso": "176",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "74",
@@ -1760,7 +1760,7 @@
         "llegada": "04/03/2020"
     },
     {
-        "Caso": "177",
+        "caso": "177",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "29",
@@ -1770,7 +1770,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "178",
+        "caso": "178",
         "estado": "MORELOS",
         "sexo": "F",
         "edad": "54",
@@ -1780,7 +1780,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "179",
+        "caso": "179",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "31",
@@ -1790,7 +1790,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "180",
+        "caso": "180",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "5",
@@ -1800,7 +1800,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "181",
+        "caso": "181",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "44",
@@ -1810,7 +1810,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "182",
+        "caso": "182",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "57",
@@ -1820,7 +1820,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "183",
+        "caso": "183",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "30",
@@ -1830,7 +1830,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "184",
+        "caso": "184",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "28",
@@ -1840,7 +1840,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "185",
+        "caso": "185",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "23",
@@ -1850,7 +1850,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "186",
+        "caso": "186",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "55",
@@ -1860,7 +1860,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "187",
+        "caso": "187",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "29",
@@ -1870,7 +1870,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "188",
+        "caso": "188",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "34",
@@ -1880,7 +1880,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "189",
+        "caso": "189",
         "estado": "YUCATÁN",
         "sexo": "F",
         "edad": "82",
@@ -1890,7 +1890,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "190",
+        "caso": "190",
         "estado": "AGUASCALIENTES",
         "sexo": "F",
         "edad": "28",
@@ -1900,7 +1900,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "191",
+        "caso": "191",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "40",
@@ -1910,7 +1910,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "192",
+        "caso": "192",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "38",
@@ -1920,7 +1920,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "193",
+        "caso": "193",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "51",
@@ -1930,7 +1930,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "194",
+        "caso": "194",
         "estado": "AGUASCALIENTES",
         "sexo": "F",
         "edad": "29",
@@ -1940,7 +1940,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "195",
+        "caso": "195",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "31",
@@ -1950,7 +1950,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "196",
+        "caso": "196",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "28",
@@ -1960,7 +1960,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "197",
+        "caso": "197",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "6",
@@ -1970,7 +1970,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "198",
+        "caso": "198",
         "estado": "COAHUILA",
         "sexo": "F",
         "edad": "27",
@@ -1980,7 +1980,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "199",
+        "caso": "199",
         "estado": "YUCATÁN",
         "sexo": "F",
         "edad": "21",
@@ -1990,7 +1990,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "200",
+        "caso": "200",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "30",
@@ -2000,7 +2000,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "201",
+        "caso": "201",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "30",
@@ -2010,7 +2010,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "202",
+        "caso": "202",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "35",
@@ -2020,7 +2020,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "203",
+        "caso": "203",
         "estado": "YUCATÁN",
         "sexo": "M",
         "edad": "22",
@@ -2030,7 +2030,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "204",
+        "caso": "204",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "55",
@@ -2040,7 +2040,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "205",
+        "caso": "205",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "22",
@@ -2050,7 +2050,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "206",
+        "caso": "206",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "57",
@@ -2060,7 +2060,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "207",
+        "caso": "207",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "50",
@@ -2070,7 +2070,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "208",
+        "caso": "208",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "61",
@@ -2080,7 +2080,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "209",
+        "caso": "209",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "41",
@@ -2090,7 +2090,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "210",
+        "caso": "210",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "30",
@@ -2100,7 +2100,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "211",
+        "caso": "211",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "22",
@@ -2110,7 +2110,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "212",
+        "caso": "212",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "27",
@@ -2120,7 +2120,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "213",
+        "caso": "213",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "18",
@@ -2130,7 +2130,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "214",
+        "caso": "214",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "M",
         "edad": "44",
@@ -2140,7 +2140,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "215",
+        "caso": "215",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "66",
@@ -2150,7 +2150,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "216",
+        "caso": "216",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "28",
@@ -2160,7 +2160,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "217",
+        "caso": "217",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "39",
@@ -2170,7 +2170,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "218",
+        "caso": "218",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "31",
@@ -2180,7 +2180,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "219",
+        "caso": "219",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "13",
@@ -2190,7 +2190,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "220",
+        "caso": "220",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "F",
         "edad": "40",
@@ -2200,7 +2200,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "221",
+        "caso": "221",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "38",
@@ -2210,7 +2210,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "222",
+        "caso": "222",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "34",
@@ -2220,7 +2220,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "223",
+        "caso": "223",
         "estado": "NUEVO LEÓN",
         "sexo": "M",
         "edad": "34",
@@ -2230,7 +2230,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "224",
+        "caso": "224",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "36",
@@ -2240,7 +2240,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "225",
+        "caso": "225",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "M",
         "edad": "60",
@@ -2250,7 +2250,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "226",
+        "caso": "226",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "47",
@@ -2260,7 +2260,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "227",
+        "caso": "227",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "69",
@@ -2270,7 +2270,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "228",
+        "caso": "228",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "F",
         "edad": "48",
@@ -2280,7 +2280,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "229",
+        "caso": "229",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "48",
@@ -2290,7 +2290,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "230",
+        "caso": "230",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "M",
         "edad": "36",
@@ -2300,7 +2300,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "231",
+        "caso": "231",
         "estado": "VERACRUZ",
         "sexo": "F",
         "edad": "64",
@@ -2310,7 +2310,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "232",
+        "caso": "232",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "31",
@@ -2320,7 +2320,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "233",
+        "caso": "233",
         "estado": "TLAXCALA",
         "sexo": "M",
         "edad": "29",
@@ -2330,7 +2330,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "234",
+        "caso": "234",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "F",
         "edad": "44",
@@ -2340,7 +2340,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "235",
+        "caso": "235",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "61",
@@ -2350,7 +2350,7 @@
         "llegada": "05/03/2020"
     },
     {
-        "Caso": "236",
+        "caso": "236",
         "estado": "TAMAULIPAS",
         "sexo": "M",
         "edad": "53",
@@ -2360,7 +2360,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "237",
+        "caso": "237",
         "estado": "HIDALGO",
         "sexo": "F",
         "edad": "57",
@@ -2370,7 +2370,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "238",
+        "caso": "238",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "M",
         "edad": "45",
@@ -2380,7 +2380,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "239",
+        "caso": "239",
         "estado": "TAMAULIPAS",
         "sexo": "M",
         "edad": "26",
@@ -2390,7 +2390,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "240",
+        "caso": "240",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "33",
@@ -2400,7 +2400,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "241",
+        "caso": "241",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "44",
@@ -2410,7 +2410,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "242",
+        "caso": "242",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "21",
@@ -2420,7 +2420,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "243",
+        "caso": "243",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "2",
@@ -2430,7 +2430,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "244",
+        "caso": "244",
         "estado": "PUEBLA",
         "sexo": "F",
         "edad": "32",
@@ -2440,7 +2440,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "245",
+        "caso": "245",
         "estado": "PUEBLA",
         "sexo": "F",
         "edad": "56",
@@ -2450,7 +2450,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "246",
+        "caso": "246",
         "estado": "HIDALGO",
         "sexo": "F",
         "edad": "37",
@@ -2460,7 +2460,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "247",
+        "caso": "247",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "1",
@@ -2470,7 +2470,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "248",
+        "caso": "248",
         "estado": "BAJA CALIFORNIA SUR",
         "sexo": "M",
         "edad": "13",
@@ -2480,7 +2480,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "249",
+        "caso": "249",
         "estado": "HIDALGO",
         "sexo": "F",
         "edad": "23",
@@ -2490,7 +2490,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "250",
+        "caso": "250",
         "estado": "GUANAJUATO",
         "sexo": "M",
         "edad": "55",
@@ -2500,7 +2500,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "251",
+        "caso": "251",
         "estado": "YUCATÁN",
         "sexo": "F",
         "edad": "28",
@@ -2510,7 +2510,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "252",
+        "caso": "252",
         "estado": "YUCATÁN",
         "sexo": "M",
         "edad": "29",
@@ -2520,7 +2520,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "253",
+        "caso": "253",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "34",
@@ -2530,7 +2530,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "254",
+        "caso": "254",
         "estado": "HIDALGO",
         "sexo": "M",
         "edad": "44",
@@ -2540,7 +2540,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "255",
+        "caso": "255",
         "estado": "HIDALGO",
         "sexo": "M",
         "edad": "13",
@@ -2550,7 +2550,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "256",
+        "caso": "256",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "29",
@@ -2560,7 +2560,7 @@
         "llegada": "18/03/2020"
     },
     {
-        "Caso": "257",
+        "caso": "257",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "24",
@@ -2570,7 +2570,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "258",
+        "caso": "258",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "29",
@@ -2580,7 +2580,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "259",
+        "caso": "259",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "59",
@@ -2590,7 +2590,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "260",
+        "caso": "260",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "45",
@@ -2600,7 +2600,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "261",
+        "caso": "261",
         "estado": "JALISCO",
         "sexo": "M",
         "edad": "54",
@@ -2610,7 +2610,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "262",
+        "caso": "262",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "35",
@@ -2620,7 +2620,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "263",
+        "caso": "263",
         "estado": "SONORA",
         "sexo": "F",
         "edad": "25",
@@ -2630,7 +2630,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "264",
+        "caso": "264",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "34",
@@ -2640,7 +2640,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "265",
+        "caso": "265",
         "estado": "OAXACA",
         "sexo": "F",
         "edad": "21",
@@ -2650,7 +2650,7 @@
         "llegada": "18/03/2020"
     },
     {
-        "Caso": "266",
+        "caso": "266",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "41",
@@ -2660,7 +2660,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "267",
+        "caso": "267",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "57",
@@ -2670,7 +2670,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "268",
+        "caso": "268",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "1",
@@ -2680,7 +2680,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "269",
+        "caso": "269",
         "estado": "DURANGO",
         "sexo": "M",
         "edad": "80",
@@ -2690,7 +2690,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "270",
+        "caso": "270",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "29",
@@ -2700,7 +2700,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "271",
+        "caso": "271",
         "estado": "DURANGO",
         "sexo": "F",
         "edad": "68",
@@ -2710,7 +2710,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "272",
+        "caso": "272",
         "estado": "DURANGO",
         "sexo": "F",
         "edad": "52",
@@ -2720,7 +2720,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "273",
+        "caso": "273",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "26",
@@ -2730,7 +2730,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "274",
+        "caso": "274",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "65",
@@ -2740,7 +2740,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "275",
+        "caso": "275",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "51",
@@ -2750,7 +2750,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "276",
+        "caso": "276",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "47",
@@ -2760,7 +2760,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "277",
+        "caso": "277",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "33",
@@ -2770,7 +2770,7 @@
         "llegada": "05/03/2020"
     },
     {
-        "Caso": "278",
+        "caso": "278",
         "estado": "QUERETARO",
         "sexo": "F",
         "edad": "42",
@@ -2780,7 +2780,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "279",
+        "caso": "279",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "37",
@@ -2790,7 +2790,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "280",
+        "caso": "280",
         "estado": "COAHUILA",
         "sexo": "F",
         "edad": "49",
@@ -2800,7 +2800,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "281",
+        "caso": "281",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "20",
@@ -2810,7 +2810,7 @@
         "llegada": "05/03/2020"
     },
     {
-        "Caso": "282",
+        "caso": "282",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "31",
@@ -2820,7 +2820,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "283",
+        "caso": "283",
         "estado": "COAHUILA",
         "sexo": "F",
         "edad": "23",
@@ -2830,7 +2830,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "284",
+        "caso": "284",
         "estado": "CAMPECHE",
         "sexo": "M",
         "edad": "58",
@@ -2840,7 +2840,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "285",
+        "caso": "285",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "39",
@@ -2850,7 +2850,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "286",
+        "caso": "286",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "14",
@@ -2860,7 +2860,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "287",
+        "caso": "287",
         "estado": "COLIMA",
         "sexo": "M",
         "edad": "29",
@@ -2870,7 +2870,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "288",
+        "caso": "288",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "40",
@@ -2880,7 +2880,7 @@
         "llegada": "14/02/2020"
     },
     {
-        "Caso": "289",
+        "caso": "289",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "39",
@@ -2890,7 +2890,7 @@
         "llegada": "05/03/2020"
     },
     {
-        "Caso": "290",
+        "caso": "290",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "37",
@@ -2900,7 +2900,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "291",
+        "caso": "291",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -2910,7 +2910,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "292",
+        "caso": "292",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "24",
@@ -2920,7 +2920,7 @@
         "llegada": "26/02/2020"
     },
     {
-        "Caso": "293",
+        "caso": "293",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "55",
@@ -2930,7 +2930,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "294",
+        "caso": "294",
         "estado": "CAMPECHE",
         "sexo": "F",
         "edad": "59",
@@ -2940,7 +2940,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "295",
+        "caso": "295",
         "estado": "ZACATECAS",
         "sexo": "F",
         "edad": "49",
@@ -2950,7 +2950,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "296",
+        "caso": "296",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "38",
@@ -2960,7 +2960,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "297",
+        "caso": "297",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "35",
@@ -2970,7 +2970,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "298",
+        "caso": "298",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "43",
@@ -2980,7 +2980,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "299",
+        "caso": "299",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "26",
@@ -2990,7 +2990,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "300",
+        "caso": "300",
         "estado": "SONORA",
         "sexo": "M",
         "edad": "35",
@@ -3000,7 +3000,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "301",
+        "caso": "301",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "65",
@@ -3010,7 +3010,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "302",
+        "caso": "302",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "27",
@@ -3020,7 +3020,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "303",
+        "caso": "303",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "33",
@@ -3030,7 +3030,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "304",
+        "caso": "304",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "37",
@@ -3040,7 +3040,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "305",
+        "caso": "305",
         "estado": "COAHUILA",
         "sexo": "F",
         "edad": "22",
@@ -3050,7 +3050,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "306",
+        "caso": "306",
         "estado": "ZACATECAS",
         "sexo": "F",
         "edad": "22",
@@ -3060,7 +3060,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "307",
+        "caso": "307",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "35",
@@ -3070,7 +3070,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "308",
+        "caso": "308",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "27",
@@ -3080,7 +3080,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "309",
+        "caso": "309",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "33",
@@ -3090,7 +3090,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "310",
+        "caso": "310",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "39",
@@ -3100,7 +3100,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "311",
+        "caso": "311",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "29",
@@ -3110,7 +3110,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "312",
+        "caso": "312",
         "estado": "AGUASCALIENTES",
         "sexo": "F",
         "edad": "20",
@@ -3120,7 +3120,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "313",
+        "caso": "313",
         "estado": "NAYARIT",
         "sexo": "M",
         "edad": "29",
@@ -3130,7 +3130,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "314",
+        "caso": "314",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "45",
@@ -3140,7 +3140,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "315",
+        "caso": "315",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "32",
@@ -3150,7 +3150,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "316",
+        "caso": "316",
         "estado": "PUEBLA",
         "sexo": "F",
         "edad": "37",
@@ -3160,7 +3160,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "317",
+        "caso": "317",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "42",
@@ -3170,7 +3170,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "318",
+        "caso": "318",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "20",
@@ -3180,7 +3180,7 @@
         "llegada": "15/02/2020"
     },
     {
-        "Caso": "319",
+        "caso": "319",
         "estado": "COAHUILA",
         "sexo": "F",
         "edad": "26",
@@ -3190,7 +3190,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "320",
+        "caso": "320",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "62",
@@ -3200,7 +3200,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "321",
+        "caso": "321",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "22",
@@ -3210,7 +3210,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "322",
+        "caso": "322",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "39",
@@ -3220,7 +3220,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "323",
+        "caso": "323",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "36",
@@ -3230,7 +3230,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "324",
+        "caso": "324",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "46",
@@ -3240,7 +3240,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "325",
+        "caso": "325",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "42",
@@ -3250,7 +3250,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "326",
+        "caso": "326",
         "estado": "QUERETARO",
         "sexo": "F",
         "edad": "36",
@@ -3260,7 +3260,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "327",
+        "caso": "327",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "30",
@@ -3270,7 +3270,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "328",
+        "caso": "328",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "42",
@@ -3280,7 +3280,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "329",
+        "caso": "329",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "0",
@@ -3290,7 +3290,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "330",
+        "caso": "330",
         "estado": "CHIHUAHUA",
         "sexo": "M",
         "edad": "29",
@@ -3300,7 +3300,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "331",
+        "caso": "331",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "1",
@@ -3310,7 +3310,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "332",
+        "caso": "332",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "75",
@@ -3320,7 +3320,7 @@
         "llegada": "21/02/2020"
     },
     {
-        "Caso": "333",
+        "caso": "333",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "34",
@@ -3330,7 +3330,7 @@
         "llegada": "16/03/2020"
     },
     {
-        "Caso": "334",
+        "caso": "334",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "18",
@@ -3340,7 +3340,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "335",
+        "caso": "335",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "56",
@@ -3350,7 +3350,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "336",
+        "caso": "336",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "24",
@@ -3360,7 +3360,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "337",
+        "caso": "337",
         "estado": "NAYARIT",
         "sexo": "F",
         "edad": "48",
@@ -3370,7 +3370,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "338",
+        "caso": "338",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "M",
         "edad": "35",
@@ -3380,7 +3380,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "339",
+        "caso": "339",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "17",
@@ -3390,7 +3390,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "340",
+        "caso": "340",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "40",
@@ -3400,7 +3400,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "341",
+        "caso": "341",
         "estado": "NAYARIT",
         "sexo": "F",
         "edad": "65",
@@ -3410,7 +3410,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "342",
+        "caso": "342",
         "estado": "PUEBLA",
         "sexo": "F",
         "edad": "26",
@@ -3420,7 +3420,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "343",
+        "caso": "343",
         "estado": "TAMAULIPAS",
         "sexo": "F",
         "edad": "38",
@@ -3430,7 +3430,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "344",
+        "caso": "344",
         "estado": "YUCATÁN",
         "sexo": "M",
         "edad": "46",
@@ -3440,7 +3440,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "345",
+        "caso": "345",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "50",
@@ -3450,7 +3450,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "346",
+        "caso": "346",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "24",
@@ -3460,7 +3460,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "347",
+        "caso": "347",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "75",
@@ -3470,7 +3470,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "348",
+        "caso": "348",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "54",
@@ -3480,7 +3480,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "349",
+        "caso": "349",
         "estado": "QUINTANA ROO",
         "sexo": "F",
         "edad": "22",
@@ -3490,7 +3490,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "350",
+        "caso": "350",
         "estado": "GUANAJUATO",
         "sexo": "F",
         "edad": "48",
@@ -3500,7 +3500,7 @@
         "llegada": "15/03/2020"
     },
     {
-        "Caso": "351",
+        "caso": "351",
         "estado": "QUERETARO",
         "sexo": "F",
         "edad": "36",
@@ -3510,7 +3510,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "352",
+        "caso": "352",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "59",
@@ -3520,7 +3520,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "353",
+        "caso": "353",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "55",
@@ -3530,7 +3530,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "354",
+        "caso": "354",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "F",
         "edad": "64",
@@ -3540,7 +3540,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "355",
+        "caso": "355",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "19",
@@ -3550,7 +3550,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "356",
+        "caso": "356",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "20",
@@ -3560,7 +3560,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "357",
+        "caso": "357",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "38",
@@ -3570,7 +3570,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "358",
+        "caso": "358",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "35",
@@ -3580,7 +3580,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "359",
+        "caso": "359",
         "estado": "CHIHUAHUA",
         "sexo": "M",
         "edad": "24",
@@ -3590,7 +3590,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "360",
+        "caso": "360",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "34",
@@ -3600,7 +3600,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "361",
+        "caso": "361",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "23",
@@ -3610,7 +3610,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "362",
+        "caso": "362",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "23",
@@ -3620,7 +3620,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "363",
+        "caso": "363",
         "estado": "SAN LUIS POTOSÍ",
         "sexo": "F",
         "edad": "20",
@@ -3630,7 +3630,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "364",
+        "caso": "364",
         "estado": "QUINTANA ROO",
         "sexo": "M",
         "edad": "43",
@@ -3640,7 +3640,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "365",
+        "caso": "365",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "22",
@@ -3650,7 +3650,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "366",
+        "caso": "366",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "48",
@@ -3660,7 +3660,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "367",
+        "caso": "367",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "58",
@@ -3670,7 +3670,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "368",
+        "caso": "368",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "47",
@@ -3680,7 +3680,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "369",
+        "caso": "369",
         "estado": "MICHOACÁN",
         "sexo": "F",
         "edad": "38",
@@ -3690,7 +3690,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "370",
+        "caso": "370",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "29",
@@ -3700,7 +3700,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "371",
+        "caso": "371",
         "estado": "BAJA CALIFORNIA",
         "sexo": "F",
         "edad": "27",
@@ -3710,7 +3710,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "372",
+        "caso": "372",
         "estado": "MICHOACÁN",
         "sexo": "F",
         "edad": "3",
@@ -3720,7 +3720,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "373",
+        "caso": "373",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "78",
@@ -3730,7 +3730,7 @@
         "llegada": "17/03/2020"
     },
     {
-        "Caso": "374",
+        "caso": "374",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "64",
@@ -3740,7 +3740,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "375",
+        "caso": "375",
         "estado": "MORELOS",
         "sexo": "M",
         "edad": "20",
@@ -3750,7 +3750,7 @@
         "llegada": "18/03/2020"
     },
     {
-        "Caso": "376",
+        "caso": "376",
         "estado": "MICHOACÁN",
         "sexo": "M",
         "edad": "35",
@@ -3760,7 +3760,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "377",
+        "caso": "377",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "2",
@@ -3770,7 +3770,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "378",
+        "caso": "378",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -3780,7 +3780,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "379",
+        "caso": "379",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "20",
@@ -3790,7 +3790,7 @@
         "llegada": "24/02/2020"
     },
     {
-        "Caso": "380",
+        "caso": "380",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "32",
@@ -3800,7 +3800,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "381",
+        "caso": "381",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "40",
@@ -3810,7 +3810,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "382",
+        "caso": "382",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "50",
@@ -3820,7 +3820,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "383",
+        "caso": "383",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "47",
@@ -3830,7 +3830,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "384",
+        "caso": "384",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "29",
@@ -3840,7 +3840,7 @@
         "llegada": "14/02/2020"
     },
     {
-        "Caso": "385",
+        "caso": "385",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "25",
@@ -3850,7 +3850,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "386",
+        "caso": "386",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "26",
@@ -3860,7 +3860,7 @@
         "llegada": "17/02/2020"
     },
     {
-        "Caso": "387",
+        "caso": "387",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "22",
@@ -3870,7 +3870,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "388",
+        "caso": "388",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "21",
@@ -3880,7 +3880,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "389",
+        "caso": "389",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "23",
@@ -3890,7 +3890,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "390",
+        "caso": "390",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "27",
@@ -3900,7 +3900,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "391",
+        "caso": "391",
         "estado": "JALISCO",
         "sexo": "F",
         "edad": "33",
@@ -3910,7 +3910,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "392",
+        "caso": "392",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "43",
@@ -3920,7 +3920,7 @@
         "llegada": "26/02/2020"
     },
     {
-        "Caso": "393",
+        "caso": "393",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "33",
@@ -3930,7 +3930,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "394",
+        "caso": "394",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "44",
@@ -3940,7 +3940,7 @@
         "llegada": "03/03/2020"
     },
     {
-        "Caso": "395",
+        "caso": "395",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "34",
@@ -3950,7 +3950,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "396",
+        "caso": "396",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "43",
@@ -3960,7 +3960,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "397",
+        "caso": "397",
         "estado": "QUERETARO",
         "sexo": "M",
         "edad": "36",
@@ -3970,7 +3970,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "398",
+        "caso": "398",
         "estado": "NUEVO LEÓN",
         "sexo": "F",
         "edad": "27",
@@ -3980,7 +3980,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "399",
+        "caso": "399",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "29",
@@ -3990,7 +3990,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "400",
+        "caso": "400",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "23",
@@ -4000,7 +4000,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "401",
+        "caso": "401",
         "estado": "YUCATÁN",
         "sexo": "M",
         "edad": "38",
@@ -4010,7 +4010,7 @@
         "llegada": "04/03/2020"
     },
     {
-        "Caso": "402",
+        "caso": "402",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "34",
@@ -4020,7 +4020,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "403",
+        "caso": "403",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "59",
@@ -4030,7 +4030,7 @@
         "llegada": "28/02/2020"
     },
     {
-        "Caso": "404",
+        "caso": "404",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "30",
@@ -4040,7 +4040,7 @@
         "llegada": "05/03/2020"
     },
     {
-        "Caso": "405",
+        "caso": "405",
         "estado": "PUEBLA",
         "sexo": "M",
         "edad": "26",
@@ -4050,7 +4050,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "406",
+        "caso": "406",
         "estado": "COAHUILA",
         "sexo": "M",
         "edad": "61",
@@ -4060,7 +4060,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "407",
+        "caso": "407",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "35",
@@ -4070,7 +4070,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "408",
+        "caso": "408",
         "estado": "COLIMA",
         "sexo": "F",
         "edad": "34",
@@ -4080,7 +4080,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "409",
+        "caso": "409",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "55",
@@ -4090,7 +4090,7 @@
         "llegada": "29/02/2020"
     },
     {
-        "Caso": "410",
+        "caso": "410",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "50",
@@ -4100,7 +4100,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "411",
+        "caso": "411",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "33",
@@ -4110,7 +4110,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "412",
+        "caso": "412",
         "estado": "AGUASCALIENTES",
         "sexo": "M",
         "edad": "56",
@@ -4120,7 +4120,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "413",
+        "caso": "413",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "25",
@@ -4130,7 +4130,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "414",
+        "caso": "414",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -4140,7 +4140,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "415",
+        "caso": "415",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "24",
@@ -4150,7 +4150,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "416",
+        "caso": "416",
         "estado": "JALISCO",
         "sexo": "F",
         "edad": "20",
@@ -4160,7 +4160,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "417",
+        "caso": "417",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "61",
@@ -4170,7 +4170,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "418",
+        "caso": "418",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "21",
@@ -4180,7 +4180,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "419",
+        "caso": "419",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "23",
@@ -4190,7 +4190,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "420",
+        "caso": "420",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "13",
@@ -4200,7 +4200,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "421",
+        "caso": "421",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "55",
@@ -4210,7 +4210,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "422",
+        "caso": "422",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "56",
@@ -4220,7 +4220,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "423",
+        "caso": "423",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "37",
@@ -4230,7 +4230,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "424",
+        "caso": "424",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "31",
@@ -4240,7 +4240,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "425",
+        "caso": "425",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "54",
@@ -4250,7 +4250,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "426",
+        "caso": "426",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "12",
@@ -4260,7 +4260,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "427",
+        "caso": "427",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "56",
@@ -4270,7 +4270,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "428",
+        "caso": "428",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "13",
@@ -4280,7 +4280,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "429",
+        "caso": "429",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "26",
@@ -4290,7 +4290,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "430",
+        "caso": "430",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "31",
@@ -4300,7 +4300,7 @@
         "llegada": "09/03/2020"
     },
     {
-        "Caso": "431",
+        "caso": "431",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "32",
@@ -4310,7 +4310,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "432",
+        "caso": "432",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "39",
@@ -4320,7 +4320,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "433",
+        "caso": "433",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "39",
@@ -4330,7 +4330,7 @@
         "llegada": "07/03/2020"
     },
     {
-        "Caso": "434",
+        "caso": "434",
         "estado": "GUERRERO",
         "sexo": "F",
         "edad": "62",
@@ -4340,7 +4340,7 @@
         "llegada": "02/03/2020"
     },
     {
-        "Caso": "435",
+        "caso": "435",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "54",
@@ -4350,7 +4350,7 @@
         "llegada": "12/03/2020"
     },
     {
-        "Caso": "436",
+        "caso": "436",
         "estado": "BAJA CALIFORNIA",
         "sexo": "M",
         "edad": "33",
@@ -4360,7 +4360,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "437",
+        "caso": "437",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "35",
@@ -4370,7 +4370,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "438",
+        "caso": "438",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "33",
@@ -4380,7 +4380,7 @@
         "llegada": "14/03/2020"
     },
     {
-        "Caso": "439",
+        "caso": "439",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "37",
@@ -4390,7 +4390,7 @@
         "llegada": "NA"
     },
     {
-        "Caso": "440",
+        "caso": "440",
         "estado": "VERACRUZ",
         "sexo": "M",
         "edad": "27",
@@ -4400,7 +4400,7 @@
         "llegada": "13/03/2020"
     },
     {
-        "Caso": "441",
+        "caso": "441",
         "estado": "MÉXICO",
         "sexo": "F",
         "edad": "30",
@@ -4410,7 +4410,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "442",
+        "caso": "442",
         "estado": "GUERRERO",
         "sexo": "M",
         "edad": "32",
@@ -4420,7 +4420,7 @@
         "llegada": "01/03/2020"
     },
     {
-        "Caso": "443",
+        "caso": "443",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "30",
@@ -4430,7 +4430,7 @@
         "llegada": "06/03/2020"
     },
     {
-        "Caso": "444",
+        "caso": "444",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "F",
         "edad": "57",
@@ -4440,7 +4440,7 @@
         "llegada": "11/03/2020"
     },
     {
-        "Caso": "445",
+        "caso": "445",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "33",
@@ -4450,7 +4450,7 @@
         "llegada": "10/03/2020"
     },
     {
-        "Caso": "446",
+        "caso": "446",
         "estado": "CIUDAD DE MÉXICO",
         "sexo": "M",
         "edad": "40",
@@ -4460,7 +4460,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "447",
+        "caso": "447",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "15",
@@ -4470,7 +4470,7 @@
         "llegada": "08/03/2020"
     },
     {
-        "Caso": "448",
+        "caso": "448",
         "estado": "MÉXICO",
         "sexo": "M",
         "edad": "17",
