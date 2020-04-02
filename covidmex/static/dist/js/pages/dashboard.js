@@ -9,8 +9,8 @@ $(function () {
   var mode      = 'index'
   var intersect = true
 
-  var $salesChart = $('#sales-chart')
-  var salesChart  = new Chart($salesChart, {
+  var $agesChart = $('#ages-chart')
+  var agesChart  = new Chart($agesChart, {
     type   : 'bar',
     data   : {
       labels  : ['JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
@@ -65,11 +65,12 @@ $(function () {
           ticks    : ticksStyle
         }]
       }
-    }
+    },
+    
   })
 
-  var $visitorsChart = $('#visitors-chart')
-  var visitorsChart  = new Chart($visitorsChart, {
+  var $histogramChart = $('#histogram-chart')
+  var histogramChart  = new Chart($histogramChart, {
     data   : {
       labels  : ['18th', '20th', '22nd', '24th', '26th', '28th', '30th'],
       datasets: [{

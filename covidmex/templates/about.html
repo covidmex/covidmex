@@ -9,7 +9,7 @@
     <div class="row mb-2">
       <div class="col-sm-6">
         <h1 class="m-0 text-dark">{% block pagetitle %} Acerca del sitio {% endblock %}</h1>
-        <h6 class="m-0 text-dark">Última actualización: {% block updated %}25 de Marzo de 2020{% endblock %}</h6>
+        <h6 class="m-0 text-dark"><b>Última actualización: {% block updated %} {{ vars.update_time }}<b>{% endblock %}</h6>
       </div><!-- /.col -->
     </div><!-- /.row -->
   </div><!-- /.container-fluid -->

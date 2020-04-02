@@ -9,7 +9,7 @@ import_api = Blueprint('import_api', __name__)
 @import_api.route("/import", methods = ['GET'])
 def datos(day=None):
 
-  day = '2020-03-15'
+  day = '2020-03-22'
   #What day is today?
   if day is None:
     day = date.today().strftime("%Y-%m-%d") 
