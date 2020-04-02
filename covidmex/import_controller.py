@@ -57,9 +57,9 @@ def adding(data, day):
     if d['rt-pcr'].upper() == 'SOSPECHOSO':
       suspected += 1
     
-    if d['sexo'].upper() == 'M':
+    if d['sexo'].upper() == 'M' and d['rt-pcr'].upper() == 'CONFIRMADO':
       male += 1
-    elif d['sexo'].upper() == 'F':
+    elif d['sexo'].upper() == 'F' and d['rt-pcr'].upper() == 'CONFIRMADO':
       female += 1
 
   data = {
