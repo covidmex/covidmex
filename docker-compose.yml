@@ -40,11 +40,11 @@ services:
       - "traefik.http.routers.traefik.middlewares=authtraefik"
       - "traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/"
       # global redirect to https
-      #- "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
-      #- "traefik.http.routers.http-catchall.entrypoints=web"
-      #- "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
-      # middleware redirect
-      # - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.http-catchall.entrypoints=web"
+      - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
+       # middleware redirect
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
       # Enable gzip compression
       - "traefik.http.middlewares.test-compress.compress=true"
 
@@ -80,7 +80,6 @@ services:
       - traefik.http.routers.covidmex.tls.certresolver=le
       - traefik.http.routers.covidmex.tls=true
       - traefik.http.routers.covidmex.entrypoints=websecure
-      - traefik.http.routers.covidmex.entrypoints=web
 
   ################################################################
   # covidmex-mysql service definition
