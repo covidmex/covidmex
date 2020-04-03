@@ -45,6 +45,8 @@ services:
       - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
        # middleware redirect
       - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      # Enable gzip compression
+      - "traefik.http.middlewares.test-compress.compress=true"
 
   ################################################################
   # covidmex service definition
