@@ -11,20 +11,18 @@ services:
     image: traefik:v2.2
     # Enables the web UI and tells Traefik to listen to docker
     command: 
-      - --log.level=DEBUG
       - --entrypoints.web.address=:80
-      #- --entrypoints.websecure.address=:443
-      - --api.insecure
+      - --entrypoints.websecure.address=:443
+      - --api
       - --providers.docker
-      #- --certificatesresolvers.le.acme.email=guillermoalvarado89@gmail.com
-      #- --certificatesresolvers.le.acme.storage=/acme.json
-      #- --certificatesresolvers.le.acme.tlschallenge=true
-      #- --certificatesresolvers.le.acme.httpchallenge=true
-      #- --certificatesresolvers.le.acme.httpchallenge.entrypoint=web
+      - --certificatesresolvers.le.acme.email=guillermoalvarado89@gmail.com
+      - --certificatesresolvers.le.acme.storage=/acme.json
+      - --certificatesresolvers.le.acme.tlschallenge=true
+      - --certificatesresolvers.le.acme.httpchallenge=true
+      - --certificatesresolvers.le.acme.httpchallenge.entrypoint=web
     ports:
       - "80:80"
-      #- "443:443"
-      - "8080:8080"
+      - "443:443"
     volumes:
       # So that Traefik can listen to the Docker events
       - /var/run/docker.sock:/var/run/docker.sock
@@ -34,23 +32,23 @@ services:
       - backend
 
     labels:
+      # Debug 
+      - --log.level=DEBUG
       # Dashboard
-      #- "traefik.http.routers.traefik.rule=Host(`traefik.covidmex.live`)"
-      #- "traefik.http.routers.traefik.service=api@internal"
-      #- "traefik.http.routers.traefik.tls.certresolver=le"
-      #- "traefik.http.routers.traefik.entrypoints=websecure"
-      #- "traefik.http.routers.traefik.middlewares=authtraefik"
-      #- "traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.covidmex.live`)"
+      - "traefik.http.routers.traefik.service=api@internal"
+      - "traefik.http.routers.traefik.tls.certresolver=le"
+      - "traefik.http.routers.traefik.entrypoints=websecure"
+      - "traefik.http.routers.traefik.middlewares=authtraefik"
+      - "traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/"
       # global redirect to https
-      #- "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
-      #- "traefik.http.routers.http-catchall.entrypoints=web"
-      #- "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
+      - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
+      - "traefik.http.routers.http-catchall.entrypoints=web"
+      - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
        # middleware redirect
-      #- "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
       # Enable gzip compression
       - "traefik.http.middlewares.test-compress.compress=true"
-      - "traefik.http.middlewares.testHeader.Headers.AccessControlMaxAge=31536000"
-
 
   ################################################################
   # covidmex service definition
@@ -81,9 +79,9 @@ services:
 
     labels:
       - traefik.http.routers.covidmex.rule=Host(`covidmex.live`)
-      #- traefik.http.routers.covidmex.tls.certresolver=le
-      #- traefik.http.routers.covidmex.tls=true
-      #- traefik.http.routers.covidmex.entrypoints=websecure
+      - traefik.http.routers.covidmex.tls.certresolver=le
+      - traefik.http.routers.covidmex.tls=true
+      - traefik.http.routers.covidmex.entrypoints=websecure
 
   ################################################################
   # covidmex-mysql service definition
