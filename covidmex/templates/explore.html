@@ -124,7 +124,8 @@
 {% block js %}
   {{ super() }}
 <script>
-  
+window.addEventListener('DOMContentLoaded', function() {
+
   $(function () {
 
     $('#covid-datatable thead tr').clone(true).appendTo( '#covid-datatable thead');
@@ -170,8 +171,9 @@
             { "data": "arrival_to_mexico" }
         ]
     });
-}); // END
-  
+  }); // END
+}); // END DOMContentLoaded
+
 
 </script>
 

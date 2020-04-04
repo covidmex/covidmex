@@ -14,6 +14,20 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=swap" rel="stylesheet">
+    {% block js %}
+    <script defer src="plugins/jquery/jquery.min.js"></script>
+    <script defer src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script defer src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="plugins/chart.js/Chart.min.js"></script>
+    <script defer src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <script defer src="dist/js/adminlte.min.js"></script>
+    <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script defer src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" charset="utf-8"></script>
+    <script defer src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" charset="utf-8"></script>
+    <script defer src="https://datatables.net/release-datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" charset="utf-8"></script>
+    <script  defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0&appId=527156707327311&autoLogAppEvents=1"></script>
+    </script>
+    {% endblock %}
   {% endblock %}
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -124,21 +138,5 @@
   </footer>
 </div>
 <!-- ./wrapper -->
-
-{% block js %}
-<!-- jQuery -->
-<script defer src="plugins/jquery/jquery.min.js"></script>
-<script defer src="plugins/jquery-ui/jquery-ui.min.js"></script>
-<script defer src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script defer src="plugins/chart.js/Chart.min.js"></script>
-<script defer src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<script defer src="dist/js/adminlte.min.js"></script>
-<script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script defer src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" charset="utf-8"></script>
-<script defer src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" charset="utf-8"></script>
-<script defer src="https://datatables.net/release-datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" charset="utf-8"></script>
-<script  defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0&appId=527156707327311&autoLogAppEvents=1"></script>
-</script>
-{% endblock %}
 </body>
 </html>

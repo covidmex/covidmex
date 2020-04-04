@@ -209,6 +209,7 @@
 {% block js %}
   {{ super() }}
 <script>
+window.addEventListener('DOMContentLoaded', function() {
  $(function () {
 'use strict'
 
@@ -342,6 +343,7 @@
     }
   })
  }); // END
+}); // END DOMContentLoaded
  
   
 </script>
