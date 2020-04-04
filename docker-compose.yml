@@ -11,6 +11,7 @@ services:
     image: traefik:v2.2
     # Enables the web UI and tells Traefik to listen to docker
     command: 
+      - --log.level=DEBUG
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
       - --api
@@ -47,6 +48,8 @@ services:
       - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
       # Enable gzip compression
       - "traefik.http.middlewares.test-compress.compress=true"
+            - "traefik.http.middlewares.testHeader.Headers.AccessControlMaxAge=100"
+
 
   ################################################################
   # covidmex service definition
