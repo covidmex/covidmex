@@ -21,23 +21,6 @@ then
 	exit 0
 fi 
 
-if [ "$1" == "--nginx" ]
-then
-	docker stop covidmex
-	docker rm covidmex
-
-	docker stop covidmex-nginx
-	docker rm covidmex-nginx
-
-	docker build -t covidmex:latest -f Dockerfile.covidmex .
-	docker build -t covidmex-nginx:latest -f Dockerfile.nginx .
-
-	docker run -d --name covidmex --link covidmex-mysql:covidmex-mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=my-secret-pw -e MYSQL_HOST=covidmex-mysql  -e MYSQL_DB=covidmex_db -e COVIDMEX_ENVIRONMENT=development -e COVIDMEX_ADMIN_PASSWORD=d9f8ej3w -e COVIDMEX_ADMIN_USER=admin  covidmex:latest
-	docker run -d --name  covidmex-nginx --link covidmex:covidmex -p 80:80 covidmex-nginx:latest
-	docker ps
-	exit 0
-fi 
-
 
 
 docker stop covidmex

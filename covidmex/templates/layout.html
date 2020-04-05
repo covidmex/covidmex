@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% block title %} {% endblock %} - Covidmex</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='dist/img/favicon.ico') }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -15,12 +16,12 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=swap" rel="stylesheet">
     {% block js %}
-    <script defer src="plugins/jquery/jquery.min.js"></script>
-    <script defer src="plugins/jquery-ui/jquery-ui.min.js"></script>
-    <script defer src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script defer src="plugins/chart.js/Chart.min.js"></script>
-    <script defer src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-    <script defer src="dist/js/adminlte.min.js"></script>
+    <script defer src="{{ url_for('static', filename='plugins/jquery/jquery.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='plugins/chart.js/Chart.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js') }}"></script>
+    <script defer src="{{ url_for('static', filename='dist/js/adminlte.min.js') }}"></script>
     <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script defer src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" charset="utf-8"></script>
     <script defer src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" charset="utf-8"></script>

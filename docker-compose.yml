@@ -20,6 +20,8 @@ services:
       - --certificatesresolvers.le.acme.tlschallenge=true
       - --certificatesresolvers.le.acme.httpchallenge=true
       - --certificatesresolvers.le.acme.httpchallenge.entrypoint=web
+      - --certificatesresolvers.le.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory
+
     ports:
       - "80:80"
       - "443:443"
@@ -41,17 +43,17 @@ services:
       - "traefik.http.routers.traefik.entrypoints=websecure"
       - "traefik.http.routers.traefik.middlewares=authtraefik,test-compress,testheader"
       - "traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/"
+      # Enable gzip compression
+      - "traefik.http.middlewares.test-compress.compress=true"
+      # Enable gzip compression
+      - "traefik.http.middlewares.testheader.headers.accesscontrolmaxage=31536000"
       # global redirect to https
       - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
       - "traefik.http.routers.http-catchall.entrypoints=web"
       - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
       # middleware redirect
       - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
-      # Enable gzip compression
-      - "traefik.http.middlewares.test-compress.compress=true"
-      # Enable gzip compression
-      - "traefik.http.middlewares.testheader.headers.accesscontrolmaxage=31536000"
-
+      
 
   ################################################################
   # covidmex service definition
@@ -71,9 +73,6 @@ services:
       COVIDMEX_ADMIN_PASSWORD: d9f8ej3s
       COVIDMEX_ADMIN_USER: admin
 
-    #ports:
-    #  - '80:80'
-
     depends_on:
       - covidmex-mysql
 
@@ -85,6 +84,32 @@ services:
       - traefik.http.routers.covidmex.tls.certresolver=le
       - traefik.http.routers.covidmex.tls=true
       - traefik.http.routers.covidmex.entrypoints=websecure
+
+  ################################################################
+  # covidmex-nginx service definition
+  covidmex-nginx:
+    restart: always
+    image: nginx:1.17-alpine
+
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./covidmex/static/:/static
+
+    depends_on:
+      - covidmex
+
+    networks:
+      - backend
+
+    labels:
+      - traefik.http.routers.nginx.rule=(Host(`covidmex.live`) && PathPrefix(`/static`))
+      # Define a new middleware to strip the URL prefix before sending it to nginx
+      # tell Traefik which middlewares we want to use on this container
+      - traefik.http.routers.nginx.tls.certresolver=le
+      - traefik.http.routers.nginx.tls=true
+      - traefik.http.routers.nginx.entrypoints=websecure
+
+
 
   ################################################################
   # covidmex-mysql service definition
