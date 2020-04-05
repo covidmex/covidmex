@@ -35,24 +35,20 @@ services:
 
     labels:
       # Debug 
-      - --log.level=DEBUG
+      #- --log.level=DEBUG
       # Dashboard
-      - "traefik.http.routers.traefik.rule=Host(`traefik.covidmex.live`)"
-      - "traefik.http.routers.traefik.service=api@internal"
-      - "traefik.http.routers.traefik.tls.certresolver=le"
-      - "traefik.http.routers.traefik.entrypoints=websecure"
-      - "traefik.http.routers.traefik.middlewares=authtraefik,test-compress,testheader"
-      - "traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/"
-      # Enable gzip compression
-      - "traefik.http.middlewares.test-compress.compress=true"
-      # Enable gzip compression
-      - "traefik.http.middlewares.testheader.headers.accesscontrolmaxage=31536000"
+      - traefik.http.routers.traefik.rule=Host(`traefik.covidmex.live`)
+      - traefik.http.routers.traefik.service=api@internal
+      - traefik.http.routers.traefik.tls.certresolver=le
+      - traefik.http.routers.traefik.entrypoints=websecure
+      - traefik.http.routers.traefik.middlewares=authtraefik
+      - traefik.http.middlewares.authtraefik.basicauth.users=admin:$$apr1$$B0tBWigX$$pKr/ibQVrwBoNfjLRT29i/
       # global redirect to https
-      - "traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)"
-      - "traefik.http.routers.http-catchall.entrypoints=web"
-      - "traefik.http.routers.http-catchall.middlewares=redirect-to-https"
+      - traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)
+      - traefik.http.routers.http-catchall.entrypoints=web
+      - traefik.http.routers.http-catchall.middlewares=redirect-to-https
       # middleware redirect
-      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
       
 
   ################################################################
@@ -84,6 +80,12 @@ services:
       - traefik.http.routers.covidmex.tls.certresolver=le
       - traefik.http.routers.covidmex.tls=true
       - traefik.http.routers.covidmex.entrypoints=websecure
+      - traefik.http.routers.covidmex.middlewares=test-compress,testheader
+      # gzip compression
+      - traefik.http.middlewares.test-compress.compress=true
+      # Enable cache
+      - traefik.http.middlewares.testheader.headers.accesscontrolmaxage=31536000
+
 
   ################################################################
   # covidmex-nginx service definition
@@ -127,4 +129,3 @@ services:
 networks:
   backend:
     driver: bridge
-
