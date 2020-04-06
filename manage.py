@@ -10,7 +10,7 @@ from sqlalchemy_utils import database_exists, create_database, drop_database
 
 from covidmex import create_app
 from covidmex.extensions import db
-from covidmex.models import State, CountryProcedence, Case
+from covidmex.models import State, CountryProcedence, Case, Totals
 from covidmex.config import DefaultConfig
 from covidmex.import_controller import datos
 
@@ -72,10 +72,31 @@ def import_all_days():
 
     while True:
         datos(day.strftime("%Y-%m-%d"))
+        print 'Data from %s loaded successfully' % day.strftime("%Y-%m-%d")
         if day == today:
             break
+            print 'DONE'
         day = day + timedelta(days=1)
+
+@manager.option('--day', dest='day',)
+def import_day(day):
+    datos(day)
+    print 'Data from %s loaded successfully' % day
+    print 'DONE'
         
+
+@manager.option('--day', dest='day',)
+def delete_day(day):
+    day_to_delete = datetime.strptime(day, '%Y-%m-%d').date()
+    all_cases = db.session.query(Case).filter(Case.created_at == day_to_delete)
+    print '%s records will be deleted, this operation cannot be undone' % all_cases.count()
+    all_cases.delete()
+    totals = db.session.query(Totals).filter(Totals.created_at == day_to_delete).delete()
+    print 'Totals record deleted, this operation cannot be undone'
+    db.session.commit()
+    print 'Removed data from %s  successfully' % day
+    print 'DONE'
+     
 
 if __name__ == "__main__":
     manager.run()

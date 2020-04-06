@@ -29,8 +29,11 @@ def index():
     previous_record = db.session.query(Totals).filter(Totals.created_at == yesterday).first()
     total_confirmed = last_record.confirmed
     total_suspected = last_record.suspected
-    last_day_confirmed = previous_record.confirmed
-    delta_confirmed = total_confirmed - last_day_confirmed
+    try:
+        last_day_confirmed = previous_record.confirmed
+        delta_confirmed = total_confirmed - last_day_confirmed
+    except:
+        delta_confirmed = 0
     # Cases clasified by age
     all_ages_tuples = db.session.query(Case.age).filter(Case.created_at == update_time, Case.status == 'confirmado').all()
     all_ages = [value for value, in all_ages_tuples]

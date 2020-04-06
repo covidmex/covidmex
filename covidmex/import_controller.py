@@ -23,8 +23,12 @@ def datos(day=None):
   for f in files:
     with open(f) as datos:
       data = json.load(datos)
-      for d in data['datos']:
-        a.append(d)
+      try:
+        for d in data['datos']:
+          a.append(d)
+      except:
+        print "ERROR"
+        print data['datos']
 
   #import data to tables
   resp = adding(a, day)

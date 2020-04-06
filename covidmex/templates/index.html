@@ -175,7 +175,7 @@
                       {{ state[0] }}
                       <span class="float-right"><b> {{ state[1] }}</b></span>
                       <div class="progress progress-sm">
-                        <div class="progress-bar bg-primary" style="width: {{ state[1] }}%"></div>
+                        <div class="progress-bar bg-primary" style="width: {{ (state[1] * 100) / vars.cases_by_state[0][1] }}%"></div>
                       </div>
                     </div>
                     {% endfor %}
