@@ -1,7 +1,0 @@
-export MYSQL_DB=covidmex_db
-export MYSQL_USER=root
-export MYSQL_PASSWORD=my-secret-pw
-export MYSQL_HOST=127.0.0.1
-export COVIDMEX_ENVIRONMENT=development
-export COVIDMEX_ADMIN_PASSWORD=d9f8ej3s
-export COVIDMEX_ADMIN_USER=admin

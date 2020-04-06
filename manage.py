@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 import urllib
 
 from flask_script import Manager
@@ -12,6 +12,7 @@ from covidmex import create_app
 from covidmex.extensions import db
 from covidmex.models import State, CountryProcedence, Case
 from covidmex.config import DefaultConfig
+from covidmex.import_controller import datos
 
 app = create_app()
 configuration = DefaultConfig
@@ -62,6 +63,19 @@ def list_routes():
 
     for line in sorted(output):
         print line
+
+@manager.command
+def import_all_days():
+    inital_day = '2020-03-15'
+    day = datetime.strptime(inital_day, '%Y-%m-%d').date()
+    today = datetime.today().date()
+
+    while True:
+        datos(day.strftime("%Y-%m-%d"))
+        if day == today:
+            break
+        day = day + timedelta(days=1)
+        
 
 if __name__ == "__main__":
     manager.run()

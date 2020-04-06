@@ -60,14 +60,8 @@ services:
       context: .
       dockerfile: Dockerfile.covidmex
 
-    environment:
-      MYSQL_DB: 'covidmex_db'
-      MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'my-secret-pw'
-      MYSQL_HOST: 'covidmex-mysql'
-      COVIDMEX_ENVIRONMENT: development
-      COVIDMEX_ADMIN_PASSWORD: d9f8ej3s
-      COVIDMEX_ADMIN_USER: admin
+    env_file: ./environment.env
+
 
     depends_on:
       - covidmex-mysql
@@ -105,13 +99,9 @@ services:
 
     labels:
       - traefik.http.routers.nginx.rule=(Host(`covidmex.live`) && PathPrefix(`/static`))
-      # Define a new middleware to strip the URL prefix before sending it to nginx
-      # tell Traefik which middlewares we want to use on this container
       - traefik.http.routers.nginx.tls.certresolver=le
       - traefik.http.routers.nginx.tls=true
       - traefik.http.routers.nginx.entrypoints=websecure
-
-
 
   ################################################################
   # covidmex-mysql service definition
@@ -120,8 +110,7 @@ services:
     image: mysql:8.0
     command: mysqld --default-authentication-plugin=mysql_native_password
 
-    environment:
-      MYSQL_ROOT_PASSWORD: my-secret-pw
+    env_file: ./environment.env
 
     networks:
       - backend
