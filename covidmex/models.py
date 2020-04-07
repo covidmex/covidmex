@@ -145,3 +145,20 @@ class Case(db.Model):
         max_date = db.session.query(func.max(self.created_at)).first()[0]
         return max_date.date()
 
+
+class Fallecidos(db.Model):
+    __tablename__ = 'fatalities'
+    id = db.Column(db.Integer, primary_key=True)
+    state = db.Column(db.String(200), nullable=False)
+    total = db.Column(db.Integer, nullable=True, server_default=db.text("0"))
+    created_at = db.Column(db.DateTime, nullable=False, server_default=db.text("CURRENT_TIMESTAMP"))
+
+    def __init__(self, data, fecha):
+        self.state = data['Estado']
+        self.total = data['Fallecidos']
+        self.created_at = fecha
+
+    def __repr__(self):
+        return '<Fallecidos %s >' % self.id
+
+

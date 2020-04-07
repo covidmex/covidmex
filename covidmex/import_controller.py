@@ -1,7 +1,7 @@
 from flask import Flask, Blueprint, jsonify, request
 from datetime import date
 import json, datetime
-from covidmex.models import State, Case, CountryProcedence, Totals
+from covidmex.models import State, Case, CountryProcedence, Totals, Fallecidos
 from .extensions import db
 
 import_api = Blueprint('import_api', __name__)
@@ -17,7 +17,7 @@ def datos(day=None):
   #files name
   path = 'json/'
   files = [path+day+'-s.json', path+day+'-c.json']
-  
+
   #Read all data
   a = []
   for f in files:
@@ -34,12 +34,29 @@ def datos(day=None):
   resp = adding(a, day)
   db.session.commit()
 
+  #import Fallecidos
+  importFallecidos(path+day+'-f.json', day)
+
   return jsonify({
             "success": True,
             "code": 200,
             "data": "imported "+day+" /  "+resp
             }
         ), 200
+
+
+def importFallecidos(a, day):
+  try:
+    with open(a) as datos:
+      data = json.load(datos)
+      for d in data['datos']:
+        print d
+        newFatal = Fallecidos(d, day)
+        db.session.add(newFatal)
+      db.session.commit()
+  except IOError:
+    print("Not found Fallecidos")
+
 
 def adding(data, day):
   #Interation to insert
