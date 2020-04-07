@@ -2,6 +2,7 @@ covidmex-*.json
 .acme.json/
 acme.json
 *.env
+*.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

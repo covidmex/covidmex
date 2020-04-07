@@ -4,9 +4,20 @@ Sitio con estadisticas del Coronavirus (COVID-19) en México. Información extra
 # Live Data
 Ingresa a https://covidmex.live/ para visualizar los datos
 
+Dashboard principal:
+
++ Conteo de casos confirmados, sospechosos, defunciones
++ Histograma de casos.
++ Tasa de letalidad y crecimiento.
++ Distribución de casos por rango de fechas.
++ Top 10 estados con más casos. 
 
 ![Dashboard principal](screenshots/index.png)
 
+Exploración de datos:
++ Filtado de información por campos:  Estado	Sexo	Edad	Fecha Sintomas	Estatus	Tipo Contagio	Procedencia	Llegada
++ Descarga de base de datos en formato SQL (MySQL)
++ Descarga de todos los casos en formato JSON
 
 ![Exploración de datos](screenshots/explore.png)
 
