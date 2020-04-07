@@ -1,8 +1,7 @@
 # covidmex
 Sitio con estadisticas del Coronavirus (COVID-19) en México. Información extraida desde el comunicado Técnico Diario de la Dirección General de Epidemiología de la  Secretaría de Salud.
 
-## DEMO Y LIVE DATA
-
+# Live Data
 Ingresa a https://covidmex.live/ para visualizar los datos
 
 # Inicializar la aplicación (Propositos de desarrollo)
