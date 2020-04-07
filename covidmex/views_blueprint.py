@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
 import os
 import json
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask import render_template
 from flask import Blueprint
 from datetime import datetime, timedelta
+from sqlalchemy import or_
 
 
 from models import State, Case, CountryProcedence, Totals
@@ -28,8 +30,8 @@ def index():
     last_record = db.session.query(Totals).filter(Totals.created_at == update_time).first()
     previous_record = db.session.query(Totals).filter(Totals.created_at == yesterday).first()
     total_confirmed = last_record.confirmed
-    total_female_percentage = int((last_record.female * 100) / total_confirmed)
-    total_male_percentage = int((last_record.male * 100) / total_confirmed)
+    total_female_percentage = round((last_record.female * 100) / total_confirmed,1)
+    total_male_percentage = round((last_record.male * 100) / total_confirmed,1)
     total_male = int(last_record.male)
     total_female = int(last_record.female)
     delta_confirmed = last_record.confirmed
@@ -99,13 +101,79 @@ def explore():
         vars=_vars,
     )
 
-@views_blueprint.route('/explore/cases')
+@views_blueprint.route('/explore/cases', methods=['POST'])
 def cases():
-    update_time = Case.update_time()
-    all_cases = db.session.query(Case).filter(Case.created_at == update_time).all()
-    data = {'data' : [(case.to_dict()) for case in all_cases]}
 
-    return  data
+    params = request.form
+    form = dict((k,v) for k,v in params.items() if v)
+
+    aaData = []
+    start = int(str(form.get("iDisplayStart")))
+    display_length = int(str(form.get("iDisplayLength")))
+    end = start + display_length
+    search_0 = form.get('sSearch_0')
+    search_1 = form.get('sSearch_1')
+    search_2 = form.get('sSearch_2')
+    search_3 = form.get('sSearch_3')
+    search_4 = form.get('sSearch_4')
+    search_5 = form.get('sSearch_5')
+    search_6 = form.get('sSearch_6')
+    search_7 = form.get('sSearch_7')
+
+    update_time = Case.update_time()
+    
+    ORDER_BY_FIELDS = {
+        0: 'username',
+        1: 'email',
+        2: 'is_active',
+        4: 'date_joined',
+    }
+    all_cases = db.session.query(Case).join(State).join(CountryProcedence).filter(Case.created_at == update_time)
+    if search_0:
+        all_cases = all_cases.filter(State.name.like("%%%s%%" % search_0))
+
+    if search_1:
+        all_cases = all_cases.filter(Case.sex.like("%%%s%%" % search_1))
+
+    if search_2:
+        all_cases = all_cases.filter(Case.age.like("%%%s%%" % search_2))
+
+    if search_3:
+        all_cases = all_cases.filter(Case.symptom_date.like("%%%s%%" % search_3))
+
+    if search_4:
+        all_cases = all_cases.filter(Case.status.like("%%%s%%" % search_4))
+
+    if search_5:
+        all_cases = all_cases.filter(Case.type_contagion.like("%%%s%%" % search_5))
+
+    if search_6:
+        all_cases = all_cases.filter(CountryProcedence.name.like("%%%s%%" % search_6))
+
+    if search_7:
+        all_cases = all_cases.filter(Case.arrival_to_mexico.like("%%%s%%" % search_7))
+
+
+
+    all_cases.all()
+    count = all_cases.count()
+    """
+    if sort:
+        direction = '-' if request.POST.get('sSortDir_0') == 'desc' else '' # asc or desc?
+        index_of_field = int(sort) # order by which field?
+        order_statment = direction + ORDER_BY_FIELDS.get(index_of_field)
+        users = users.order_by(order_statment)
+    """
+
+    aaData = [(case.to_dict()) for case in all_cases[start:end]]
+    data = {
+        "iTotalRecords": count,
+        "iDisplayStart": start,
+        "iDisplayLength": display_length,
+        "iTotalDisplayRecords": count,
+        "aaData":aaData
+    }
+    return  json.dumps(data)
 
 
 @views_blueprint.route('/about')
@@ -188,3 +256,5 @@ def get_labels(age_bars_numeric):
             label = '90-110'
         age_bars_labels.append(label)
     return age_bars_labels
+
+

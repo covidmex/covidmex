@@ -25,7 +25,7 @@
   <div class="container-fluid">
   <div class="col-md-12">
      <div class="row">
-        <div class="col-12 col-sm-6 col-md-3">
+        <!--div class="col-12 col-sm-6 col-md-3">
           <div class="info-box">
             <span class="info-box-icon bg-info bg-warning elevation-1"><i class="far fa-copy"></i></span>
 
@@ -35,18 +35,16 @@
                 <a type="button"  href="https://storage.googleapis.com/covidmex-open-data/covidmex_database.tar.gz"  class="btn btn-default btn-sm"><i class="fas fa-share"></i>Formato CSV</a>
               </span>
             </div>
-            <!-- /.info-box-content -->
           </div>
-          <!-- /.info-box -->
-        </div>
+        </div-->
         <!-- /.col -->
         <div class="col-12 col-sm-6 col-md-3">
           <div class="info-box mb-3">
-            <span class="info-box-icon bg-info elevation-1"><i class="fas fa-search"></i></span>
+            <span class="info-box-icon bg-success elevation-1"><i class="fas fa-search"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Exportar todos los casos</span>
-              <span class="info-box-number"><a type="button" href="https://storage.googleapis.com/covidmex-open-data/covidmex_database.tar.gz" class="btn btn-default btn-sm"><i class="fas fa-share"></i>Formato JSON</a></span>
+              <span class="info-box-number"><a type="button" href="https://storage.googleapis.com/covidmex-open-data/covidmex_json_files.tar.gz" class="btn btn-default btn-sm"><i class="fas fa-share"></i>Formato JSON</a></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -67,9 +65,13 @@
         </div>
 
       </div>
+      <div class="alert alert-info alert-dismissible">
+        <h5><i class="icon fas fa-info"></i> Filtra los casos según tu criterio</h5>
+        Puedes realizar una combinación de filtros. Por ejemplo: Todos los casos sospechosos de Jalisco, sexo femenino y que sean importados. <button id="try-search" type="button" class="btn btn-default btn-sm">Probar esta búsqueda</button>
+      </div>
     <div class="card">
       <div class="card-header">
-        <h5 class="card-title">Todos los casos confirmados y sospechosos reportados en México</h5>
+        <h5 class="card-title">Búsqueda avanzada de los casos confirmados y sospechosos reportados al día de hoy</h5>
 
         <div class="card-tools">
          
@@ -90,7 +92,6 @@
           <table id="covid-datatable" class="display" style="width:100%">
             <thead>
                 <tr>
-                    <th># Caso</th>
                     <th>Estado</th>
                     <th>Sexo</th>
                     <th>Edad</th>
@@ -103,7 +104,6 @@
             </thead>
             <tfoot>
                 <tr>
-                    <th># Caso</th>
                     <th>Estado</th>
                     <th>Sexo</th>
                     <th>Edad</th>
@@ -145,7 +145,7 @@ window.addEventListener('DOMContentLoaded', function() {
     
     $('#covid-datatable thead tr:eq(1) th').each( function (i) {
         var title = $(this).text();
-        $(this).html( '<input type="text" class="form-control" placeholder="Filtrar '+title+'" />' );
+        $(this).html( '<input type="text" class="form-control tryit" placeholder="Filtrar '+title+'" />' );
  
         $( 'input', this ).on( 'keyup change', function () {
             if ( table.column(i).search() !== this.value ) {
@@ -157,33 +157,48 @@ window.addEventListener('DOMContentLoaded', function() {
         });
     });
  
-    var table = $('#covid-datatable').DataTable( {
-        orderCellsTop: true,
-        fixedHeader: true,
-        language: {
-          "url": "//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json"
+    var table = $('#covid-datatable').DataTable({
+        "processing": true,
+        "dom": "lrtip",
+        "sAjaxSource": "/explore/cases",
+        "serverSide": true,
+        "sPaginationType": "full_numbers",
+        "oLanguage": {
+          "sUrl": "//cdn.datatables.net/plug-ins/1.10.15/i18n/Spanish.json"
         },
-        ajax: {
-           "url": '/explore/cases',
-           "method": "GET",
-           "dataType": "json",
-           "dataSrc": "data",
-           "contentType":"application/json",
-           "cache":true
+        "columns": [
+            { "sWidth": "15%" ,"orderable": false, "data": "state" },
+            { "sWidth": "5%" ,"orderable": false, "data": "sex" },
+            { "sWidth": "5%" ,"orderable": false, "data": "age" },
+            { "sWidth": "10%" ,"orderable": false, "data": "symptom_date" },
+            { "sWidth": "10%" ,"orderable": false, "data": "status" },
+            { "sWidth": "10%" ,"orderable": false, "data": "type_contagion" },
+            { "sWidth": "10%" ,"orderable": false, "data": "country_procedence" },
+            { "sWidth": "10%" ,"orderable": false, "data": "arrival_to_mexico" },
+        ],
+        // Fill the table with ajax source
+        "fnServerData": function ( sSource, aoData, fnCallback ) {
+          $.ajax({
+            "dataType": 'json',
+            "type": "POST",
+            "url": sSource,
+            "data": aoData,
+            "success": fnCallback
+          });
         },
-        columns: [
-            { "data": "case_number" },
-            { "data": "state" },
-            { "data": "sex" },
-            { "data": "age" },
-            { "data": "symptom_date" },
-            { "data": "status" },
-            { "data": "type_contagion" },
-            { "data": "country_procedence" },
-            { "data": "arrival_to_mexico" }
-        ]
     });
-  }); // END
+
+   $("#try-search").click(function(){
+    console.log(1);
+      $('.tryit').get(0).value = "JALISCO";
+      $('.tryit').get(1).value = "F";
+      $('.tryit').get(4).value = "Sospechoso";
+      $('.tryit').get(5).value = "importado";
+      $('.tryit').keyup();
+      table.draw();
+    });
+
+  }); // END 
 }); // END DOMContentLoaded
 
 
