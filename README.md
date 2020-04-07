@@ -1,6 +1,10 @@
 # covidmex
 Sitio con estadisticas del Coronavirus (COVID-19) en México. Información extraida desde el comunicado Técnico Diario de la Dirección General de Epidemiología de la  Secretaría de Salud.
 
+## DEMO Y LIVE DATA
+
+Ingresa a https://covidmex.live/ para visualizar los datos
+
 # Inicializar la aplicación (Propositos de desarrollo)
 
 ## Requisitos
@@ -30,8 +34,8 @@ COVIDMEX_ADMIN_PASSWORD=d9f8ej3s  # Colocar un password seguro
 ### 3. Ejecutar el script de despliegue de entorno de desarrollo
 
 ```
-$ chmod a+x deploy_dev.sh --resetdb
-$ ./deploy_dev.sh
+$ chmod a+x deploy_dev.sh 
+$ ./deploy_dev.sh --resetdb
 ```
 
 La opción --resetdb se debe ejecutar necesariamente la primera vez. Ejecutar el comando anterior sin la opción --resetdb no recreará la base de datos. 
