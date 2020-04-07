@@ -61,9 +61,9 @@ def adding(data, day):
     if d['rt-pcr'].upper() == 'SOSPECHOSO':
       suspected += 1
     
-    if d['sexo'].upper() == 'M' and d['rt-pcr'].upper() == 'CONFIRMADO':
+    if (d['sexo'].upper() == 'M' or d['sexo'].upper() == 'MASCULINO') and d['rt-pcr'].upper() == 'CONFIRMADO':
       male += 1
-    elif d['sexo'].upper() == 'F' and d['rt-pcr'].upper() == 'CONFIRMADO':
+    elif (d['sexo'].upper() == 'F' or d['sexo'].upper() == 'FEMENINO') and d['rt-pcr'].upper() == 'CONFIRMADO':
       female += 1
 
   data = {
@@ -99,13 +99,18 @@ def identifyState(d):
 
 
 def identifyTypeContagion(d):
-  if d['procedencia'].lower() == 'contacto':
-    return 'contacto'
+  if 'procedencia' in d:
+    if d['procedencia'].lower() == 'contacto':
+      return 'contacto'
+    else:
+      return 'importado'
   else:
-    return 'importado'
+    return 'contacto'
 
 
 def identifyCountryProcedence(d):
+  if 'procedencia' not in d:
+    d['procedencia'] = 'MEXICO'
   country = db.session.query(CountryProcedence).filter(CountryProcedence.name == d['procedencia'])
   if country.count() == 1:
     country_id = country[0].id
@@ -114,7 +119,7 @@ def identifyCountryProcedence(d):
     db.session.add(newCountry)
     db.session.commit()
     country_id = newCountry.id
-  return country_id 
+  return country_id
 
 
 def addCase(d, state, contagionType, country, day):
