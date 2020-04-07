@@ -223,6 +223,8 @@ def clasify_ages(all_ages):
             key = 80
         if age >= '90' and age < '100':
             key = 90
+        if age >= '100':
+            key = 100
 
         if key in clasified_ages:
             clasified_ages[key] += 1
@@ -235,25 +237,27 @@ def get_labels(age_bars_numeric):
     age_bars_labels = list()
     for i in age_bars_numeric:
         if i == 0:
-            label = '0-10'
+            label = '0-9'
         if i == 10:
-            label = '10-20'
+            label = '10-19'
         if i == 20:
-            label = '20-30'
+            label = '20-29'
         if i == 30:
-            label = '30-40'
+            label = '30-39'
         if i == 40:
-            label = '40-50'
+            label = '40-49'
         if i == 50:
-            label = '50-60'
+            label = '50-49'
         if i == 60:
-            label = '60-70'
+            label = '60-69'
         if i == 70:
-            label = '70-80'
+            label = '70-79'
         if i == 80:
-            label = '80-90'
+            label = '80-89'
         if i == 90:
-            label = '90-110'
+            label = '90-99'
+        if i == 100:
+            label = '100+'
         age_bars_labels.append(label)
     return age_bars_labels
 
