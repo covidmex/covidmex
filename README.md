@@ -4,6 +4,14 @@ Sitio con estadisticas del Coronavirus (COVID-19) en México. Información extra
 # Live Data
 Ingresa a https://covidmex.live/ para visualizar los datos
 
+
+![Dashboard principal](screenshots/index.png)
+
+
+![Exploración de datos](screenshots/explore.png)
+
+
+
 # Inicializar la aplicación (Propositos de desarrollo)
 
 ## Requisitos
