@@ -34,7 +34,6 @@
             <p>Últimas 24 horas</p>
           </div>
 
-          <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -47,7 +46,6 @@
             <p>Total casos confirmados</p>
           </div>
 
-          <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -60,7 +58,6 @@
             <p>Casos sospechosos</p>
           </div>
 
-          <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -68,12 +65,11 @@
         <!-- small box -->
         <div class="small-box bg-danger">
           <div class="inner">
-            <h3>65</h3>
+            <h3>{{ vars.total_death }}</h3>
 
             <p>Defunciones</p>
           </div>
 
-          <a href="#" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <!-- ./col -->
@@ -159,23 +155,67 @@
       <!-- /.Left col -->
       <!-- right col (We are only adding the ID to make the widgets sortable)-->
       <section class="col-lg-5 connectedSortable">
+       <!-- DONUT CHART -->
+           <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far"></i>
+                  Indicadores
+                </h3>
 
-         <!-- DONUT CHART -->
+                <div class="card-tools">
+                </div>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+
+                  <div class="col-6 col-md-3 text-center">
+                    <input type="text" class="knob" value="{{ vars.death_ratio }}" data-min="0" data-max="50" data-width="90"
+                           data-height="90" data-fgColor="#DC3545">
+
+                    <div class="knob-label">Porcentaje de mortalidad en México</div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <input type="text" class="knob" value="{{ vars.increase_ratio }}" data-min="0" data-max="50" data-width="90"
+                           data-height="90" data-fgColor="#FFC107">
+
+                    <div class="knob-label">Tasa de crecimiento infección</div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <input type="text" class="knob" value="{{ vars.total_female_percentage }}" data-min="0" data-max="100" data-width="90"
+                           data-height="90" data-fgColor="#521989">
+
+                    <div class="knob-label">{{ vars.total_female }} Casos de Mujeres</div>
+                  </div>
+                    <div class="col-6 col-md-3 text-center">
+                    <input type="text" class="knob" value="{{ vars.total_male_percentage }}" data-min="0" data-max="100" data-width="90"
+                           data-height="90" data-fgColor="#FFA500">
+
+                    <div class="knob-label">{{ vars.total_male }} Casos de Hombres</div>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.card-body -->
+            </div>
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">Top 10 Estados con más casos confirmados</h3>
+            <h3 class="card-title">Top 10 Estados con más casos</h3>
 
             <div class="card-tools">
             </div>
           </div>
           <div class="card-body">
-
-                    {% for state in vars.cases_by_state %}
+                    {% for state in vars.confirmed_cases_by_state %}
                     <div class="progress-group">
                       {{ state[0] }}
                       <span class="float-right"><b> {{ state[1] }}</b></span>
                       <div class="progress progress-sm">
-                        <div class="progress-bar bg-primary" style="width: {{ (state[1] * 100) / vars.cases_by_state[0][1] }}%"></div>
+                        <div class="progress-bar bg-success" style="width: {{ (state[1] * 100) / vars.confirmed_cases_by_state[0][1] }}%"></div>
+                      </div>
+                       <div class="progress progress-sm">
+                        <div class="progress-bar bg-warning" style="width:"></div>
                       </div>
                     </div>
                     {% endfor %}
@@ -343,6 +383,75 @@ window.addEventListener('DOMContentLoaded', function() {
     }
   })
  }); // END
+
+ $('.knob').knob({
+      format : function (value) {
+           return value + '%';
+      },
+      /*change : function (value) {
+       //console.log("change : " + value);
+       },
+       release : function (value) {
+       console.log("release : " + value);
+       },
+       cancel : function () {
+       console.log("cancel : " + this.value);
+       },*/
+      draw: function () {
+
+        // "tron" case
+        if (this.$.data('skin') == 'tron') {
+
+          var a   = this.angle(this.cv)  // Angle
+            ,
+              sa  = this.startAngle          // Previous start angle
+            ,
+              sat = this.startAngle         // Start angle
+            ,
+              ea                            // Previous end angle
+            ,
+              eat = sat + a                 // End angle
+            ,
+              r   = true
+
+          this.g.lineWidth = this.lineWidth
+
+          this.o.cursor
+          && (sat = eat - 0.3)
+          && (eat = eat + 0.3)
+
+          if (this.o.displayPrevious) {
+            ea = this.startAngle + this.angle(this.value)
+            this.o.cursor
+            && (sa = ea - 0.3)
+            && (ea = ea + 0.3)
+            this.g.beginPath()
+            this.g.strokeStyle = this.previousColor
+            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sa, ea, false)
+            this.g.stroke()
+          }
+
+          this.g.beginPath()
+          this.g.strokeStyle = r ? this.o.fgColor : this.fgColor
+          this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sat, eat, false)
+          this.g.stroke()
+
+          this.g.lineWidth = 2
+          this.g.beginPath()
+          this.g.strokeStyle = this.o.fgColor
+          this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false)
+          this.g.stroke()
+
+          return false
+        }
+      }
+    }); // END knob
+
+   $(".knob").knob({
+    'format' : function (value) {
+       return value + '%';
+    }
+  });
 }); // END DOMContentLoaded
  
   

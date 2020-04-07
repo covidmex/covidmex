@@ -28,12 +28,20 @@ def index():
     last_record = db.session.query(Totals).filter(Totals.created_at == update_time).first()
     previous_record = db.session.query(Totals).filter(Totals.created_at == yesterday).first()
     total_confirmed = last_record.confirmed
+    total_female_percentage = int((last_record.female * 100) / total_confirmed)
+    total_male_percentage = int((last_record.male * 100) / total_confirmed)
+    total_male = int(last_record.male)
+    total_female = int(last_record.female)
+    delta_confirmed = last_record.confirmed
     total_suspected = last_record.suspected
+    total_death = last_record.death
+    death_ratio = (total_death*100) / total_confirmed
     try:
         last_day_confirmed = previous_record.confirmed
         delta_confirmed = total_confirmed - last_day_confirmed
     except:
         delta_confirmed = 0
+    increase_ratio = (delta_confirmed*100) / total_confirmed
     # Cases clasified by age
     all_ages_tuples = db.session.query(Case.age).filter(Case.created_at == update_time, Case.status == 'confirmado').all()
     all_ages = [value for value, in all_ages_tuples]
@@ -45,8 +53,10 @@ def index():
         age_bars_confirmed.append(v)
     age_bars_labels = get_labels(age_bars_numeric)
     # Confirmed cases by state
-    cases_by_state =  db.session.query(State.name, db.func.count(Case.status=='confirmed')).filter(Case.created_at == update_time, Case.status == 'confirmado').outerjoin(State).group_by(State.name).all()
-    cases_by_state.sort(key=lambda tup: tup[1], reverse=True)
+    confirmed_cases_by_state =  db.session.query(State.name, db.func.count(Case.status=='confirmed')).filter(Case.created_at == update_time, Case.status == 'confirmado').outerjoin(State).group_by(State.name).all()
+    confirmed_cases_by_state.sort(key=lambda tup: tup[1], reverse=True)
+    suspected_cases_by_state =  db.session.query(State.name, db.func.count(Case.status=='suspected')).filter(Case.created_at == update_time, Case.status == 'Sospechoso').outerjoin(State).group_by(State.name).all()
+    suspected_cases_by_state.sort(key=lambda tup: tup[1], reverse=True)
     """donut_confirmed = list()
     donut_labels = list()
     for state, num_cases in cases_by_state[0:5]:
@@ -54,15 +64,22 @@ def index():
         donut_confirmed.append(num_cases)
     """
     _vars = {
-        "cases_by_state": cases_by_state[0:10],
+        "confirmed_cases_by_state": confirmed_cases_by_state[0:10],
         "age_bars_labels": age_bars_labels,
         "age_bars_confirmed" : age_bars_confirmed,
         "histogram_labels": histogram_labels,
         "histogram_confirmed": histogram_confirmed,
         "histogram_suspects": histogram_suspects,
+        "total_female_percentage": total_female_percentage,
+        "total_male_percentage": total_male_percentage,
+        "total_female": total_female,
+        "total_male": total_male,
         "total_confirmed": total_confirmed,
         "total_suspected": total_suspected,
         "delta_confirmed": delta_confirmed,
+        "death_ratio": death_ratio,
+        "increase_ratio": increase_ratio,
+        "total_death": total_death,
         "update_time" : update_time.strftime("%d/%m/%Y")
     }
     return render_template(
