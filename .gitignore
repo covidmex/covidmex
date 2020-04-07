@@ -134,3 +134,8 @@ dmypy.json
 
 # macos metadata
 .DS_Store
+
+
+# Fucking IDE Files
+.idea
+.idea/*

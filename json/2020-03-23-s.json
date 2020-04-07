@@ -1,6 +1,6 @@
 {"datos":[
   {
-    "Caso": 1,
+    "caso": 1,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "RIO VERDE",
     "sexo": "F",
@@ -11,7 +11,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 2,
+    "caso": 2,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -22,7 +22,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 3,
+    "caso": 3,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -33,7 +33,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 4,
+    "caso": 4,
     "estado": "GUERRERO",
     "localidad": "ZONA NORTE",
     "sexo": "M",
@@ -44,7 +44,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 5,
+    "caso": 5,
     "estado": "HIDALGO",
     "localidad": "TULANCINGO",
     "sexo": "F",
@@ -55,7 +55,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 6,
+    "caso": 6,
     "estado": "SONORA",
     "localidad": "SAN LUIS RÍO COLORADO",
     "sexo": "F",
@@ -66,7 +66,7 @@
     "llegada": "2020-02-24"
   },
   {
-    "Caso": 7,
+    "caso": 7,
     "estado": "HIDALGO",
     "localidad": "TULANCINGO",
     "sexo": "F",
@@ -77,7 +77,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 8,
+    "caso": 8,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -88,7 +88,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 9,
+    "caso": 9,
     "estado": "GUERRERO",
     "localidad": "COSTA CHICA",
     "sexo": "M",
@@ -99,7 +99,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 10,
+    "caso": 10,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -110,7 +110,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 11,
+    "caso": 11,
     "estado": "MORELOS",
     "localidad": "CUERNAVACA",
     "sexo": "M",
@@ -121,7 +121,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 12,
+    "caso": 12,
     "estado": "GUERRERO",
     "localidad": "ACAPULCO",
     "sexo": "F",
@@ -132,7 +132,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 13,
+    "caso": 13,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -143,7 +143,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 14,
+    "caso": 14,
     "estado": "COLIMA",
     "localidad": "TECOMAN",
     "sexo": "F",
@@ -154,7 +154,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 15,
+    "caso": 15,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -165,7 +165,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 16,
+    "caso": 16,
     "estado": "JALISCO",
     "localidad": "LAGOS DE MORENO",
     "sexo": "M",
@@ -176,7 +176,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 17,
+    "caso": 17,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -187,7 +187,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 18,
+    "caso": 18,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -198,7 +198,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 19,
+    "caso": 19,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -209,7 +209,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 20,
+    "caso": 20,
     "estado": "GUERRERO",
     "localidad": "ZONA CENTRO",
     "sexo": "F",
@@ -220,7 +220,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 21,
+    "caso": 21,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "F",
@@ -231,7 +231,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 22,
+    "caso": 22,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -242,7 +242,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 23,
+    "caso": 23,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -253,7 +253,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 24,
+    "caso": 24,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "F",
@@ -264,7 +264,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 25,
+    "caso": 25,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "F",
@@ -275,7 +275,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 26,
+    "caso": 26,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -286,7 +286,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 27,
+    "caso": 27,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "M",
@@ -297,7 +297,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 28,
+    "caso": 28,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "M",
@@ -308,7 +308,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 29,
+    "caso": 29,
     "estado": "SONORA",
     "localidad": "CAJEME",
     "sexo": "F",
@@ -319,7 +319,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 30,
+    "caso": 30,
     "estado": "SONORA",
     "localidad": "CAJEME",
     "sexo": "F",
@@ -330,7 +330,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 31,
+    "caso": 31,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -341,7 +341,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 32,
+    "caso": 32,
     "estado": "DURANGO",
     "localidad": "DURANGO",
     "sexo": "F",
@@ -352,7 +352,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 33,
+    "caso": 33,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -363,7 +363,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 34,
+    "caso": 34,
     "estado": "GUERRERO",
     "localidad": "ZONA CENTRO",
     "sexo": "F",
@@ -374,7 +374,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 35,
+    "caso": 35,
     "estado": "CAMPECHE",
     "localidad": "CAMPECHE",
     "sexo": "M",
@@ -385,7 +385,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 36,
+    "caso": 36,
     "estado": "GUERRERO",
     "localidad": "ACAPULCO",
     "sexo": "F",
@@ -396,7 +396,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 37,
+    "caso": 37,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -407,7 +407,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 38,
+    "caso": 38,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -418,7 +418,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 39,
+    "caso": 39,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -429,7 +429,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 40,
+    "caso": 40,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -440,7 +440,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 41,
+    "caso": 41,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -451,7 +451,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 42,
+    "caso": 42,
     "estado": "QUINTANA ROO",
     "localidad": "CHETUMAL",
     "sexo": "M",
@@ -462,7 +462,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 43,
+    "caso": 43,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -473,7 +473,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 44,
+    "caso": 44,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -484,7 +484,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 45,
+    "caso": 45,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -495,7 +495,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 46,
+    "caso": 46,
     "estado": "MICHOACÁN",
     "localidad": "LAZARO CARDENAS",
     "sexo": "M",
@@ -506,7 +506,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 47,
+    "caso": 47,
     "estado": "CHIHUAHUA",
     "localidad": "CIUDAD JUAREZ",
     "sexo": "M",
@@ -517,7 +517,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 48,
+    "caso": 48,
     "estado": "MÉXICO",
     "localidad": "CUAUTITLAN",
     "sexo": "M",
@@ -528,7 +528,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 49,
+    "caso": 49,
     "estado": "MICHOACÁN",
     "localidad": "MORELIA",
     "sexo": "F",
@@ -539,7 +539,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 50,
+    "caso": 50,
     "estado": "MICHOACÁN",
     "localidad": "LAZARO CARDENAS",
     "sexo": "F",
@@ -550,7 +550,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 51,
+    "caso": 51,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -561,7 +561,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 52,
+    "caso": 52,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -572,7 +572,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 53,
+    "caso": 53,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -583,7 +583,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 54,
+    "caso": 54,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -594,7 +594,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 55,
+    "caso": 55,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -605,7 +605,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 56,
+    "caso": 56,
     "estado": "COAHUILA",
     "localidad": "SALTILLO",
     "sexo": "F",
@@ -616,7 +616,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 57,
+    "caso": 57,
     "estado": "TLAXCALA",
     "localidad": "TLAXCALA",
     "sexo": "F",
@@ -627,7 +627,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 58,
+    "caso": 58,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -638,7 +638,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 59,
+    "caso": 59,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -649,7 +649,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 60,
+    "caso": 60,
     "estado": "GUERRERO",
     "localidad": "ZONA CENTRO",
     "sexo": "M",
@@ -660,7 +660,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 61,
+    "caso": 61,
     "estado": "JALISCO",
     "localidad": "LAGOS DE MORENO",
     "sexo": "M",
@@ -671,7 +671,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 62,
+    "caso": 62,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -682,7 +682,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 63,
+    "caso": 63,
     "estado": "VERACRUZ",
     "localidad": "JALAPA",
     "sexo": "M",
@@ -693,7 +693,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 64,
+    "caso": 64,
     "estado": "TLAXCALA",
     "localidad": "TLAXCALA",
     "sexo": "M",
@@ -704,7 +704,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 65,
+    "caso": 65,
     "estado": "BAJA CALIFORNIA",
     "localidad": "VICENTE GUERRERO",
     "sexo": "M",
@@ -715,7 +715,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 66,
+    "caso": 66,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -726,7 +726,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 67,
+    "caso": 67,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -737,7 +737,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 68,
+    "caso": 68,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -748,7 +748,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 69,
+    "caso": 69,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -759,7 +759,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 70,
+    "caso": 70,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "GUSTAVO A. MADERO",
     "sexo": "F",
@@ -770,7 +770,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 71,
+    "caso": 71,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -781,7 +781,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 72,
+    "caso": 72,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -792,7 +792,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 73,
+    "caso": 73,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -803,7 +803,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 74,
+    "caso": 74,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -814,7 +814,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 75,
+    "caso": 75,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -825,7 +825,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 76,
+    "caso": 76,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -836,7 +836,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 77,
+    "caso": 77,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -847,7 +847,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 78,
+    "caso": 78,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -858,7 +858,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 79,
+    "caso": 79,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -869,7 +869,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 80,
+    "caso": 80,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -880,7 +880,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 81,
+    "caso": 81,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "M",
@@ -891,7 +891,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 82,
+    "caso": 82,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -902,7 +902,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 83,
+    "caso": 83,
     "estado": "COLIMA",
     "localidad": "COLIMA",
     "sexo": "F",
@@ -913,7 +913,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 84,
+    "caso": 84,
     "estado": "JALISCO",
     "localidad": "PUERTO VALLARTA",
     "sexo": "F",
@@ -924,7 +924,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 85,
+    "caso": 85,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "F",
@@ -935,7 +935,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 86,
+    "caso": 86,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "F",
@@ -946,7 +946,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 87,
+    "caso": 87,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -957,7 +957,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 88,
+    "caso": 88,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -968,7 +968,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 89,
+    "caso": 89,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -979,7 +979,7 @@
     "llegada": "2020-02-07"
   },
   {
-    "Caso": 90,
+    "caso": 90,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -990,7 +990,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 91,
+    "caso": 91,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1001,7 +1001,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 92,
+    "caso": 92,
     "estado": "NAYARIT",
     "localidad": "TEPIC",
     "sexo": "F",
@@ -1012,7 +1012,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 93,
+    "caso": 93,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1023,7 +1023,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 94,
+    "caso": 94,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1034,7 +1034,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 95,
+    "caso": 95,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -1045,7 +1045,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 96,
+    "caso": 96,
     "estado": "MICHOACÁN",
     "localidad": "URUAPAN",
     "sexo": "F",
@@ -1056,7 +1056,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 97,
+    "caso": 97,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -1067,7 +1067,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 98,
+    "caso": 98,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -1078,7 +1078,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 99,
+    "caso": 99,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -1089,7 +1089,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 100,
+    "caso": 100,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1100,7 +1100,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 101,
+    "caso": 101,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1111,7 +1111,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 102,
+    "caso": 102,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -1122,7 +1122,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 103,
+    "caso": 103,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1133,7 +1133,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 104,
+    "caso": 104,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -1144,7 +1144,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 105,
+    "caso": 105,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -1155,7 +1155,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 106,
+    "caso": 106,
     "estado": "TLAXCALA",
     "localidad": "APIZACO",
     "sexo": "F",
@@ -1166,7 +1166,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 107,
+    "caso": 107,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -1177,7 +1177,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 108,
+    "caso": 108,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -1188,7 +1188,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 109,
+    "caso": 109,
     "estado": "TLAXCALA",
     "localidad": "APIZACO",
     "sexo": "F",
@@ -1199,7 +1199,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 110,
+    "caso": 110,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "F",
@@ -1210,7 +1210,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 111,
+    "caso": 111,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "F",
@@ -1221,7 +1221,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 112,
+    "caso": 112,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1232,7 +1232,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 113,
+    "caso": 113,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1243,7 +1243,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 114,
+    "caso": 114,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -1254,7 +1254,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 115,
+    "caso": 115,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MAGDALENA CONTRERAS",
     "sexo": "M",
@@ -1265,7 +1265,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 116,
+    "caso": 116,
     "estado": "VERACRUZ",
     "localidad": "COATZACOALCOS",
     "sexo": "F",
@@ -1276,7 +1276,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 117,
+    "caso": 117,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MAGDALENA CONTRERAS",
     "sexo": "M",
@@ -1287,7 +1287,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 118,
+    "caso": 118,
     "estado": "GUANAJUATO",
     "localidad": "LEON DELTA",
     "sexo": "M",
@@ -1298,7 +1298,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 119,
+    "caso": 119,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "IZTAPALAPA",
     "sexo": "F",
@@ -1309,7 +1309,7 @@
     "llegada": "2020-02-27"
   },
   {
-    "Caso": 120,
+    "caso": 120,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -1320,7 +1320,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 121,
+    "caso": 121,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -1331,7 +1331,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 122,
+    "caso": 122,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -1342,7 +1342,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 123,
+    "caso": 123,
     "estado": "COLIMA",
     "localidad": "TECOMAN",
     "sexo": "M",
@@ -1353,7 +1353,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 124,
+    "caso": 124,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "IZTAPALAPA",
     "sexo": "F",
@@ -1364,7 +1364,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 125,
+    "caso": 125,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -1375,7 +1375,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 126,
+    "caso": 126,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -1386,7 +1386,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 127,
+    "caso": 127,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -1397,7 +1397,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 128,
+    "caso": 128,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "IZTAPALAPA",
     "sexo": "M",
@@ -1408,7 +1408,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 129,
+    "caso": 129,
     "estado": "TAMAULIPAS",
     "localidad": "TAMPICO",
     "sexo": "M",
@@ -1419,7 +1419,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 130,
+    "caso": 130,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -1430,7 +1430,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 131,
+    "caso": 131,
     "estado": "TLAXCALA",
     "localidad": "TLAXCALA",
     "sexo": "F",
@@ -1441,7 +1441,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 132,
+    "caso": 132,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -1452,7 +1452,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 133,
+    "caso": 133,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "F",
@@ -1463,7 +1463,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 134,
+    "caso": 134,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "F",
@@ -1474,7 +1474,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 135,
+    "caso": 135,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -1485,7 +1485,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 136,
+    "caso": 136,
     "estado": "VERACRUZ",
     "localidad": "COSAMALOAPAN",
     "sexo": "M",
@@ -1496,7 +1496,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 137,
+    "caso": 137,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "F",
@@ -1507,7 +1507,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 138,
+    "caso": 138,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -1518,7 +1518,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 139,
+    "caso": 139,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -1529,7 +1529,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 140,
+    "caso": 140,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -1540,7 +1540,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 141,
+    "caso": 141,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -1551,7 +1551,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 142,
+    "caso": 142,
     "estado": "SINALOA",
     "localidad": "VI",
     "sexo": "M",
@@ -1562,7 +1562,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 143,
+    "caso": 143,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1573,7 +1573,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 144,
+    "caso": 144,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -1584,7 +1584,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 145,
+    "caso": 145,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -1595,7 +1595,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 146,
+    "caso": 146,
     "estado": "MÉXICO",
     "localidad": "TEXCOCO",
     "sexo": "F",
@@ -1606,7 +1606,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 147,
+    "caso": 147,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -1617,7 +1617,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 148,
+    "caso": 148,
     "estado": "JALISCO",
     "localidad": "TAMAZULA",
     "sexo": "F",
@@ -1628,7 +1628,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 149,
+    "caso": 149,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -1639,7 +1639,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 150,
+    "caso": 150,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -1650,7 +1650,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 151,
+    "caso": 151,
     "estado": "ZACATECAS",
     "localidad": "ZACATECAS",
     "sexo": "M",
@@ -1661,7 +1661,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 152,
+    "caso": 152,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -1672,7 +1672,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 153,
+    "caso": 153,
     "estado": "MÉXICO",
     "localidad": "ZUMPANGO",
     "sexo": "F",
@@ -1683,7 +1683,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 154,
+    "caso": 154,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -1694,7 +1694,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 155,
+    "caso": 155,
     "estado": "PUEBLA",
     "localidad": "SAN SALVADOR EL SECO",
     "sexo": "M",
@@ -1705,7 +1705,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 156,
+    "caso": 156,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -1716,7 +1716,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 157,
+    "caso": 157,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -1727,7 +1727,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 158,
+    "caso": 158,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1738,7 +1738,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 159,
+    "caso": 159,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -1749,7 +1749,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 160,
+    "caso": 160,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "F",
@@ -1760,7 +1760,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 161,
+    "caso": 161,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -1771,7 +1771,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 162,
+    "caso": 162,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -1782,7 +1782,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 163,
+    "caso": 163,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -1793,7 +1793,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 164,
+    "caso": 164,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1804,7 +1804,7 @@
     "llegada": "2020-02-03"
   },
   {
-    "Caso": 165,
+    "caso": 165,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -1815,7 +1815,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 166,
+    "caso": 166,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -1826,7 +1826,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 167,
+    "caso": 167,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -1837,7 +1837,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 168,
+    "caso": 168,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -1848,7 +1848,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 169,
+    "caso": 169,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -1859,7 +1859,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 170,
+    "caso": 170,
     "estado": "MÉXICO",
     "localidad": "CUAUTITLAN",
     "sexo": "M",
@@ -1870,7 +1870,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 171,
+    "caso": 171,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -1881,7 +1881,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 172,
+    "caso": 172,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -1892,7 +1892,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 173,
+    "caso": 173,
     "estado": "MORELOS",
     "localidad": "CUAUTLA",
     "sexo": "F",
@@ -1903,7 +1903,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 174,
+    "caso": 174,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -1914,7 +1914,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 175,
+    "caso": 175,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -1925,7 +1925,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 176,
+    "caso": 176,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -1936,7 +1936,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 177,
+    "caso": 177,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -1947,7 +1947,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 178,
+    "caso": 178,
     "estado": "GUANAJUATO",
     "localidad": "LEON DELTA",
     "sexo": "F",
@@ -1958,7 +1958,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 179,
+    "caso": 179,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -1969,7 +1969,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 180,
+    "caso": 180,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -1980,7 +1980,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 181,
+    "caso": 181,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "F",
@@ -1991,7 +1991,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 182,
+    "caso": 182,
     "estado": "GUANAJUATO",
     "localidad": "GUANAJUATO",
     "sexo": "M",
@@ -2002,7 +2002,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 183,
+    "caso": 183,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "VENUSTIANO CARRANZA",
     "sexo": "M",
@@ -2013,7 +2013,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 184,
+    "caso": 184,
     "estado": "JALISCO",
     "localidad": "LAGOS DE MORENO",
     "sexo": "M",
@@ -2024,7 +2024,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 185,
+    "caso": 185,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "VENUSTIANO CARRANZA",
     "sexo": "F",
@@ -2035,7 +2035,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 186,
+    "caso": 186,
     "estado": "SINALOA",
     "localidad": "I",
     "sexo": "F",
@@ -2046,7 +2046,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 187,
+    "caso": 187,
     "estado": "MÉXICO",
     "localidad": "AMECAMECA",
     "sexo": "M",
@@ -2057,7 +2057,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 188,
+    "caso": 188,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2068,7 +2068,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 189,
+    "caso": 189,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -2079,7 +2079,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 190,
+    "caso": 190,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -2090,7 +2090,7 @@
     "llegada": "2020-02-20"
   },
   {
-    "Caso": 191,
+    "caso": 191,
     "estado": "SINALOA",
     "localidad": "I",
     "sexo": "M",
@@ -2101,7 +2101,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 192,
+    "caso": 192,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -2112,7 +2112,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 193,
+    "caso": 193,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -2123,7 +2123,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 194,
+    "caso": 194,
     "estado": "CHIAPAS",
     "localidad": "PICHUCALCO",
     "sexo": "M",
@@ -2134,7 +2134,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 195,
+    "caso": 195,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -2145,7 +2145,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 196,
+    "caso": 196,
     "estado": "MÉXICO",
     "localidad": "ZUMPANGO",
     "sexo": "F",
@@ -2156,7 +2156,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 197,
+    "caso": 197,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2167,7 +2167,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 198,
+    "caso": 198,
     "estado": "VERACRUZ",
     "localidad": "POZA RICA",
     "sexo": "M",
@@ -2178,7 +2178,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 199,
+    "caso": 199,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -2189,7 +2189,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 200,
+    "caso": 200,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -2200,7 +2200,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 201,
+    "caso": 201,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -2211,7 +2211,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 202,
+    "caso": 202,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2222,7 +2222,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 203,
+    "caso": 203,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -2233,7 +2233,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 204,
+    "caso": 204,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -2244,7 +2244,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 205,
+    "caso": 205,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2255,7 +2255,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 206,
+    "caso": 206,
     "estado": "TLAXCALA",
     "localidad": "TLAXCALA",
     "sexo": "F",
@@ -2266,7 +2266,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 207,
+    "caso": 207,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "ALVARO OBREGON",
     "sexo": "F",
@@ -2277,7 +2277,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 208,
+    "caso": 208,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -2288,7 +2288,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 209,
+    "caso": 209,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -2299,7 +2299,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 210,
+    "caso": 210,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -2310,7 +2310,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 211,
+    "caso": 211,
     "estado": "NUEVO LEÓN",
     "localidad": "HIDALGO",
     "sexo": "M",
@@ -2321,7 +2321,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 212,
+    "caso": 212,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -2332,7 +2332,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 213,
+    "caso": 213,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -2343,7 +2343,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 214,
+    "caso": 214,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLAHUAC",
     "sexo": "F",
@@ -2354,7 +2354,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 215,
+    "caso": 215,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -2365,7 +2365,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 216,
+    "caso": 216,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -2376,7 +2376,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 217,
+    "caso": 217,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -2387,7 +2387,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 218,
+    "caso": 218,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "F",
@@ -2398,7 +2398,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 219,
+    "caso": 219,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2409,7 +2409,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 220,
+    "caso": 220,
     "estado": "SINALOA",
     "localidad": "VI",
     "sexo": "F",
@@ -2420,7 +2420,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 221,
+    "caso": 221,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -2431,7 +2431,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 222,
+    "caso": 222,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -2442,7 +2442,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 223,
+    "caso": 223,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2453,7 +2453,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 224,
+    "caso": 224,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -2464,7 +2464,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 225,
+    "caso": 225,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -2475,7 +2475,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 226,
+    "caso": 226,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2486,7 +2486,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 227,
+    "caso": 227,
     "estado": "VERACRUZ",
     "localidad": "ORIZABA",
     "sexo": "M",
@@ -2497,7 +2497,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 228,
+    "caso": 228,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2508,7 +2508,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 229,
+    "caso": 229,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2519,7 +2519,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 230,
+    "caso": 230,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2530,7 +2530,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 231,
+    "caso": 231,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -2541,7 +2541,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 232,
+    "caso": 232,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -2552,7 +2552,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 233,
+    "caso": 233,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2563,7 +2563,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 234,
+    "caso": 234,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -2574,7 +2574,7 @@
     "llegada": "2020-02-27"
   },
   {
-    "Caso": 235,
+    "caso": 235,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2585,7 +2585,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 236,
+    "caso": 236,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2596,7 +2596,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 237,
+    "caso": 237,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "F",
@@ -2607,7 +2607,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 238,
+    "caso": 238,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "F",
@@ -2618,7 +2618,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 239,
+    "caso": 239,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -2629,7 +2629,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 240,
+    "caso": 240,
     "estado": "MÉXICO",
     "localidad": "JILOTEPEC",
     "sexo": "F",
@@ -2640,7 +2640,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 241,
+    "caso": 241,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -2651,7 +2651,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 242,
+    "caso": 242,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2662,7 +2662,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 243,
+    "caso": 243,
     "estado": "VERACRUZ",
     "localidad": "JALAPA",
     "sexo": "F",
@@ -2673,7 +2673,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 244,
+    "caso": 244,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2684,7 +2684,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 245,
+    "caso": 245,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -2695,7 +2695,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 246,
+    "caso": 246,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -2706,7 +2706,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 247,
+    "caso": 247,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -2717,7 +2717,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 248,
+    "caso": 248,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2728,7 +2728,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 249,
+    "caso": 249,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -2739,7 +2739,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 250,
+    "caso": 250,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2750,7 +2750,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 251,
+    "caso": 251,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -2761,7 +2761,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 252,
+    "caso": 252,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -2772,7 +2772,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 253,
+    "caso": 253,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2783,7 +2783,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 254,
+    "caso": 254,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2794,7 +2794,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 255,
+    "caso": 255,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -2805,7 +2805,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 256,
+    "caso": 256,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2816,7 +2816,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 257,
+    "caso": 257,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2827,7 +2827,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 258,
+    "caso": 258,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -2838,7 +2838,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 259,
+    "caso": 259,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2849,7 +2849,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 260,
+    "caso": 260,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -2860,7 +2860,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 261,
+    "caso": 261,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -2871,7 +2871,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 262,
+    "caso": 262,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -2882,7 +2882,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 263,
+    "caso": 263,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -2893,7 +2893,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 264,
+    "caso": 264,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -2904,7 +2904,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 265,
+    "caso": 265,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -2915,7 +2915,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 266,
+    "caso": 266,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -2926,7 +2926,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 267,
+    "caso": 267,
     "estado": "BAJA CALIFORNIA SUR",
     "localidad": "LOS CABOS",
     "sexo": "F",
@@ -2937,7 +2937,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 268,
+    "caso": 268,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "F",
@@ -2948,7 +2948,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 269,
+    "caso": 269,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -2959,7 +2959,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 270,
+    "caso": 270,
     "estado": "TABASCO",
     "localidad": "CARDENAS",
     "sexo": "M",
@@ -2970,7 +2970,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 271,
+    "caso": 271,
     "estado": "CHIHUAHUA",
     "localidad": "CHIHUAHUA",
     "sexo": "F",
@@ -2981,7 +2981,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 272,
+    "caso": 272,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -2992,7 +2992,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 273,
+    "caso": 273,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3003,7 +3003,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 274,
+    "caso": 274,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -3014,7 +3014,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 275,
+    "caso": 275,
     "estado": "TABASCO",
     "localidad": "CARDENAS",
     "sexo": "M",
@@ -3025,7 +3025,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 276,
+    "caso": 276,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3036,7 +3036,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 277,
+    "caso": 277,
     "estado": "JALISCO",
     "localidad": "LA BARCA",
     "sexo": "F",
@@ -3047,7 +3047,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 278,
+    "caso": 278,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -3058,7 +3058,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 279,
+    "caso": 279,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3069,7 +3069,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 280,
+    "caso": 280,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -3080,7 +3080,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 281,
+    "caso": 281,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3091,7 +3091,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 282,
+    "caso": 282,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -3102,7 +3102,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 283,
+    "caso": 283,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -3113,7 +3113,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 284,
+    "caso": 284,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -3124,7 +3124,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 285,
+    "caso": 285,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -3135,7 +3135,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 286,
+    "caso": 286,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -3146,7 +3146,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 287,
+    "caso": 287,
     "estado": "BAJA CALIFORNIA SUR",
     "localidad": "LOS CABOS",
     "sexo": "M",
@@ -3157,7 +3157,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 288,
+    "caso": 288,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "F",
@@ -3168,7 +3168,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 289,
+    "caso": 289,
     "estado": "SONORA",
     "localidad": "SANTA ANA",
     "sexo": "M",
@@ -3179,7 +3179,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 290,
+    "caso": 290,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -3190,7 +3190,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 291,
+    "caso": 291,
     "estado": "BAJA CALIFORNIA SUR",
     "localidad": "LA PAZ",
     "sexo": "M",
@@ -3201,7 +3201,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 292,
+    "caso": 292,
     "estado": "BAJA CALIFORNIA SUR",
     "localidad": "LA PAZ",
     "sexo": "F",
@@ -3212,7 +3212,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 293,
+    "caso": 293,
     "estado": "MÉXICO",
     "localidad": "ATLACOMULCO",
     "sexo": "M",
@@ -3223,7 +3223,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 294,
+    "caso": 294,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3234,7 +3234,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 295,
+    "caso": 295,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3245,7 +3245,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 296,
+    "caso": 296,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3256,7 +3256,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 297,
+    "caso": 297,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3267,7 +3267,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 298,
+    "caso": 298,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3278,7 +3278,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 299,
+    "caso": 299,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3289,7 +3289,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 300,
+    "caso": 300,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3300,7 +3300,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 301,
+    "caso": 301,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "F",
@@ -3311,7 +3311,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 302,
+    "caso": 302,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -3322,7 +3322,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 303,
+    "caso": 303,
     "estado": "MÉXICO",
     "localidad": "TENANGO DEL VALLE",
     "sexo": "F",
@@ -3333,7 +3333,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 304,
+    "caso": 304,
     "estado": "GUANAJUATO",
     "localidad": "SAN MIGUEL DE ALLENDE",
     "sexo": "M",
@@ -3344,7 +3344,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 305,
+    "caso": 305,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -3355,7 +3355,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 306,
+    "caso": 306,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -3366,7 +3366,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 307,
+    "caso": 307,
     "estado": "GUANAJUATO",
     "localidad": "ACAMBARO",
     "sexo": "M",
@@ -3377,7 +3377,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 308,
+    "caso": 308,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -3388,7 +3388,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 309,
+    "caso": 309,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "M",
@@ -3399,7 +3399,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 310,
+    "caso": 310,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3410,7 +3410,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 311,
+    "caso": 311,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3421,7 +3421,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 312,
+    "caso": 312,
     "estado": "GUANAJUATO",
     "localidad": "CELAYA",
     "sexo": "F",
@@ -3432,7 +3432,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 313,
+    "caso": 313,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3443,7 +3443,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 314,
+    "caso": 314,
     "estado": "GUANAJUATO",
     "localidad": "SAN MIGUEL DE ALLENDE",
     "sexo": "M",
@@ -3454,7 +3454,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 315,
+    "caso": 315,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3465,7 +3465,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 316,
+    "caso": 316,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3476,7 +3476,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 317,
+    "caso": 317,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MAGDALENA CONTRERAS",
     "sexo": "F",
@@ -3487,7 +3487,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 318,
+    "caso": 318,
     "estado": "COAHUILA",
     "localidad": "TORREON",
     "sexo": "F",
@@ -3498,7 +3498,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 319,
+    "caso": 319,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3509,7 +3509,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 320,
+    "caso": 320,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3520,7 +3520,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 321,
+    "caso": 321,
     "estado": "MÉXICO",
     "localidad": "ATIZAPAN DE ZARAGOZA",
     "sexo": "F",
@@ -3531,7 +3531,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 322,
+    "caso": 322,
     "estado": "GUANAJUATO",
     "localidad": "CELAYA",
     "sexo": "F",
@@ -3542,7 +3542,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 323,
+    "caso": 323,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -3553,7 +3553,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 324,
+    "caso": 324,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3564,7 +3564,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 325,
+    "caso": 325,
     "estado": "MÉXICO",
     "localidad": "AMECAMECA",
     "sexo": "F",
@@ -3575,7 +3575,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 326,
+    "caso": 326,
     "estado": "ZACATECAS",
     "localidad": "ZACATECAS",
     "sexo": "M",
@@ -3586,7 +3586,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 327,
+    "caso": 327,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3597,7 +3597,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 328,
+    "caso": 328,
     "estado": "MÉXICO",
     "localidad": "TEXCOCO",
     "sexo": "M",
@@ -3608,7 +3608,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 329,
+    "caso": 329,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -3619,7 +3619,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 330,
+    "caso": 330,
     "estado": "MÉXICO",
     "localidad": "NAUCALPAN",
     "sexo": "F",
@@ -3630,7 +3630,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 331,
+    "caso": 331,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "M",
@@ -3641,7 +3641,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 332,
+    "caso": 332,
     "estado": "MÉXICO",
     "localidad": "TEXCOCO",
     "sexo": "M",
@@ -3652,7 +3652,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 333,
+    "caso": 333,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -3663,7 +3663,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 334,
+    "caso": 334,
     "estado": "MÉXICO",
     "localidad": "AMECAMECA",
     "sexo": "M",
@@ -3674,7 +3674,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 335,
+    "caso": 335,
     "estado": "SINALOA",
     "localidad": "IV",
     "sexo": "F",
@@ -3685,7 +3685,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 336,
+    "caso": 336,
     "estado": "MÉXICO",
     "localidad": "NAUCALPAN",
     "sexo": "M",
@@ -3696,7 +3696,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 337,
+    "caso": 337,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3707,7 +3707,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 338,
+    "caso": 338,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -3718,7 +3718,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 339,
+    "caso": 339,
     "estado": "MÉXICO",
     "localidad": "TEXCOCO",
     "sexo": "F",
@@ -3729,7 +3729,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 340,
+    "caso": 340,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "F",
@@ -3740,7 +3740,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 341,
+    "caso": 341,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "M",
@@ -3751,7 +3751,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 342,
+    "caso": 342,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -3762,7 +3762,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 343,
+    "caso": 343,
     "estado": "JALISCO",
     "localidad": "AUTLAN",
     "sexo": "M",
@@ -3773,7 +3773,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 344,
+    "caso": 344,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3784,7 +3784,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 345,
+    "caso": 345,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -3795,7 +3795,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 346,
+    "caso": 346,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -3806,7 +3806,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 347,
+    "caso": 347,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -3817,7 +3817,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 348,
+    "caso": 348,
     "estado": "SINALOA",
     "localidad": "IV",
     "sexo": "F",
@@ -3828,7 +3828,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 349,
+    "caso": 349,
     "estado": "MÉXICO",
     "localidad": "CUAUTITLAN",
     "sexo": "M",
@@ -3839,7 +3839,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 350,
+    "caso": 350,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "F",
@@ -3850,7 +3850,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 351,
+    "caso": 351,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -3861,7 +3861,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 352,
+    "caso": 352,
     "estado": "JALISCO",
     "localidad": "AUTLAN",
     "sexo": "F",
@@ -3872,7 +3872,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 353,
+    "caso": 353,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -3883,7 +3883,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 354,
+    "caso": 354,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MILPA ALTA",
     "sexo": "M",
@@ -3894,7 +3894,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 355,
+    "caso": 355,
     "estado": "JALISCO",
     "localidad": "AUTLAN",
     "sexo": "F",
@@ -3905,7 +3905,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 356,
+    "caso": 356,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -3916,7 +3916,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 357,
+    "caso": 357,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -3927,7 +3927,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 358,
+    "caso": 358,
     "estado": "MÉXICO",
     "localidad": "NAUCALPAN",
     "sexo": "F",
@@ -3938,7 +3938,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 359,
+    "caso": 359,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "M",
@@ -3949,7 +3949,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 360,
+    "caso": 360,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -3960,7 +3960,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 361,
+    "caso": 361,
     "estado": "MICHOACÁN",
     "localidad": "MORELIA",
     "sexo": "F",
@@ -3971,7 +3971,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 362,
+    "caso": 362,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "F",
@@ -3982,7 +3982,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 363,
+    "caso": 363,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -3993,7 +3993,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 364,
+    "caso": 364,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -4004,7 +4004,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 365,
+    "caso": 365,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -4015,7 +4015,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 366,
+    "caso": 366,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -4026,7 +4026,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 367,
+    "caso": 367,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -4037,7 +4037,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 368,
+    "caso": 368,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4048,7 +4048,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 369,
+    "caso": 369,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4059,7 +4059,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 370,
+    "caso": 370,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -4070,7 +4070,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 371,
+    "caso": 371,
     "estado": "NUEVO LEÓN",
     "localidad": "HIDALGO",
     "sexo": "F",
@@ -4081,7 +4081,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 372,
+    "caso": 372,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4092,7 +4092,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 373,
+    "caso": 373,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4103,7 +4103,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 374,
+    "caso": 374,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "F",
@@ -4114,7 +4114,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 375,
+    "caso": 375,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -4125,7 +4125,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 376,
+    "caso": 376,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4136,7 +4136,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 377,
+    "caso": 377,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4147,7 +4147,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 378,
+    "caso": 378,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4158,7 +4158,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 379,
+    "caso": 379,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4169,7 +4169,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 380,
+    "caso": 380,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4180,7 +4180,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 381,
+    "caso": 381,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4191,7 +4191,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 382,
+    "caso": 382,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4202,7 +4202,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 383,
+    "caso": 383,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4213,7 +4213,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 384,
+    "caso": 384,
     "estado": "PUEBLA",
     "localidad": "HUEJOTZINGO",
     "sexo": "M",
@@ -4224,7 +4224,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 385,
+    "caso": 385,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4235,7 +4235,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 386,
+    "caso": 386,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -4246,7 +4246,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 387,
+    "caso": 387,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4257,7 +4257,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 388,
+    "caso": 388,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -4268,7 +4268,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 389,
+    "caso": 389,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4279,7 +4279,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 390,
+    "caso": 390,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4290,7 +4290,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 391,
+    "caso": 391,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4301,7 +4301,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 392,
+    "caso": 392,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -4312,7 +4312,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 393,
+    "caso": 393,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "F",
@@ -4323,7 +4323,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 394,
+    "caso": 394,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -4334,7 +4334,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 395,
+    "caso": 395,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4345,7 +4345,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 396,
+    "caso": 396,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "M",
@@ -4356,7 +4356,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 397,
+    "caso": 397,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4367,7 +4367,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 398,
+    "caso": 398,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4378,7 +4378,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 399,
+    "caso": 399,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -4389,7 +4389,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 400,
+    "caso": 400,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -4400,7 +4400,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 401,
+    "caso": 401,
     "estado": "GUANAJUATO",
     "localidad": "LEON DELTA",
     "sexo": "F",
@@ -4411,7 +4411,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 402,
+    "caso": 402,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -4422,7 +4422,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 403,
+    "caso": 403,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4433,7 +4433,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 404,
+    "caso": 404,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -4444,7 +4444,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 405,
+    "caso": 405,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4455,7 +4455,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 406,
+    "caso": 406,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "F",
@@ -4466,7 +4466,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 407,
+    "caso": 407,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4477,7 +4477,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 408,
+    "caso": 408,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "M",
@@ -4488,7 +4488,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 409,
+    "caso": 409,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "M",
@@ -4499,7 +4499,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 410,
+    "caso": 410,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -4510,7 +4510,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 411,
+    "caso": 411,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4521,7 +4521,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 412,
+    "caso": 412,
     "estado": "PUEBLA",
     "localidad": "IZUCAR DE MATAMOROS",
     "sexo": "M",
@@ -4532,7 +4532,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 413,
+    "caso": 413,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4543,7 +4543,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 414,
+    "caso": 414,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4554,7 +4554,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 415,
+    "caso": 415,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4565,7 +4565,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 416,
+    "caso": 416,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -4576,7 +4576,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 417,
+    "caso": 417,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4587,7 +4587,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 418,
+    "caso": 418,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -4598,7 +4598,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 419,
+    "caso": 419,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4609,7 +4609,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 420,
+    "caso": 420,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4620,7 +4620,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 421,
+    "caso": 421,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4631,7 +4631,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 422,
+    "caso": 422,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4642,7 +4642,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 423,
+    "caso": 423,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4653,7 +4653,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 424,
+    "caso": 424,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "M",
@@ -4664,7 +4664,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 425,
+    "caso": 425,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -4675,7 +4675,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 426,
+    "caso": 426,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4686,7 +4686,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 427,
+    "caso": 427,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4697,7 +4697,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 428,
+    "caso": 428,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4708,7 +4708,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 429,
+    "caso": 429,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4719,7 +4719,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 430,
+    "caso": 430,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4730,7 +4730,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 431,
+    "caso": 431,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4741,7 +4741,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 432,
+    "caso": 432,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4752,7 +4752,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 433,
+    "caso": 433,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4763,7 +4763,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 434,
+    "caso": 434,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "M",
@@ -4774,7 +4774,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 435,
+    "caso": 435,
     "estado": "PUEBLA",
     "localidad": "IZUCAR DE MATAMOROS",
     "sexo": "F",
@@ -4785,7 +4785,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 436,
+    "caso": 436,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -4796,7 +4796,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 437,
+    "caso": 437,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -4807,7 +4807,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 438,
+    "caso": 438,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4818,7 +4818,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 439,
+    "caso": 439,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4829,7 +4829,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 440,
+    "caso": 440,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4840,7 +4840,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 441,
+    "caso": 441,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4851,7 +4851,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 442,
+    "caso": 442,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -4862,7 +4862,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 443,
+    "caso": 443,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -4873,7 +4873,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 444,
+    "caso": 444,
     "estado": "VERACRUZ",
     "localidad": "POZA RICA",
     "sexo": "F",
@@ -4884,7 +4884,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 445,
+    "caso": 445,
     "estado": "COLIMA",
     "localidad": "MANZANILLO",
     "sexo": "M",
@@ -4895,7 +4895,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 446,
+    "caso": 446,
     "estado": "NUEVO LEÓN",
     "localidad": "SANTA CATARINA",
     "sexo": "F",
@@ -4906,7 +4906,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 447,
+    "caso": 447,
     "estado": "NUEVO LEÓN",
     "localidad": "SANTA CATARINA",
     "sexo": "M",
@@ -4917,7 +4917,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 448,
+    "caso": 448,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -4928,7 +4928,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 449,
+    "caso": 449,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MAGDALENA CONTRERAS",
     "sexo": "F",
@@ -4939,7 +4939,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 450,
+    "caso": 450,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -4950,7 +4950,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 451,
+    "caso": 451,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -4961,7 +4961,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 452,
+    "caso": 452,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -4972,7 +4972,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 453,
+    "caso": 453,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -4983,7 +4983,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 454,
+    "caso": 454,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -4994,7 +4994,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 455,
+    "caso": 455,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -5005,7 +5005,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 456,
+    "caso": 456,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5016,7 +5016,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 457,
+    "caso": 457,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -5027,7 +5027,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 458,
+    "caso": 458,
     "estado": "SONORA",
     "localidad": "SANTA ANA",
     "sexo": "F",
@@ -5038,7 +5038,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 459,
+    "caso": 459,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -5049,7 +5049,7 @@
     "llegada": "2020-03-21"
   },
   {
-    "Caso": 460,
+    "caso": 460,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLAHUAC",
     "sexo": "F",
@@ -5060,7 +5060,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 461,
+    "caso": 461,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5071,7 +5071,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 462,
+    "caso": 462,
     "estado": "CAMPECHE",
     "localidad": "CAMPECHE",
     "sexo": "M",
@@ -5082,7 +5082,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 463,
+    "caso": 463,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -5093,7 +5093,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 464,
+    "caso": 464,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLAHUAC",
     "sexo": "F",
@@ -5104,7 +5104,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 465,
+    "caso": 465,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -5115,7 +5115,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 466,
+    "caso": 466,
     "estado": "COAHUILA",
     "localidad": "SABINAS",
     "sexo": "M",
@@ -5126,7 +5126,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 467,
+    "caso": 467,
     "estado": "SINALOA",
     "localidad": "VI",
     "sexo": "F",
@@ -5137,7 +5137,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 468,
+    "caso": 468,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLAHUAC",
     "sexo": "F",
@@ -5148,7 +5148,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 469,
+    "caso": 469,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5159,7 +5159,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 470,
+    "caso": 470,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "M",
@@ -5170,7 +5170,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 471,
+    "caso": 471,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -5181,7 +5181,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 472,
+    "caso": 472,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -5192,7 +5192,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 473,
+    "caso": 473,
     "estado": "SONORA",
     "localidad": "CAJEME",
     "sexo": "F",
@@ -5203,7 +5203,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 474,
+    "caso": 474,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -5214,7 +5214,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 475,
+    "caso": 475,
     "estado": "SINALOA",
     "localidad": "VI",
     "sexo": "F",
@@ -5225,7 +5225,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 476,
+    "caso": 476,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -5236,7 +5236,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 477,
+    "caso": 477,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "M",
@@ -5247,7 +5247,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 478,
+    "caso": 478,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "F",
@@ -5258,7 +5258,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 479,
+    "caso": 479,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -5269,7 +5269,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 480,
+    "caso": 480,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5280,7 +5280,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 481,
+    "caso": 481,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -5291,7 +5291,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 482,
+    "caso": 482,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -5302,7 +5302,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 483,
+    "caso": 483,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5313,7 +5313,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 484,
+    "caso": 484,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "F",
@@ -5324,7 +5324,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 485,
+    "caso": 485,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -5335,7 +5335,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 486,
+    "caso": 486,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -5346,7 +5346,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 487,
+    "caso": 487,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "F",
@@ -5357,7 +5357,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 488,
+    "caso": 488,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "M",
@@ -5368,7 +5368,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 489,
+    "caso": 489,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "M",
@@ -5379,7 +5379,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 490,
+    "caso": 490,
     "estado": "JALISCO",
     "localidad": "PUERTO VALLARTA",
     "sexo": "F",
@@ -5390,7 +5390,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 491,
+    "caso": 491,
     "estado": "GUANAJUATO",
     "localidad": "GUANAJUATO",
     "sexo": "F",
@@ -5401,7 +5401,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 492,
+    "caso": 492,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -5412,7 +5412,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 493,
+    "caso": 493,
     "estado": "GUANAJUATO",
     "localidad": "GUANAJUATO",
     "sexo": "M",
@@ -5423,7 +5423,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 494,
+    "caso": 494,
     "estado": "JALISCO",
     "localidad": "PUERTO VALLARTA",
     "sexo": "M",
@@ -5434,7 +5434,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 495,
+    "caso": 495,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -5445,7 +5445,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 496,
+    "caso": 496,
     "estado": "COAHUILA",
     "localidad": "MONCLOVA",
     "sexo": "F",
@@ -5456,7 +5456,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 497,
+    "caso": 497,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "M",
@@ -5467,7 +5467,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 498,
+    "caso": 498,
     "estado": "JALISCO",
     "localidad": "PUERTO VALLARTA",
     "sexo": "F",
@@ -5478,7 +5478,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 499,
+    "caso": 499,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -5489,7 +5489,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 500,
+    "caso": 500,
     "estado": "JALISCO",
     "localidad": "PUERTO VALLARTA",
     "sexo": "F",
@@ -5500,7 +5500,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 501,
+    "caso": 501,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -5511,7 +5511,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 502,
+    "caso": 502,
     "estado": "JALISCO",
     "localidad": "LA BARCA",
     "sexo": "M",
@@ -5522,7 +5522,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 503,
+    "caso": 503,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5533,7 +5533,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 504,
+    "caso": 504,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5544,7 +5544,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 505,
+    "caso": 505,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -5555,7 +5555,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 506,
+    "caso": 506,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5566,7 +5566,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 507,
+    "caso": 507,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -5577,7 +5577,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 508,
+    "caso": 508,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -5588,7 +5588,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 509,
+    "caso": 509,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5599,7 +5599,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 510,
+    "caso": 510,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5610,7 +5610,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 511,
+    "caso": 511,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -5621,7 +5621,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 512,
+    "caso": 512,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -5632,7 +5632,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 513,
+    "caso": 513,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -5643,7 +5643,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 514,
+    "caso": 514,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -5654,7 +5654,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 515,
+    "caso": 515,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -5665,7 +5665,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 516,
+    "caso": 516,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -5676,7 +5676,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 517,
+    "caso": 517,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -5687,7 +5687,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 518,
+    "caso": 518,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5698,7 +5698,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 519,
+    "caso": 519,
     "estado": "COAHUILA",
     "localidad": "PIEDRAS NEGRAS",
     "sexo": "F",
@@ -5709,7 +5709,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 520,
+    "caso": 520,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5720,7 +5720,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 521,
+    "caso": 521,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -5731,7 +5731,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 522,
+    "caso": 522,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -5742,7 +5742,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 523,
+    "caso": 523,
     "estado": "JALISCO",
     "localidad": "CENTRO TONALA",
     "sexo": "F",
@@ -5753,7 +5753,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 524,
+    "caso": 524,
     "estado": "COAHUILA",
     "localidad": "PIEDRAS NEGRAS",
     "sexo": "M",
@@ -5764,7 +5764,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 525,
+    "caso": 525,
     "estado": "JALISCO",
     "localidad": "CENTRO TONALA",
     "sexo": "F",
@@ -5775,7 +5775,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 526,
+    "caso": 526,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "F",
@@ -5786,7 +5786,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 527,
+    "caso": 527,
     "estado": "SINALOA",
     "localidad": "I",
     "sexo": "M",
@@ -5797,7 +5797,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 528,
+    "caso": 528,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -5808,7 +5808,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 529,
+    "caso": 529,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5819,7 +5819,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 530,
+    "caso": 530,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -5830,7 +5830,7 @@
     "llegada": "2020-02-26"
   },
   {
-    "Caso": 531,
+    "caso": 531,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5841,7 +5841,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 532,
+    "caso": 532,
     "estado": "COAHUILA",
     "localidad": "PIEDRAS NEGRAS",
     "sexo": "F",
@@ -5852,7 +5852,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 533,
+    "caso": 533,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -5863,7 +5863,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 534,
+    "caso": 534,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -5874,7 +5874,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 535,
+    "caso": 535,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -5885,7 +5885,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 536,
+    "caso": 536,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -5896,7 +5896,7 @@
     "llegada": "2020-02-28"
   },
   {
-    "Caso": 537,
+    "caso": 537,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -5907,7 +5907,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 538,
+    "caso": 538,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -5918,7 +5918,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 539,
+    "caso": 539,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -5929,7 +5929,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 540,
+    "caso": 540,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -5940,7 +5940,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 541,
+    "caso": 541,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -5951,7 +5951,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 542,
+    "caso": 542,
     "estado": "CHIHUAHUA",
     "localidad": "CIUDAD JUAREZ",
     "sexo": "F",
@@ -5962,7 +5962,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 543,
+    "caso": 543,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "F",
@@ -5973,7 +5973,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 544,
+    "caso": 544,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -5984,7 +5984,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 545,
+    "caso": 545,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -5995,7 +5995,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 546,
+    "caso": 546,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6006,7 +6006,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 547,
+    "caso": 547,
     "estado": "MICHOACÁN",
     "localidad": "MORELIA",
     "sexo": "M",
@@ -6017,7 +6017,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 548,
+    "caso": 548,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -6028,7 +6028,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 549,
+    "caso": 549,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "RIO VERDE",
     "sexo": "M",
@@ -6039,7 +6039,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 550,
+    "caso": 550,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -6050,7 +6050,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 551,
+    "caso": 551,
     "estado": "CHIHUAHUA",
     "localidad": "CHIHUAHUA",
     "sexo": "F",
@@ -6061,7 +6061,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 552,
+    "caso": 552,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -6072,7 +6072,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 553,
+    "caso": 553,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6083,7 +6083,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 554,
+    "caso": 554,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -6094,7 +6094,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 555,
+    "caso": 555,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6105,7 +6105,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 556,
+    "caso": 556,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6116,7 +6116,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 557,
+    "caso": 557,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6127,7 +6127,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 558,
+    "caso": 558,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6138,7 +6138,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 559,
+    "caso": 559,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -6149,7 +6149,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 560,
+    "caso": 560,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -6160,7 +6160,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 561,
+    "caso": 561,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6171,7 +6171,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 562,
+    "caso": 562,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6182,7 +6182,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 563,
+    "caso": 563,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -6193,7 +6193,7 @@
     "llegada": "2020-03-21"
   },
   {
-    "Caso": 564,
+    "caso": 564,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -6204,7 +6204,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 565,
+    "caso": 565,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "F",
@@ -6215,7 +6215,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 566,
+    "caso": 566,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6226,7 +6226,7 @@
     "llegada": "2020-02-28"
   },
   {
-    "Caso": 567,
+    "caso": 567,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6237,7 +6237,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 568,
+    "caso": 568,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -6248,7 +6248,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 569,
+    "caso": 569,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -6259,7 +6259,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 570,
+    "caso": 570,
     "estado": "JALISCO",
     "localidad": "AMECA",
     "sexo": "M",
@@ -6270,7 +6270,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 571,
+    "caso": 571,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -6281,7 +6281,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 572,
+    "caso": 572,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -6292,7 +6292,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 573,
+    "caso": 573,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -6303,7 +6303,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 574,
+    "caso": 574,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "M",
@@ -6314,7 +6314,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 575,
+    "caso": 575,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -6325,7 +6325,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 576,
+    "caso": 576,
     "estado": "",
     "localidad": "",
     "sexo": "F",
@@ -6336,7 +6336,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 577,
+    "caso": 577,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6347,7 +6347,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 578,
+    "caso": 578,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "M",
@@ -6358,7 +6358,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 579,
+    "caso": 579,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "M",
@@ -6369,7 +6369,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 580,
+    "caso": 580,
     "estado": "COAHUILA",
     "localidad": "TORREON",
     "sexo": "M",
@@ -6380,7 +6380,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 581,
+    "caso": 581,
     "estado": "GUANAJUATO",
     "localidad": "CELAYA",
     "sexo": "F",
@@ -6391,7 +6391,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 582,
+    "caso": 582,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "F",
@@ -6402,7 +6402,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 583,
+    "caso": 583,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -6413,7 +6413,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 584,
+    "caso": 584,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6424,7 +6424,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 585,
+    "caso": 585,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -6435,7 +6435,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 586,
+    "caso": 586,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -6446,7 +6446,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 587,
+    "caso": 587,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -6457,7 +6457,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 588,
+    "caso": 588,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6468,7 +6468,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 589,
+    "caso": 589,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "F",
@@ -6479,7 +6479,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 590,
+    "caso": 590,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -6490,7 +6490,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 591,
+    "caso": 591,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -6501,7 +6501,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 592,
+    "caso": 592,
     "estado": "DURANGO",
     "localidad": "DURANGO",
     "sexo": "F",
@@ -6512,7 +6512,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 593,
+    "caso": 593,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6523,7 +6523,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 594,
+    "caso": 594,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6534,7 +6534,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 595,
+    "caso": 595,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6545,7 +6545,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 596,
+    "caso": 596,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "F",
@@ -6556,7 +6556,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 597,
+    "caso": 597,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -6567,7 +6567,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 598,
+    "caso": 598,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -6578,7 +6578,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 599,
+    "caso": 599,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -6589,7 +6589,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 600,
+    "caso": 600,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "F",
@@ -6600,7 +6600,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 601,
+    "caso": 601,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6611,7 +6611,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 602,
+    "caso": 602,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6622,7 +6622,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 603,
+    "caso": 603,
     "estado": "NUEVO LEÓN",
     "localidad": "SANTA CATARINA",
     "sexo": "M",
@@ -6633,7 +6633,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 604,
+    "caso": 604,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -6644,7 +6644,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 605,
+    "caso": 605,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6655,7 +6655,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 606,
+    "caso": 606,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "F",
@@ -6666,7 +6666,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 607,
+    "caso": 607,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "M",
@@ -6677,7 +6677,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 608,
+    "caso": 608,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "F",
@@ -6688,7 +6688,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 609,
+    "caso": 609,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -6699,7 +6699,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 610,
+    "caso": 610,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -6710,7 +6710,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 611,
+    "caso": 611,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -6721,7 +6721,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 612,
+    "caso": 612,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -6732,7 +6732,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 613,
+    "caso": 613,
     "estado": "CHIHUAHUA",
     "localidad": "CHIHUAHUA",
     "sexo": "F",
@@ -6743,7 +6743,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 614,
+    "caso": 614,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "M",
@@ -6754,7 +6754,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 615,
+    "caso": 615,
     "estado": "TABASCO",
     "localidad": "CENTRO",
     "sexo": "M",
@@ -6765,7 +6765,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 616,
+    "caso": 616,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "F",
@@ -6776,7 +6776,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 617,
+    "caso": 617,
     "estado": "VERACRUZ",
     "localidad": "JALAPA",
     "sexo": "M",
@@ -6787,7 +6787,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 618,
+    "caso": 618,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "F",
@@ -6798,7 +6798,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 619,
+    "caso": 619,
     "estado": "DURANGO",
     "localidad": "DURANGO",
     "sexo": "F",
@@ -6809,7 +6809,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 620,
+    "caso": 620,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6820,7 +6820,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 621,
+    "caso": 621,
     "estado": "BAJA CALIFORNIA SUR",
     "localidad": "COMONDU",
     "sexo": "M",
@@ -6831,7 +6831,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 622,
+    "caso": 622,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6842,7 +6842,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 623,
+    "caso": 623,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -6853,7 +6853,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 624,
+    "caso": 624,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6864,7 +6864,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 625,
+    "caso": 625,
     "estado": "QUERÉTARO",
     "localidad": "SAN JUAN DEL RIO",
     "sexo": "F",
@@ -6875,7 +6875,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 626,
+    "caso": 626,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6886,7 +6886,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 627,
+    "caso": 627,
     "estado": "DURANGO",
     "localidad": "DURANGO",
     "sexo": "M",
@@ -6897,7 +6897,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 628,
+    "caso": 628,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -6908,7 +6908,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 629,
+    "caso": 629,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -6919,7 +6919,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 630,
+    "caso": 630,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -6930,7 +6930,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 631,
+    "caso": 631,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -6941,7 +6941,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 632,
+    "caso": 632,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -6952,7 +6952,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 633,
+    "caso": 633,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -6963,7 +6963,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 634,
+    "caso": 634,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -6974,7 +6974,7 @@
     "llegada": "2020-03-21"
   },
   {
-    "Caso": 635,
+    "caso": 635,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -6985,7 +6985,7 @@
     "llegada": "2020-03-21"
   },
   {
-    "Caso": 636,
+    "caso": 636,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "F",
@@ -6996,7 +6996,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 637,
+    "caso": 637,
     "estado": "GUANAJUATO",
     "localidad": "CELAYA",
     "sexo": "M",
@@ -7007,7 +7007,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 638,
+    "caso": 638,
     "estado": "GUANAJUATO",
     "localidad": "LEON",
     "sexo": "F",
@@ -7018,7 +7018,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 639,
+    "caso": 639,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "F",
@@ -7029,7 +7029,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 640,
+    "caso": 640,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "M",
@@ -7040,7 +7040,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 641,
+    "caso": 641,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "F",
@@ -7051,7 +7051,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 642,
+    "caso": 642,
     "estado": "COLIMA",
     "localidad": "COLIMA",
     "sexo": "M",
@@ -7062,7 +7062,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 643,
+    "caso": 643,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "M",
@@ -7073,7 +7073,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 644,
+    "caso": 644,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "F",
@@ -7084,7 +7084,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 645,
+    "caso": 645,
     "estado": "COAHUILA",
     "localidad": "FRANCISO I. MADERO",
     "sexo": "M",
@@ -7095,7 +7095,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 646,
+    "caso": 646,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "GUSTAVO A. MADERO",
     "sexo": "F",
@@ -7106,7 +7106,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 647,
+    "caso": 647,
     "estado": "MICHOACÁN",
     "localidad": "MORELIA",
     "sexo": "M",
@@ -7117,7 +7117,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 648,
+    "caso": 648,
     "estado": "GUANAJUATO",
     "localidad": "SAN MIGUEL DE ALLENDE",
     "sexo": "M",
@@ -7128,7 +7128,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 649,
+    "caso": 649,
     "estado": "COAHUILA",
     "localidad": "PIEDRAS NEGRAS",
     "sexo": "M",
@@ -7139,7 +7139,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 650,
+    "caso": 650,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -7150,7 +7150,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 651,
+    "caso": 651,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "M",
@@ -7161,7 +7161,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 652,
+    "caso": 652,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "M",
@@ -7172,7 +7172,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 653,
+    "caso": 653,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -7183,7 +7183,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 654,
+    "caso": 654,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7194,7 +7194,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 655,
+    "caso": 655,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "IZTAPALAPA",
     "sexo": "M",
@@ -7205,7 +7205,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 656,
+    "caso": 656,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -7216,7 +7216,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 657,
+    "caso": 657,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7227,7 +7227,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 658,
+    "caso": 658,
     "estado": "GUANAJUATO",
     "localidad": "SALAMANCA",
     "sexo": "F",
@@ -7238,7 +7238,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 659,
+    "caso": 659,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -7249,7 +7249,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 660,
+    "caso": 660,
     "estado": "MICHOACÁN",
     "localidad": "LA PIEDAD",
     "sexo": "F",
@@ -7260,7 +7260,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 661,
+    "caso": 661,
     "estado": "GUANAJUATO",
     "localidad": "ACAMBARO",
     "sexo": "M",
@@ -7271,7 +7271,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 662,
+    "caso": 662,
     "estado": "MÉXICO",
     "localidad": "NAUCALPAN",
     "sexo": "F",
@@ -7282,7 +7282,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 663,
+    "caso": 663,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -7293,7 +7293,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 664,
+    "caso": 664,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -7304,7 +7304,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 665,
+    "caso": 665,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -7315,7 +7315,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 666,
+    "caso": 666,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -7326,7 +7326,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 667,
+    "caso": 667,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -7337,7 +7337,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 668,
+    "caso": 668,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "F",
@@ -7348,7 +7348,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 669,
+    "caso": 669,
     "estado": "MÉXICO",
     "localidad": "NAUCALPAN",
     "sexo": "M",
@@ -7359,7 +7359,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 670,
+    "caso": 670,
     "estado": "COAHUILA",
     "localidad": "PIEDRAS NEGRAS",
     "sexo": "F",
@@ -7370,7 +7370,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 671,
+    "caso": 671,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "M",
@@ -7381,7 +7381,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 672,
+    "caso": 672,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -7392,7 +7392,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 673,
+    "caso": 673,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "F",
@@ -7403,7 +7403,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 674,
+    "caso": 674,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -7414,7 +7414,7 @@
     "llegada": "2020-02-27"
   },
   {
-    "Caso": 675,
+    "caso": 675,
     "estado": "GUANAJUATO",
     "localidad": "IRAPUATO",
     "sexo": "M",
@@ -7425,7 +7425,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 676,
+    "caso": 676,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "F",
@@ -7436,7 +7436,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 677,
+    "caso": 677,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "F",
@@ -7447,7 +7447,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 678,
+    "caso": 678,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "F",
@@ -7458,7 +7458,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 679,
+    "caso": 679,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "M",
@@ -7469,7 +7469,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 680,
+    "caso": 680,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -7480,7 +7480,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 681,
+    "caso": 681,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -7491,7 +7491,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 682,
+    "caso": 682,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -7502,7 +7502,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 683,
+    "caso": 683,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -7513,7 +7513,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 684,
+    "caso": 684,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "F",
@@ -7524,7 +7524,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 685,
+    "caso": 685,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "F",
@@ -7535,7 +7535,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 686,
+    "caso": 686,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "F",
@@ -7546,7 +7546,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 687,
+    "caso": 687,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -7557,7 +7557,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 688,
+    "caso": 688,
     "estado": "GUANAJUATO",
     "localidad": "IRAPUATO",
     "sexo": "M",
@@ -7568,7 +7568,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 689,
+    "caso": 689,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -7579,7 +7579,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 690,
+    "caso": 690,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -7590,7 +7590,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 691,
+    "caso": 691,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7601,7 +7601,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 692,
+    "caso": 692,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "F",
@@ -7612,7 +7612,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 693,
+    "caso": 693,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -7623,7 +7623,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 694,
+    "caso": 694,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -7634,7 +7634,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 695,
+    "caso": 695,
     "estado": "SONORA",
     "localidad": "CAJEME",
     "sexo": "F",
@@ -7645,7 +7645,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 696,
+    "caso": 696,
     "estado": "DURANGO",
     "localidad": "DURANGO",
     "sexo": "M",
@@ -7656,7 +7656,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 697,
+    "caso": 697,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "M",
@@ -7667,7 +7667,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 698,
+    "caso": 698,
     "estado": "SAN LUIS POTOSÍ",
     "localidad": "SAN LUIS POTOSI",
     "sexo": "M",
@@ -7678,7 +7678,7 @@
     "llegada": "2020-03-03"
   },
   {
-    "Caso": 699,
+    "caso": 699,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -7689,7 +7689,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 700,
+    "caso": 700,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -7700,7 +7700,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 701,
+    "caso": 701,
     "estado": "JALISCO",
     "localidad": "CENTRO TONALA",
     "sexo": "F",
@@ -7711,7 +7711,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 702,
+    "caso": 702,
     "estado": "JALISCO",
     "localidad": "LA BARCA",
     "sexo": "M",
@@ -7722,7 +7722,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 703,
+    "caso": 703,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "VENUSTIANO CARRANZA",
     "sexo": "F",
@@ -7733,7 +7733,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 704,
+    "caso": 704,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "M",
@@ -7744,7 +7744,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 705,
+    "caso": 705,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "F",
@@ -7755,7 +7755,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 706,
+    "caso": 706,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -7766,7 +7766,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 707,
+    "caso": 707,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -7777,7 +7777,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 708,
+    "caso": 708,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -7788,7 +7788,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 709,
+    "caso": 709,
     "estado": "JALISCO",
     "localidad": "LA BARCA",
     "sexo": "M",
@@ -7799,7 +7799,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 710,
+    "caso": 710,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "COYOACAN",
     "sexo": "F",
@@ -7810,7 +7810,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 711,
+    "caso": 711,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7821,7 +7821,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 712,
+    "caso": 712,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -7832,7 +7832,7 @@
     "llegada": "2020-02-24"
   },
   {
-    "Caso": 713,
+    "caso": 713,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -7843,7 +7843,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 714,
+    "caso": 714,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7854,7 +7854,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 715,
+    "caso": 715,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "M",
@@ -7865,7 +7865,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 716,
+    "caso": 716,
     "estado": "ZACATECAS",
     "localidad": "ZACATECAS",
     "sexo": "F",
@@ -7876,7 +7876,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 717,
+    "caso": 717,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -7887,7 +7887,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 718,
+    "caso": 718,
     "estado": "SONORA",
     "localidad": "HERMOSILLO",
     "sexo": "F",
@@ -7898,7 +7898,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 719,
+    "caso": 719,
     "estado": "MÉXICO",
     "localidad": "ATIZAPAN DE ZARAGOZA",
     "sexo": "M",
@@ -7909,7 +7909,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 720,
+    "caso": 720,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -7920,7 +7920,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 721,
+    "caso": 721,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -7931,7 +7931,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 722,
+    "caso": 722,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -7942,7 +7942,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 723,
+    "caso": 723,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7953,7 +7953,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 724,
+    "caso": 724,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "F",
@@ -7964,7 +7964,7 @@
     "llegada": "2020-03-11"
   },
   {
-    "Caso": 725,
+    "caso": 725,
     "estado": "JALISCO",
     "localidad": "CENTRO TONALA",
     "sexo": "F",
@@ -7975,7 +7975,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 726,
+    "caso": 726,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "F",
@@ -7986,7 +7986,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 727,
+    "caso": 727,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -7997,7 +7997,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 728,
+    "caso": 728,
     "estado": "MICHOACÁN",
     "localidad": "MORELIA",
     "sexo": "M",
@@ -8008,7 +8008,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 729,
+    "caso": 729,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8019,7 +8019,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 730,
+    "caso": 730,
     "estado": "SINALOA",
     "localidad": "IV",
     "sexo": "M",
@@ -8030,7 +8030,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 731,
+    "caso": 731,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "ALVARO OBREGON",
     "sexo": "F",
@@ -8041,7 +8041,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 732,
+    "caso": 732,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "AZCAPOTZALCO",
     "sexo": "F",
@@ -8052,7 +8052,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 733,
+    "caso": 733,
     "estado": "QUINTANA ROO",
     "localidad": "JUAREZ",
     "sexo": "M",
@@ -8063,7 +8063,7 @@
     "llegada": "2020-03-19"
   },
   {
-    "Caso": 734,
+    "caso": 734,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8074,7 +8074,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 735,
+    "caso": 735,
     "estado": "GUANAJUATO",
     "localidad": "LEON DELTA",
     "sexo": "F",
@@ -8085,7 +8085,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 736,
+    "caso": 736,
     "estado": "CAMPECHE",
     "localidad": "CAMPECHE",
     "sexo": "F",
@@ -8096,7 +8096,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 737,
+    "caso": 737,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "M",
@@ -8107,7 +8107,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 738,
+    "caso": 738,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "ALVARO OBREGON",
     "sexo": "M",
@@ -8118,7 +8118,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 739,
+    "caso": 739,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8129,7 +8129,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 740,
+    "caso": 740,
     "estado": "TAMAULIPAS",
     "localidad": "REYNOSA",
     "sexo": "F",
@@ -8140,7 +8140,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 741,
+    "caso": 741,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8151,7 +8151,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 742,
+    "caso": 742,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8162,7 +8162,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 743,
+    "caso": 743,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8173,7 +8173,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 744,
+    "caso": 744,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8184,7 +8184,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 745,
+    "caso": 745,
     "estado": "SINALOA",
     "localidad": "IV",
     "sexo": "M",
@@ -8195,7 +8195,7 @@
     "llegada": "2020-03-20"
   },
   {
-    "Caso": 746,
+    "caso": 746,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8206,7 +8206,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 747,
+    "caso": 747,
     "estado": "MICHOACÁN",
     "localidad": "URUAPAN",
     "sexo": "F",
@@ -8217,7 +8217,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 748,
+    "caso": 748,
     "estado": "JALISCO",
     "localidad": "TEPATITLAN",
     "sexo": "M",
@@ -8228,7 +8228,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 749,
+    "caso": 749,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8239,7 +8239,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 750,
+    "caso": 750,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8250,7 +8250,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 751,
+    "caso": 751,
     "estado": "CAMPECHE",
     "localidad": "CAMPECHE",
     "sexo": "M",
@@ -8261,7 +8261,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 752,
+    "caso": 752,
     "estado": "SINALOA",
     "localidad": "IV",
     "sexo": "F",
@@ -8272,7 +8272,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 753,
+    "caso": 753,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8283,7 +8283,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 754,
+    "caso": 754,
     "estado": "MÉXICO",
     "localidad": "TLANEPANTLA",
     "sexo": "M",
@@ -8294,7 +8294,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 755,
+    "caso": 755,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8305,7 +8305,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 756,
+    "caso": 756,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8316,7 +8316,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 757,
+    "caso": 757,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "XOCHIMILCO",
     "sexo": "M",
@@ -8327,7 +8327,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 758,
+    "caso": 758,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8338,7 +8338,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 759,
+    "caso": 759,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8349,7 +8349,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 760,
+    "caso": 760,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8360,7 +8360,7 @@
     "llegada": "2020-03-06"
   },
   {
-    "Caso": 761,
+    "caso": 761,
     "estado": "TAMAULIPAS",
     "localidad": "REYNOSA",
     "sexo": "F",
@@ -8371,7 +8371,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 762,
+    "caso": 762,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -8382,7 +8382,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 763,
+    "caso": 763,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8393,7 +8393,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 764,
+    "caso": 764,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -8404,7 +8404,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 765,
+    "caso": 765,
     "estado": "COAHUILA",
     "localidad": "SALTILLO",
     "sexo": "F",
@@ -8415,7 +8415,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 766,
+    "caso": 766,
     "estado": "HIDALGO",
     "localidad": "PACHUCA",
     "sexo": "F",
@@ -8426,7 +8426,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 767,
+    "caso": 767,
     "estado": "JALISCO",
     "localidad": "CENTRO TLAQUEPAQUE",
     "sexo": "F",
@@ -8437,7 +8437,7 @@
     "llegada": "2020-03-23"
   },
   {
-    "Caso": 768,
+    "caso": 768,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8448,7 +8448,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 769,
+    "caso": 769,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -8459,7 +8459,7 @@
     "llegada": "2020-03-17"
   },
   {
-    "Caso": 770,
+    "caso": 770,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -8470,7 +8470,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 771,
+    "caso": 771,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "M",
@@ -8481,7 +8481,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 772,
+    "caso": 772,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8492,7 +8492,7 @@
     "llegada": "2020-03-16"
   },
   {
-    "Caso": 773,
+    "caso": 773,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -8503,7 +8503,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 774,
+    "caso": 774,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8514,7 +8514,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 775,
+    "caso": 775,
     "estado": "VERACRUZ",
     "localidad": "VERACRUZ",
     "sexo": "F",
@@ -8525,7 +8525,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 776,
+    "caso": 776,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8536,7 +8536,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 777,
+    "caso": 777,
     "estado": "HIDALGO",
     "localidad": "ZACUALTIPAN",
     "sexo": "F",
@@ -8547,7 +8547,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 778,
+    "caso": 778,
     "estado": "CHIHUAHUA",
     "localidad": "CHIHUAHUA",
     "sexo": "F",
@@ -8558,7 +8558,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 779,
+    "caso": 779,
     "estado": "COAHUILA",
     "localidad": "SALTILLO",
     "sexo": "F",
@@ -8569,7 +8569,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 780,
+    "caso": 780,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8580,7 +8580,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 781,
+    "caso": 781,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8591,7 +8591,7 @@
     "llegada": "2020-03-18"
   },
   {
-    "Caso": 782,
+    "caso": 782,
     "estado": "BAJA CALIFORNIA",
     "localidad": "ENSENADA",
     "sexo": "F",
@@ -8602,7 +8602,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 783,
+    "caso": 783,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "F",
@@ -8613,7 +8613,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 784,
+    "caso": 784,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "F",
@@ -8624,7 +8624,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 785,
+    "caso": 785,
     "estado": "ZACATECAS",
     "localidad": "ZACATECAS",
     "sexo": "F",
@@ -8635,7 +8635,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 786,
+    "caso": 786,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "F",
@@ -8646,7 +8646,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 787,
+    "caso": 787,
     "estado": "CHIHUAHUA",
     "localidad": "CIUDAD JUAREZ",
     "sexo": "M",
@@ -8657,7 +8657,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 788,
+    "caso": 788,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "TLALPAN",
     "sexo": "M",
@@ -8668,7 +8668,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 789,
+    "caso": 789,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "F",
@@ -8679,7 +8679,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 790,
+    "caso": 790,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -8690,7 +8690,7 @@
     "llegada": "2020-03-15"
   },
   {
-    "Caso": 791,
+    "caso": 791,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "ALVARO OBREGON",
     "sexo": "F",
@@ -8701,7 +8701,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 792,
+    "caso": 792,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "ALVARO OBREGON",
     "sexo": "F",
@@ -8712,7 +8712,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 793,
+    "caso": 793,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -8723,7 +8723,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 794,
+    "caso": 794,
     "estado": "JALISCO",
     "localidad": "CENTRO ZAPOPAN",
     "sexo": "F",
@@ -8734,7 +8734,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 795,
+    "caso": 795,
     "estado": "MÉXICO",
     "localidad": "TOLUCA",
     "sexo": "M",
@@ -8745,7 +8745,7 @@
     "llegada": "2020-02-26"
   },
   {
-    "Caso": 796,
+    "caso": 796,
     "estado": "QUERÉTARO",
     "localidad": "QUERÉTARO",
     "sexo": "M",
@@ -8756,7 +8756,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 797,
+    "caso": 797,
     "estado": "NUEVO LEÓN",
     "localidad": "SANTA CATARINA",
     "sexo": "F",
@@ -8767,7 +8767,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 798,
+    "caso": 798,
     "estado": "MÉXICO",
     "localidad": "ECATEPEC",
     "sexo": "M",
@@ -8778,7 +8778,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 799,
+    "caso": 799,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "VENUSTIANO CARRANZA",
     "sexo": "F",
@@ -8789,7 +8789,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 800,
+    "caso": 800,
     "estado": "YUCATÁN",
     "localidad": "MERIDA",
     "sexo": "M",
@@ -8800,7 +8800,7 @@
     "llegada": "2020-03-04"
   },
   {
-    "Caso": 801,
+    "caso": 801,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "BENITO JUAREZ",
     "sexo": "M",
@@ -8811,7 +8811,7 @@
     "llegada": "2020-02-28"
   },
   {
-    "Caso": 802,
+    "caso": 802,
     "estado": "BAJA CALIFORNIA",
     "localidad": "MEXICALI",
     "sexo": "M",
@@ -8822,7 +8822,7 @@
     "llegada": "2020-03-05"
   },
   {
-    "Caso": 803,
+    "caso": 803,
     "estado": "PUEBLA",
     "localidad": "PUEBLA",
     "sexo": "M",
@@ -8833,7 +8833,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 804,
+    "caso": 804,
     "estado": "COAHUILA",
     "localidad": "TORREON",
     "sexo": "M",
@@ -8844,7 +8844,7 @@
     "llegada": "2020-03-07"
   },
   {
-    "Caso": 805,
+    "caso": 805,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -8855,7 +8855,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 806,
+    "caso": 806,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "AZCAPOTZALCO",
     "sexo": "F",
@@ -8866,7 +8866,7 @@
     "llegada": "2020-02-29"
   },
   {
-    "Caso": 807,
+    "caso": 807,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -8877,7 +8877,7 @@
     "llegada": "2020-03-10"
   },
   {
-    "Caso": 808,
+    "caso": 808,
     "estado": "AGUASCALIENTES",
     "localidad": "AGUASCALIENTES",
     "sexo": "M",
@@ -8888,7 +8888,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 809,
+    "caso": 809,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -8899,7 +8899,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 810,
+    "caso": 810,
     "estado": "JALISCO",
     "localidad": "CENTRO GUADALAJARA",
     "sexo": "F",
@@ -8910,7 +8910,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 811,
+    "caso": 811,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -8921,7 +8921,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 812,
+    "caso": 812,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -8932,7 +8932,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 813,
+    "caso": 813,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "F",
@@ -8943,7 +8943,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 814,
+    "caso": 814,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -8954,7 +8954,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 815,
+    "caso": 815,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -8965,7 +8965,7 @@
     "llegada": "2020-03-09"
   },
   {
-    "Caso": 816,
+    "caso": 816,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -8976,7 +8976,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 817,
+    "caso": 817,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -8987,7 +8987,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 818,
+    "caso": 818,
     "estado": "MÉXICO",
     "localidad": "XONACATLAN",
     "sexo": "M",
@@ -8998,7 +8998,7 @@
     "llegada": "2020-03-13"
   },
   {
-    "Caso": 819,
+    "caso": 819,
     "estado": "GUERRERO",
     "localidad": "ACAPULCO",
     "sexo": "F",
@@ -9009,7 +9009,7 @@
     "llegada": "2020-03-02"
   },
   {
-    "Caso": 820,
+    "caso": 820,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -9020,7 +9020,7 @@
     "llegada": "2020-03-12"
   },
   {
-    "Caso": 821,
+    "caso": 821,
     "estado": "BAJA CALIFORNIA",
     "localidad": "TIJUANA",
     "sexo": "M",
@@ -9031,7 +9031,7 @@
     "llegada": "2020-03-08"
   },
   {
-    "Caso": 822,
+    "caso": 822,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "M",
@@ -9042,7 +9042,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 823,
+    "caso": 823,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "CUAUHTEMOC",
     "sexo": "F",
@@ -9053,7 +9053,7 @@
     "llegada": "2020-03-14"
   },
   {
-    "Caso": 824,
+    "caso": 824,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",
@@ -9064,7 +9064,7 @@
     "llegada": "NA"
   },
   {
-    "Caso": 825,
+    "caso": 825,
     "estado": "GUERRERO",
     "localidad": "ZONA NORTE",
     "sexo": "M",
@@ -9075,7 +9075,7 @@
     "llegada": "2020-03-01"
   },
   {
-    "Caso": 826,
+    "caso": 826,
     "estado": "CIUDAD DE MÉXICO",
     "localidad": "MIGUEL HIDALGO",
     "sexo": "M",

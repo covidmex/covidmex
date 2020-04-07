@@ -118,7 +118,8 @@ def identifyCountryProcedence(d):
 
 
 def addCase(d, state, contagionType, country, day):
-  
+
+  print d
   try:
     symptom = datetime.datetime.strptime(d['sintomas'], '%d/%m/%Y')
   except:
