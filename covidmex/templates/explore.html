@@ -67,7 +67,7 @@
       </div>
       <div class="alert alert-info alert-dismissible">
         <h5><i class="icon fas fa-info"></i> Filtra los casos según tu criterio</h5>
-        Puedes realizar una combinación de filtros. Por ejemplo: Todos los casos sospechosos de Jalisco, sexo femenino y que sean importados. <button id="try-search" type="button" class="btn btn-default btn-sm">Probar esta búsqueda</button>
+        Puedes realizar una combinación de filtros. Por ejemplo: Todos los casos sospechosos de Jalisco de sexo femenino <button id="try-search" type="button" class="btn btn-default btn-sm">Probar esta búsqueda</button>
       </div>
     <div class="card">
       <div class="card-header">
@@ -192,7 +192,7 @@ window.addEventListener('DOMContentLoaded', function() {
       $('.tryit').get(0).value = "JALISCO";
       $('.tryit').get(1).value = "F";
       $('.tryit').get(4).value = "Sospechoso";
-      $('.tryit').get(5).value = "importado";
+      $('.tryit').get(5).value = "";
       $('.tryit').keyup();
       table.draw();
     });
