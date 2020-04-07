@@ -61,9 +61,9 @@ def adding(data, day):
     if d['rt-pcr'].upper() == 'SOSPECHOSO':
       suspected += 1
     
-    if d['sexo'].upper() == 'M' and d['rt-pcr'].upper() == 'CONFIRMADO':
+    if (d['sexo'].upper() == 'M' or d['sexo'].upper() == 'MASCULINO')  and d['rt-pcr'].upper() == 'CONFIRMADO':
       male += 1
-    elif d['sexo'].upper() == 'F' and d['rt-pcr'].upper() == 'CONFIRMADO':
+    elif (d['sexo'].upper() == 'F' or d['sexo'].upper() == 'FEMENINO') and d['rt-pcr'].upper() == 'CONFIRMADO':
       female += 1
 
   data = {
@@ -124,15 +124,24 @@ def addCase(d, state, contagionType, country, day):
     symptom = datetime.datetime.strptime(d['sintomas'], '%d/%m/%Y')
   except:
     symptom = None
-
-  if d['llegada'] == 'NA':
-    llegada = None
-  else:
-    try:
-      llegada = datetime.datetime.strptime(d['llegada'],'%d/%m/%Y')
-    except:
+ 
+  if d.get('llegada'):  #Key exists?
+    if d['llegada'] == 'NA':
       llegada = None
+    else:
+      try:
+        llegada = datetime.datetime.strptime(d['llegada'],'%d/%m/%Y')
+      except:
+        llegada = None
+  else:
+    llegada = None
   
+  # Cast sex to out format
+  if d['sexo'].upper() == 'MASCULINO':
+     d['sexo'] = 'M'
+  if d['sexo'].upper() == 'FEMENINO':
+     d['sexo'] = 'F'
+
   if d['sexo'].upper() == 'M' or d['sexo'].upper() == 'F':
     sexo = d['sexo'].upper()
   else:
