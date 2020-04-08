@@ -245,7 +245,7 @@ def get_labels(age_bars_numeric):
         if i == 40:
             label = '40-49'
         if i == 50:
-            label = '50-49'
+            label = '50-59'
         if i == 60:
             label = '60-69'
         if i == 70:
