@@ -10,7 +10,7 @@ from werkzeug.exceptions import HTTPException
 
 from config import DefaultConfig
 from extensions import db
-from models import State, Case, CountryProcedence, Totals
+from models import State, Case, CountryProcedence, Totals, Fallecidos
 from utils import INSTANCE_FOLDER_PATH
 from views_blueprint import views_blueprint
 from import_controller import import_api
@@ -106,3 +106,4 @@ def configure_extensions(app):
     admin.add_view(ModelView(CountryProcedence, db.session))
     admin.add_view(ModelView(State, db.session))
     admin.add_view(ModelView(Totals, db.session))
+    admin.add_view(ModelView(Fallecidos, db.session))
