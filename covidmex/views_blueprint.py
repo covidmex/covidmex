@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from sqlalchemy import or_
 
 
-from models import State, Case, CountryProcedence, Totals
+from models import State, Case, CountryProcedence, Totals, Fallecidos
 from extensions import db
 
 views_blueprint = Blueprint('views_blueprint', __name__)
@@ -59,12 +59,10 @@ def index():
     confirmed_cases_by_state.sort(key=lambda tup: tup[1], reverse=True)
     suspected_cases_by_state =  db.session.query(State.name, db.func.count(Case.status=='suspected')).filter(Case.created_at == update_time, Case.status == 'Sospechoso').outerjoin(State).group_by(State.name).all()
     suspected_cases_by_state.sort(key=lambda tup: tup[1], reverse=True)
-    """donut_confirmed = list()
-    donut_labels = list()
-    for state, num_cases in cases_by_state[0:5]:
-        donut_labels.append(state)
-        donut_confirmed.append(num_cases)
-    """
+    # Deaths by state
+    total_deaths_by_state = db.session.query(Fallecidos).filter(Fallecidos.created_at == update_time).all()
+    deaths_by_state = [[death.state, death.total] for death in total_deaths_by_state]
+
     _vars = {
         "confirmed_cases_by_state": confirmed_cases_by_state[0:10],
         "age_bars_labels": age_bars_labels,
@@ -82,6 +80,7 @@ def index():
         "death_ratio": death_ratio,
         "increase_ratio": increase_ratio,
         "total_death": total_death,
+        "deaths_by_state": deaths_by_state,
         "update_time" : update_time.strftime("%d/%m/%Y")
     }
     return render_template(

@@ -138,14 +138,118 @@
          <div class="card">
           <div class="card-header">
             <div class="d-flex justify-content-between">
-              <h3 class="card-title">Mapa de casos por estado</h3>
+              <h3 class="card-title">Defunciones por estado</h3>
             </div>
           </div>
           <div class="card-body">  
 
-          <iframe src="https://www.google.com/maps/d/embed?mid=1-XnTNpU7R4XiVewJh_nwcpUrtGgd4gwu" width="100%" 
-          height="480"></iframe><br />     
-            Mapa creado por sismoalertamexicanacontacto@gmail.com. El mapa se acualiza en un horario diferente pero de la misma fuente. Consultar detalles en la información del mapa.
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+              <th>Estado</th>
+              <th style="width: 40px">Defunciones</th>
+              <th>Estado</th>
+              <th style="width: 40px">Defunciones</th>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[0][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[0][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[1][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[1][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[2][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[2][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[3][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[3][1] }}</span></td>
+              </tr>
+               <tr>
+                <td> {{ vars.deaths_by_state[4][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[4][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[5][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[5][1] }}</span></td>
+              </tr>
+                <tr>
+                <td> {{ vars.deaths_by_state[6][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[6][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[7][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[7][1] }}</span></td>
+              </tr>
+                <tr>
+                <td> {{ vars.deaths_by_state[8][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[8][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[9][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[9][1] }}</span></td>
+              </tr>
+                <tr>
+                <td> {{ vars.deaths_by_state[10][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[10][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[11][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[11][1] }}</span></td>
+              </tr>
+                <tr>
+                <td> {{ vars.deaths_by_state[12][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[12][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[13][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[13][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[14][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[14][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[15][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[15][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[16][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[16][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[17][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[17][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[18][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[18][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[19][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[19][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[20][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[20][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[21][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[21][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[22][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[22][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[23][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[23][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[24][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[24][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[25][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[25][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[26][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[26][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[27][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[27][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[28][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[28][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[29][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[29][1] }}</span></td>
+              </tr>
+              <tr>
+                <td> {{ vars.deaths_by_state[30][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[30][1] }}</span></td>
+                <td> {{ vars.deaths_by_state[31][0] }}</td>
+                <td> <span style="font-size: 14px !important"class="badge bg-danger">{{ vars.deaths_by_state[31][1] }}</span></td>
+              </tr>
+
+            </tbody>
+          </table>
           </div>
         </div>
         <!--/.direct-chat -->

@@ -161,4 +161,13 @@ class Fallecidos(db.Model):
     def __repr__(self):
         return '<Fallecidos %s >' % self.id
 
+    def to_dict(self):
+        data = list()
+        for key in self.__dict__.keys():
+            if not key.startswith("_"):
+                value = getattr(self, key)
+                data.append((key, value))
+        return dict(data)
+
+
 
