@@ -83,7 +83,7 @@
         <div class="card">
           <div class="card-header">
             <div class="d-flex justify-content-between">
-              <h3 class="card-title">Histograma de casos</h3>
+              <h3 class="card-title">Casos confirmados</h3>
             </div>
           </div>
           <div class="card-body">
@@ -103,12 +103,40 @@
             <div class="d-flex flex-row justify-content-end">
               <span class="mr-2">
                 <i class="fas fa-square text-success"></i> Casos confirmados
-                <i class="fas fa-square text-warning"></i> Casos sospechosos
               </span>
             </div>
           </div>
         </div>
         <!-- /.card -->
+         <div class="card">
+          <div class="card-header">
+            <div class="d-flex justify-content-between">
+              <h3 class="card-title">Casos sospechosos</h3>
+            </div>
+          </div>
+          <div class="card-body">
+             <div class="d-flex">
+              <p class="d-flex flex-column">
+                <span class="text-bold text-lg">{{ vars.total_suspected }}</span>
+                <span>Casos desde el inicio</span>
+              </p>
+
+            </div>
+            <!-- /.d-flex -->
+
+            <div class="position-relative mb-4">
+              <canvas id="cases-chart" height="200"></canvas>
+            </div>
+
+            <div class="d-flex flex-row justify-content-end">
+              <span class="mr-2">
+                <i class="fas fa-square text-warning"></i> Casos sospechosos
+              </span>
+
+
+            </div>
+          </div>
+        </div>
 
         <div class="card">
           <div class="card-header">
@@ -419,7 +447,62 @@ window.addEventListener('DOMContentLoaded', function() {
         }]
       }
     }
+  });
+
+
+  var $agesChart = $('#cases-chart')
+  var agesChart  = new Chart($agesChart, {
+    type   : 'bar',
+    data   : {
+      labels  : _data.histogram_labels,
+      datasets: [
+        {
+          backgroundColor: '#ffc107',
+          borderColor    : '#ffc107',
+          data           : _data.histogram_suspects,
+        },
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      tooltips           : {
+        mode     : mode,
+        intersect: intersect
+      },
+      hover              : {
+        mode     : mode,
+        intersect: intersect
+      },
+      legend             : {
+        display: false
+      },
+      scales             : {
+        yAxes: [{
+          // display: false,
+          gridLines: {
+            display      : true,
+            lineWidth    : '4px',
+            color        : 'rgba(0, 0, 0, .2)',
+            zeroLineColor: 'transparent'
+          },
+          ticks    : $.extend({
+            beginAtZero: true
+
+           
+          }, ticksStyle)
+        }],
+        xAxes: [{
+          display  : true,
+          gridLines: {
+            display: false
+          },
+          ticks    : ticksStyle
+        }]
+      }
+    }
   })
+
+
 
   var $histogramChart = $('#histogram-chart')
   var histogramChart  = new Chart($histogramChart, {
@@ -435,18 +518,8 @@ window.addEventListener('DOMContentLoaded', function() {
         fill                : false
         // pointHoverBackgroundColor: '#28a745',
         // pointHoverBorderColor    : '#28a745'
-      },
-      {
-        type                : 'line',
-        data                : _data.histogram_suspects,
-        backgroundColor     : 'transparent',
-        borderColor         : '#ffc107',
-        pointBorderColor    : '#ffc107',
-        pointBackgroundColor: '#ffc107',
-        fill                : false
-        // pointHoverBackgroundColor: '#28a745',
-        // pointHoverBorderColor    : '#28a745'
-      }]
+      }
+     ]
     },
     options: {
       maintainAspectRatio: false,
