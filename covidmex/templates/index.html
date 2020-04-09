@@ -10,6 +10,8 @@
       <div class="col-sm-6">
         <h1 class="m-0 text-dark">{% block pagetitle %} Indicadores COVID 19 en México {% endblock %}</h1>
         <h6 class="m-0 text-dark"><b>Última actualización: {% block updated %} {{ vars.update_time }}</b>{% endblock %}</h6>
+      </div>
+      <div class="col-sm-6 text-right" >
         <iframe defer src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fcovidmex.live&layout=button&size=small&appId=263654680372835&width=89&height=20" width="89" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags=covid19,covid19mx&text=Conoce #COVIDMEX el sitio de datos abiertos de COVID 19 en México">Tweet</a>  
@@ -27,49 +29,41 @@
     <div class="row">
       <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box bg-info">
-          <div class="inner">
-            <h3>{{ vars.delta_confirmed }}</h3>
-
-            <p>Últimas 24 horas</p>
+        <div class="cardo 1">
+          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/1.jpg') }}" /> </div>
+          <div class="card_title title-white">
+            <p>{{ vars.delta_confirmed }}</p>
           </div>
-
         </div>
       </div>
       <!-- ./col -->
       <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box bg-success">
-          <div class="inner">
-            <h3>{{ vars.total_confirmed }}</h3>
-
-            <p>Total casos confirmados</p>
+        <div class="cardo 1">
+          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/2.jpg') }}" /> </div>
+          <div class="card_title title-white">
+            <p>{{ vars.total_confirmed }}</p>
           </div>
-
         </div>
       </div>
       <!-- ./col -->
       <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box bg-warning">
-          <div class="inner">
-            <h3>{{ vars.total_suspected }}</h3>
-
-            <p>Casos sospechosos</p>
+        <div class="cardo 1">
+          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/3.jpg') }}" /> </div>
+          <div class="card_title title-white">
+            <p>{{ vars.total_suspected }}</p>
           </div>
-
         </div>
       </div>
       <!-- ./col -->
       <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="small-box bg-danger">
-          <div class="inner">
-            <h3>{{ vars.total_death }}</h3>
-
-            <p>Defunciones</p>
+        <div class="cardo 1">
+          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/4.jpg') }}" /> </div>
+          <div class="card_title title-white">
+            <p>{{ vars.total_death }}</p>
           </div>
-
         </div>
       </div>
       <!-- ./col -->
