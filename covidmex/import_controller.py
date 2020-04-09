@@ -116,7 +116,7 @@ def identifyState(d):
 
 
 def identifyTypeContagion(d):
-  if 'procedencia' in d:
+  if 'procedencia' in d and d['procedencia'] is not None:
     if d['procedencia'].lower() == 'contacto':
       return 'contacto'
     else:
