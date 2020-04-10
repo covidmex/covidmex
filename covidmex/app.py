@@ -14,11 +14,11 @@ from models import State, Case, CountryProcedence, Totals, Fallecidos
 from utils import INSTANCE_FOLDER_PATH
 from views_blueprint import views_blueprint
 from import_controller import import_api
+from totals_api import totals_api
 
 
 # For import *
 __all__ = ['create_app']
-
 
 
 def create_app(config=None, app_name=None, blueprints=None):
@@ -67,6 +67,7 @@ def configure_app(app, config=None):
 
     app.register_blueprint(views_blueprint)
     app.register_blueprint(import_api, url_prefix="/api/v1")
+    app.register_blueprint(totals_api, url_prefix="/api/v1/totals")
 
 def configure_extensions(app):
     from flask_admin.contrib.sqla import ModelView

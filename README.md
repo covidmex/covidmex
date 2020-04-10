@@ -66,3 +66,8 @@ Descargar el archivo sql y ejecutar:
 ```
 $ cat covidmex.sql  | docker exec -i covidmex-mysql /usr/bin/mysql -u root --password=[MYSQL_ROOT_PASSWORD]  covidmex_db
 ```
+
+### 5. Estamos desarrollando continuamente un API Rest para obtener los datos que vamos recopilando. Si quieres integrarlo y se puede usar libremente. 
+```
+https://documenter.getpostman.com/view/2749943/SzYgRvLZ?version=latest
+```
