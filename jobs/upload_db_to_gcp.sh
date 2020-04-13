@@ -5,7 +5,7 @@ MYSQL_USER=root
 MYSQL_ROOT_PASSWORD=my-secret-pw
 GSBUCKET=covidmex-open-data
 FILENAME=covidmex_database
-MYSQL_CONTAINER_NAME=covidmex-mysql
+MYSQL_CONTAINER_NAME=covidmex_covidmex-mysql_1
 TMP_PATH=~/
 DATESTAMP=$(date +".%d.%m.%Y")
 
