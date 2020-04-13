@@ -27,43 +27,51 @@
   <div class="container-fluid">
     <!-- Small boxes (Stat box) -->
     <div class="row">
-      <div class="col-lg-3 col-sm-12 col-md-6">
+      <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="cardo 1">
-          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/1.jpg') }}" /> </div>
-          <div class="card_title title-white">
-            <p>{{ vars.delta_confirmed }}</p>
+        <div class="small-box bg-info">
+          <div class="inner">
+            <h3>{{ vars.delta_confirmed }}</h3>
+
+            <p>Últimas 24 horas</p>
           </div>
+
         </div>
       </div>
       <!-- ./col -->
-      <div class="col-lg-3  col-sm-12 col-md-6">
+      <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="cardo 1">
-          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/2.jpg') }}" /> </div>
-          <div class="card_title title-white">
-            <p>{{ vars.total_confirmed }}</p>
+        <div class="small-box bg-success">
+          <div class="inner">
+            <h3>{{ vars.total_confirmed }}</h3>
+
+            <p>Total casos confirmados</p>
           </div>
+
         </div>
       </div>
       <!-- ./col -->
-      <div class="col-lg-3  col-sm-12 col-md-6">
+      <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="cardo 1">
-          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/3.jpg') }}" /> </div>
-          <div class="card_title title-white">
-            <p>{{ vars.total_suspected }}</p>
+        <div class="small-box bg-warning">
+          <div class="inner">
+            <h3>{{ vars.total_suspected }}</h3>
+
+            <p>Casos sospechosos</p>
           </div>
+
         </div>
       </div>
       <!-- ./col -->
-      <div class="col-lg-3  col-sm-12 col-md-6">
+      <div class="col-lg-3 col-6">
         <!-- small box -->
-        <div class="cardo 1">
-          <div class="card_image"> <img src="{{ url_for('static', filename='dist/img/4.jpg') }}" /> </div>
-          <div class="card_title title-white">
-            <p>{{ vars.total_death }}</p>
+        <div class="small-box bg-danger">
+          <div class="inner">
+            <h3>{{ vars.total_death }}</h3>
+
+            <p>Defunciones</p>
           </div>
+
         </div>
       </div>
       <!-- ./col -->

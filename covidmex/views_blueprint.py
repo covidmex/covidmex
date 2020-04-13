@@ -37,13 +37,13 @@ def index():
     delta_confirmed = last_record.confirmed
     total_suspected = last_record.suspected
     total_death = last_record.death
-    death_ratio = (total_death*100) / total_confirmed
+    death_ratio = float((total_death*100) / total_confirmed)
     try:
         last_day_confirmed = previous_record.confirmed
         delta_confirmed = total_confirmed - last_day_confirmed
     except:
         delta_confirmed = 0
-    increase_ratio = (delta_confirmed*100) / total_confirmed
+    increase_ratio = float((delta_confirmed*100) / previous_record.confirmed)
     # Cases clasified by age
     all_ages_tuples = db.session.query(Case.age).filter(Case.created_at == update_time, Case.status == 'confirmado').all()
     all_ages = [value for value, in all_ages_tuples]
