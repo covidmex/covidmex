@@ -1,0 +1,131 @@
+{"datos":[
+  {
+    "Estado": "AGUASCALIENTES",
+    "Fallecidos": 1
+  },
+  {
+    "Estado": "BAJA CALIFORNIA",
+    "Fallecidos": 28
+  },
+  {
+    "Estado": "BAJA CALIFORNIA SUR",
+    "Fallecidos": 6
+  },
+  {
+    "Estado": "CAMPECHE",
+    "Fallecidos": 2
+  },
+  {
+    "Estado": "CHIAPAS",
+    "Fallecidos": 3
+  },
+  {
+    "Estado": "CHIHUAHUA",
+    "Fallecidos": 20
+  },
+  {
+    "Estado": "CIUDAD DE MÉXICO",
+    "Fallecidos": 99
+  },
+  {
+    "Estado": "COAHUILA",
+    "Fallecidos": 12
+  },
+  {
+    "Estado": "COLIMA",
+    "Fallecidos": 0
+  },
+  {
+    "Estado": "DURANGO",
+    "Fallecidos": 4
+  },
+  {
+    "Estado": "GUANAJUATO",
+    "Fallecidos": 5
+  },
+  {
+    "Estado": "GUERRERO",
+    "Fallecidos": 8
+  },
+  {
+    "Estado": "HIDALGO",
+    "Fallecidos": 12
+  },
+  {
+    "Estado": "JALISCO",
+    "Fallecidos": 11
+  },
+  {
+    "Estado": "MICHOACÁN",
+    "Fallecidos": 12
+  },
+  {
+    "Estado": "MORELOS",
+    "Fallecidos": 10
+  },
+  {
+    "Estado": "MÉXICO",
+    "Fallecidos": 43
+  },
+  {
+    "Estado": "NAYARIT",
+    "Fallecidos": 5
+  },
+  {
+    "Estado": "NUEVO LEÓN",
+    "Fallecidos": 5
+  },
+  {
+    "Estado": "OAXACA",
+    "Fallecidos": 5
+  },
+  {
+    "Estado": "PUEBLA",
+    "Fallecidos": 31
+  },
+  {
+    "Estado": "QUERÉTARO",
+    "Fallecidos": 5
+  },
+  {
+    "Estado": "QUINTANA ROO",
+    "Fallecidos": 27
+  },
+  {
+    "Estado": "SAN LUIS POTOSÍ",
+    "Fallecidos": 4
+  },
+  {
+    "Estado": "SINALOA",
+    "Fallecidos": 38
+  },
+  {
+    "Estado": "SONORA",
+    "Fallecidos": 9
+  },
+  {
+    "Estado": "TABASCO",
+    "Fallecidos": 21
+  },
+  {
+    "Estado": "TAMAULIPAS",
+    "Fallecidos": 4
+  },
+  {
+    "Estado": "TLAXCALA",
+    "Fallecidos": 4
+  },
+  {
+    "Estado": "VERACRUZ",
+    "Fallecidos": 6
+  },
+  {
+    "Estado": "YUCATÁN",
+    "Fallecidos": 7
+  },
+  {
+    "Estado": "ZACATECAS",
+    "Fallecidos": 2
+  }
+]
+}
