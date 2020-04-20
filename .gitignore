@@ -140,3 +140,5 @@ dmypy.json
 # Fucking IDE Files
 .idea
 .idea/*
+.vscode
+.vscode/*

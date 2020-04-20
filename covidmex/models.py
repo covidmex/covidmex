@@ -196,42 +196,85 @@ class OficialCase(db.Model):
 
     ID = db.Column(db.Integer, primary_key=True)
     FECHA_ACTUALIZACION = db.Column(db.Date)
-    ORIGEN = db.Column(db.Integer, nullable=False)
-    SECTOR = db.Column(db.Integer, nullable=False)
-    ENTIDAD_UM = db.Column(db.Integer, nullable=False)
-    SEXO = db.Column(db.Integer, nullable=False)
-    ENTIDAD_NAC = db.Column(db.Integer, nullable=False)
-    ENTIDAD_RES = db.Column(db.Integer, nullable=False)
-    MUNICIPIO_RES = db.Column(db.Integer, nullable=False)
-    TIPO_PACIENTE = db.Column(db.Integer, nullable=False)
-    FECHA_INGRESO = db.Column(db.Date, nullable=False)
-    FECHA_SINTOMAS = db.Column(db.Date, nullable=False)
-    FECHA_DEF = db.Column(db.Date, nullable=False)
-    INTUBADO = db.Column(db.Integer, nullable=False)
-    NEUMONIA = db.Column(db.Integer, nullable=False)
-    EDAD = db.Column(db.Integer, nullable=False)
-    NACIONALIDAD = db.Column(db.Integer, nullable=False)
-    EMBARAZO = db.Column(db.Integer, nullable=False)
-    HABLA_LENGUA_INDIG = db.Column(db.Integer, nullable=False)
-    DIABETES = db.Column(db.Integer, nullable=False)
-    EPOC = db.Column(db.Integer, nullable=False)
-    ASMA = db.Column(db.Integer, nullable=False)
-    INMUSUPR = db.Column(db.Integer, nullable=False)
-    HIPERTENSION = db.Column(db.Integer, nullable=False)
-    OTRA_COM = db.Column(db.Integer, nullable=False)
-    CARDIOVASCULAR = db.Column(db.Integer, nullable=False)
-    OBESIDAD = db.Column(db.Integer, nullable=False)
-    RENAL_CRONICA = db.Column(db.Integer, nullable=False)
-    TABAQUISMO = db.Column(db.Integer, nullable=False)
-    OTRO_CASO = db.Column(db.Integer, nullable=False)
-    RESULTADO = db.Column(db.Integer, nullable=False)
-    MIGRANTE = db.Column(db.Integer, nullable=False)
-    PAIS_NACIONALIDAD = db.Column(db.Integer, nullable=False)
-    PAIS_ORIGEN = db.Column(db.Integer, nullable=False)
-    UCI = db.Column(db.Integer, nullable=False)
+    ORIGEN = db.Column(db.Integer, nullable=True)
+    SECTOR = db.Column(db.Integer, nullable=True)
+    ENTIDAD_UM = db.Column(db.Integer, nullable=True)
+    SEXO = db.Column(db.Integer, nullable=True)
+    ENTIDAD_NAC = db.Column(db.Integer, nullable=True)
+    ENTIDAD_RES = db.Column(db.Integer, nullable=True)
+    MUNICIPIO_RES = db.Column(db.Integer, nullable=True)
+    TIPO_PACIENTE = db.Column(db.Integer, nullable=True)
+    FECHA_INGRESO = db.Column(db.Date, nullable=True)
+    FECHA_SINTOMAS = db.Column(db.Date, nullable=True)
+    FECHA_DEF = db.Column(db.Date, nullable=True)
+    INTUBADO = db.Column(db.Integer, nullable=True)
+    NEUMONIA = db.Column(db.Integer, nullable=True)
+    EDAD = db.Column(db.Integer, nullable=True)
+    NACIONALIDAD = db.Column(db.Integer, nullable=True)
+    EMBARAZO = db.Column(db.Integer, nullable=True)
+    HABLA_LENGUA_INDIG = db.Column(db.Integer, nullable=True)
+    DIABETES = db.Column(db.Integer, nullable=True)
+    EPOC = db.Column(db.Integer, nullable=True)
+    ASMA = db.Column(db.Integer, nullable=True)
+    INMUSUPR = db.Column(db.Integer, nullable=True)
+    HIPERTENSION = db.Column(db.Integer, nullable=True)
+    OTRA_COM = db.Column(db.Integer, nullable=True)
+    CARDIOVASCULAR = db.Column(db.Integer, nullable=True)
+    OBESIDAD = db.Column(db.Integer, nullable=True)
+    RENAL_CRONICA = db.Column(db.Integer, nullable=True)
+    TABAQUISMO = db.Column(db.Integer, nullable=True)
+    OTRO_CASO = db.Column(db.Integer, nullable=True)
+    RESULTADO = db.Column(db.Integer, nullable=True)
+    MIGRANTE = db.Column(db.Integer, nullable=True)
+    PAIS_NACIONALIDAD = db.Column(db.String(250), nullable=True)
+    PAIS_ORIGEN = db.Column(db.String(250), nullable=True)
+    UCI = db.Column(db.Integer, nullable=True)
 
     def __repr__(self):
         return '<OficialCase %r>' % self.ID
+
+    def __init__(self, d):
+        self.FECHA_ACTUALIZACION = d[0]
+        self.ORIGEN = d[1]
+        self.SECTOR = d[2]
+        self.ENTIDAD_UM =d[3]
+        self.SEXO =d[4]
+        self.ENTIDAD_NAC = d[5]
+        self.ENTIDAD_RES = d[6]
+        if isinstance(d[7], int):
+            self.MUNICIPIO_RES = d[7]
+        self.TIPO_PACIENTE = d[8]
+
+        if d[9] != '9999-99-99':
+            self.FECHA_INGRESO =d[9]
+
+        if d[10] != '9999-99-99':
+            self.FECHA_SINTOMAS = d[10]
+        
+        if d[11] != '9999-99-99': 
+            self.FECHA_DEF = d[11]
+        self.INTUBADO = d[12]
+        self.NEUMONIA = d[13]
+        self.EDAD = d[14]
+        self.NACIONALIDAD =d[15]
+        self.EMBARAZO = d[16]
+        self.HABLA_LENGUA_INDIG = d[17]
+        self.DIABETES = d[18]
+        self.EPOC = d[19]
+        self.ASMA = d[20]
+        self.INMUSUPR = d[21]
+        self.HIPERTENSION = d[22]
+        self.OTRA_COM = d[23]
+        self.CARDIOVASCULAR = d[24]
+        self.OBESIDAD = d[25]
+        self.RENAL_CRONICA = d[26]
+        self.TABAQUISMO = d[27]
+        self.OTRO_CASO = d[28]
+        self.RESULTADO = d[29]
+        self.MIGRANTE = d[30]
+        self.PAIS_NACIONALIDAD = d[31]
+        self.PAIS_ORIGEN = d[32]
+        self.UCI = d[33]
 
 class Origen(db.Model):
     __tablename__ = 'origen'

@@ -1,7 +1,7 @@
 from flask import Flask, Blueprint, jsonify, request
 from datetime import date
-import json, datetime
-from covidmex.models import State, Case, CountryProcedence, Totals, Fallecidos
+import json, datetime, csv
+from covidmex.models import OficialCase
 from .extensions import db
 
 import_api = Blueprint('import_api', __name__)
@@ -9,176 +9,72 @@ import_api = Blueprint('import_api', __name__)
 @import_api.route("/import", methods = ['GET'])
 def datos(day=None):
 
-  #day = '2020-03-22'
+  day = '2020-04-18'
   #What day is today?
+
   if day is None:
     day = date.today().strftime("%Y-%m-%d") 
 
   #files name
-  path = 'json/'
-  files = [path+day+'-s.json', path+day+'-c.json']
-
-  #Read all data
+  path = 'datos_abiertos_gob/dataset/'
+  files = path+day+'.csv'
   a = []
-  for f in files:
-    with open(f) as datos:
-      data = json.load(datos)
-      try:
-        for d in data['datos']:
-          a.append(d)
-      except:
-        print "ERROR"
-        print data['datos']
+  #Read all data
+  with open(files) as csv_file:
+    reader = csv.reader(csv_file)
+    for row in reader:
+      a.append(row)
 
   #import data to tables
-  resp = adding(a, day)
+  adding(a)
   db.session.commit()
-
-  #import Fallecidos
-  importFallecidos(path+day+'-f.json', day)
 
   return jsonify({
             "success": True,
             "code": 200,
-            "data": "imported "+day+" /  "+resp
+            "data": "imported "+day
             }
         ), 200
 
 
-def importFallecidos(a, day):
-  try:
-    with open(a) as datos:
-      data = json.load(datos)
-      for d in data['datos']:
-        print d
-        newFatal = Fallecidos(d, day)
-        db.session.add(newFatal)
-      db.session.commit()
-  except IOError:
-    print("Not found Fallecidos")
-
-
-def adding(data, day):
-  #Interation to insert
-  totals = 0
-  imported = 0
-  suspected = 0
-  male = 0
-  female = 0
-  for d in data:
-    #identify state
-    state_id = identifyState(d)
-    contagion_type = identifyTypeContagion(d)
-    country_id = identifyCountryProcedence(d)
-    addCase(d, state_id, contagion_type, country_id, day)
-    totals += 1
-    if contagion_type == 'importado':
-      imported += 1
-    
-    if d['rt-pcr'].upper() == 'SOSPECHOSO':
-      suspected += 1
-    
-    if (d['sexo'].upper() == 'M' or d['sexo'].upper() == 'MASCULINO') and d['rt-pcr'].upper() == 'CONFIRMADO':
-      male += 1
-    elif (d['sexo'].upper() == 'F' or d['sexo'].upper() == 'FEMENINO') and d['rt-pcr'].upper() == 'CONFIRMADO':
-      female += 1
-
-  data = {
-    'totals': totals,
-    'suspected': suspected,
-    'confirmed': totals - suspected, 
-    'imported': imported,
-    'locally': totals - imported,
-    'male': male,
-    'female': female,
-    'created_at': day
-  }
-  addTotals(data)
-
-  return str(totals)
-
-
-def addTotals(data):
-  newTotals = Totals(data)
-  db.session.add(newTotals)
-
-
-def identifyState(d):
-  state = db.session.query(State).filter(State.name == d['estado'])
-  if state.count() == 1:
-    state_id = state[0].id
-  else:
-    newState = State(d['estado'],d['estado'])
-    db.session.add(newState)
-    db.session.commit()
-    state_id = newState.id
-  return state_id
-
-
-def identifyTypeContagion(d):
-  if 'procedencia' in d and d['procedencia'] is not None:
-    if d['procedencia'].lower() == 'contacto':
-      return 'contacto'
-    else:
-      return 'importado'
-  else:
-    return 'contacto'
-
-
-def identifyCountryProcedence(d):
-  if 'procedencia' not in d:
-    d['procedencia'] = 'MEXICO'
-  country = db.session.query(CountryProcedence).filter(CountryProcedence.name == d['procedencia'])
-  if country.count() == 1:
-    country_id = country[0].id
-  else:
-    newCountry = CountryProcedence(d['procedencia'],d['procedencia'])
-    db.session.add(newCountry)
-    db.session.commit()
-    country_id = newCountry.id
-  return country_id
-
-
-def addCase(d, state, contagionType, country, day):
-
-  print d
-  try:
-    symptom = datetime.datetime.strptime(d['sintomas'], '%d/%m/%Y')
-  except:
-    symptom = None
- 
-  if d.get('llegada'):  #Key exists?
-    if d['llegada'] == 'NA':
-      llegada = None
-    else:
-      try:
-        llegada = datetime.datetime.strptime(d['llegada'],'%d/%m/%Y')
-      except:
-        llegada = None
-  else:
-    llegada = None
+def adding(data):
   
-  # Cast sex to out format
-  if d['sexo'].upper() == 'MASCULINO':
-     d['sexo'] = 'M'
-  if d['sexo'].upper() == 'FEMENINO':
-     d['sexo'] = 'F'
+  for d in data:
+    newCase = OficialCase(d)
+    db.session.add(newCase)
 
-  if d['sexo'].upper() == 'M' or d['sexo'].upper() == 'F':
-    sexo = d['sexo'].upper()
-  else:
-    sexo = 'O'
-  newCase = Case({
-    'created_at': day,
-    'case_number' : d['caso'],
-    'symptom_date' : symptom, 
-    'arrival_to_mexico' : llegada, 
-    'status' : d['rt-pcr'],
-    'age' : d['edad'],
-    'sex' : sexo, 
-    'state_id' : state, 
-    'country_procedence_id' : country, 
-    'type_contagion' : contagionType
-  })
-    
-  db.session.add(newCase)
+###
+# "FECHA_ACTUALIZACION",
+# "ORIGEN",
+# "SECTOR",
+# "ENTIDAD_UM",
+# "SEXO",
+# "ENTIDAD_NAC",
+# "ENTIDAD_RES",
+# "MUNICIPIO_RES",
+# "TIPO_PACIENTE",
+# "FECHA_INGRESO",
+# "FECHA_SINTOMAS",
+# "FECHA_DEF",
+# "INTUBADO",
+# "NEUMONIA",
+# "EDAD",
+# "NACIONALIDAD",
+# "EMBARAZO",
+# "HABLA_LENGUA_INDIG",
+# "DIABETES",
+# "EPOC",
+# "ASMA",
+# "INMUSUPR",
+# "HIPERTENSION",
+# "OTRA_COM",
+# "CARDIOVASCULAR",
+# "OBESIDAD",
+# "RENAL_CRONICA",
+# "TABAQUISMO",
+# "OTRO_CASO",
+# "RESULTADO",
+# "MIGRANTE",
+# "PAIS_NACIONALIDAD",
+# "PAIS_ORIGEN",
+# "UCI"
