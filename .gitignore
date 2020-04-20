@@ -2,8 +2,6 @@ covidmex-*.json
 .acme.json/
 acme.json
 *.env
-*.sql
-*.csv
 *.tar.gz
 
 # Byte-compiled / optimized / DLL files

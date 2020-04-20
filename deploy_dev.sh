@@ -16,6 +16,8 @@ then
 	    sleep 2
 	done
 	docker exec -it covidmex python manage.py initdb
+	echo "Importing Catalog..."
+	docker exec -i covidmex-mysql mysql -uroot -pmy-secret-pw covidmex_db < datos_abiertos_gob/catalogo/completo.sql 
 	docker ps
 	exit 0
 fi

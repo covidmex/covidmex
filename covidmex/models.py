@@ -170,4 +170,117 @@ class Fallecidos(db.Model):
         return dict(data)
 
 
+class Entidad(db.Model):
+    __tablename__ = 'entidades'
+
+    CLAVE_ENTIDAD = db.Column(db.Integer, primary_key=True)
+    ENTIDAD_FEDERATIVA = db.Column(db.String(31), nullable=False)
+    ABREVIATURA = db.Column(db.String(3), nullable=False)
+
+    def __repr__(self):
+        return '<Entidad %r>' % self.CLAVE_ENTIDAD
+
+class Municipio(db.Model):
+    __tablename__ = 'municipios'
+
+    ID = db.Column(db.Integer, primary_key=True)
+    CLAVE_ENTIDAD = db.Column(db.String(5), nullable=False)
+    ENTIDAD_FEDERATIVA = db.Column(db.String(100), nullable=False)
+    ABREVIATURA = db.Column(db.String(3), nullable=False)
+
+    def __repr__(self):
+        return '<Municipio %r>' % self.Id
+
+class OficialCase(db.Model):
+    __tablename__ = 'oficial_cases'
+
+    ID = db.Column(db.Integer, primary_key=True)
+    FECHA_ACTUALIZACION = db.Column(db.Date)
+    ORIGEN = db.Column(db.Integer, nullable=False)
+    SECTOR = db.Column(db.Integer, nullable=False)
+    ENTIDAD_UM = db.Column(db.Integer, nullable=False)
+    SEXO = db.Column(db.Integer, nullable=False)
+    ENTIDAD_NAC = db.Column(db.Integer, nullable=False)
+    ENTIDAD_RES = db.Column(db.Integer, nullable=False)
+    MUNICIPIO_RES = db.Column(db.Integer, nullable=False)
+    TIPO_PACIENTE = db.Column(db.Integer, nullable=False)
+    FECHA_INGRESO = db.Column(db.Date, nullable=False)
+    FECHA_SINTOMAS = db.Column(db.Date, nullable=False)
+    FECHA_DEF = db.Column(db.Date, nullable=False)
+    INTUBADO = db.Column(db.Integer, nullable=False)
+    NEUMONIA = db.Column(db.Integer, nullable=False)
+    EDAD = db.Column(db.Integer, nullable=False)
+    NACIONALIDAD = db.Column(db.Integer, nullable=False)
+    EMBARAZO = db.Column(db.Integer, nullable=False)
+    HABLA_LENGUA_INDIG = db.Column(db.Integer, nullable=False)
+    DIABETES = db.Column(db.Integer, nullable=False)
+    EPOC = db.Column(db.Integer, nullable=False)
+    ASMA = db.Column(db.Integer, nullable=False)
+    INMUSUPR = db.Column(db.Integer, nullable=False)
+    HIPERTENSION = db.Column(db.Integer, nullable=False)
+    OTRA_COM = db.Column(db.Integer, nullable=False)
+    CARDIOVASCULAR = db.Column(db.Integer, nullable=False)
+    OBESIDAD = db.Column(db.Integer, nullable=False)
+    RENAL_CRONICA = db.Column(db.Integer, nullable=False)
+    TABAQUISMO = db.Column(db.Integer, nullable=False)
+    OTRO_CASO = db.Column(db.Integer, nullable=False)
+    RESULTADO = db.Column(db.Integer, nullable=False)
+    MIGRANTE = db.Column(db.Integer, nullable=False)
+    PAIS_NACIONALIDAD = db.Column(db.Integer, nullable=False)
+    PAIS_ORIGEN = db.Column(db.Integer, nullable=False)
+    UCI = db.Column(db.Integer, nullable=False)
+
+    def __repr__(self):
+        return '<OficialCase %r>' % self.ID
+
+class Origen(db.Model):
+    __tablename__ = 'origen'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(15), nullable=False)
+
+    def __repr__(self):
+        return '<Origen %r>' % self.CLAVE
+
+class Resultado(db.Model):
+    __tablename__ = 'resultado'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(100), nullable=False)
+
+    def __repr__(self):
+        return '<Resultado %r>' % self.CLAVE
+
+class Sector(db.Model):
+    __tablename__ = 'sector'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(100), nullable=False)
+
+
+class Sexo(db.Model):
+    __tablename__ = 'sexo'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(50), nullable=False)
+
+    def __repr__(self):
+        return '<Sexo %r>' % self.CLAVE
+
+class SiNo(db.Model):
+    __tablename__ = 'si_no'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(25), nullable=False)
+
+
+class TipoPaciente(db.Model):
+    __tablename__ = 'tipo_paciente'
+
+    CLAVE = db.Column(db.Integer, primary_key=True)
+    DESCRIPCION = db.Column(db.String(50), nullable=False)
+
+    def __repr__(self):
+        return '<TipoPaciente %r>' % self.CLAVE
+
 
