@@ -13,7 +13,7 @@ click==7.1.1
 configparser==4.0.2
 contextlib2==0.6.0.post1
 crcmod==1.7
-cryptography==2.8
+cryptography==3.2
 dateparser==0.7.4
 enum34==1.1.10
 fasteners==0.15
