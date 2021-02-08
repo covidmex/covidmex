@@ -32,7 +32,7 @@ gcs-oauth2-boto-plugin==2.5
 google-apitools==0.5.30
 google-reauth==0.1.0
 gsutil==4.49
-httplib2==0.17.1
+httplib2==0.19.0
 idna==2.9
 importlib-metadata==1.5.2
 ipaddress==1.0.23
