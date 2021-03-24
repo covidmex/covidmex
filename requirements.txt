@@ -62,7 +62,7 @@ PyYAML==5.3.1
 regex==2020.2.20
 requests==2.23.0
 retry-decorator==1.1.1
-rsa==4.0
+rsa==4.1
 scandir==1.10.0
 six==1.14.0
 SocksiPy-branch==1.1
